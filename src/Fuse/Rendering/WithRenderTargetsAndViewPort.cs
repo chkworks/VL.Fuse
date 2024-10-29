@@ -49,4 +49,83 @@ public class WithRenderTargetAndViewPort : RendererBase
                 DrawInput(context);
             }
         }
+        
+        
     }
+
+public class WithRenderTargetsAndViewPort : RendererBase
+{
+    ViewportState viewportState = new();
+
+    public List<Texture> RenderTargets { get; set; }
+
+    public Texture DepthBuffer { get; set; }
+
+    protected override void DrawInternal(RenderDrawContext context)
+    {
+        var depthBuffer = DepthBuffer;
+        var setDepthBuffer = depthBuffer != null;
+        
+        var renderTargets = new Texture[RenderTargets.Count];
+        var setRenderTarget = renderTargets.Length > 0;
+
+        if (setRenderTarget || setDepthBuffer)
+        {
+            var renderContext = context.RenderContext;
+
+            using (renderContext.SaveRenderOutputAndRestore())
+            using (renderContext.SaveViewportAndRestore())
+            using (context.PushRenderTargetsAndRestore())
+            {
+                if (setRenderTarget)
+                {
+                    for (var i = 0; i < RenderTargets.Count; i++)
+                    {
+                        renderTargets[i] = RenderTargets[i];
+                        switch (i)
+                        {
+                            case 0:
+                                renderContext.RenderOutput.RenderTargetFormat0 = renderTargets[i].ViewFormat;
+                                break;
+                            case 1:
+                                renderContext.RenderOutput.RenderTargetFormat1 = renderTargets[i].ViewFormat;
+                                break;
+                            case 2:
+                                renderContext.RenderOutput.RenderTargetFormat2 = renderTargets[i].ViewFormat;
+                                break;
+                            case 3:
+                                renderContext.RenderOutput.RenderTargetFormat3 = renderTargets[i].ViewFormat;
+                                break;
+                            case 4:
+                                renderContext.RenderOutput.RenderTargetFormat4 = renderTargets[i].ViewFormat;
+                                break;
+                            case 5:
+                                renderContext.RenderOutput.RenderTargetFormat5 = renderTargets[i].ViewFormat;
+                                break;
+                            case 6:
+                                renderContext.RenderOutput.RenderTargetFormat6 = renderTargets[i].ViewFormat;
+                                break;
+                            case 7:
+                                renderContext.RenderOutput.RenderTargetFormat7 = renderTargets[i].ViewFormat;
+                                break;
+                        }
+                    }
+                    renderContext.RenderOutput.RenderTargetCount = RenderTargets.Count;
+
+                    renderContext.ViewportState = viewportState;
+                    renderContext.ViewportState.Viewport0 =
+                        new Viewport(0, 0, renderTargets[0].ViewWidth, renderTargets[0].ViewHeight);
+                }
+
+                context.CommandList.SetRenderTargetsAndViewport(depthBuffer, renderTargets);
+
+                DrawInput(context);
+
+            }
+        }
+        else
+        {
+            DrawInput(context);
+        }
+    }
+}
