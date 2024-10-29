@@ -1611,7 +1611,7 @@
           <Node Bounds="589,1767,145,19" Id="CFWuMdexzLVM75RYP8688m">
             <p:NodeReference LastCategoryFullName="Fuse.Draw" LastDependency="VL.Fuse.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <Choice Kind="ProcessAppFlag" Name="RenderTexture2 (Multiple)" />
+              <Choice Kind="ProcessAppFlag" Name="RenderTexture (Multiple)" />
             </p:NodeReference>
             <Pin Id="Eu9AAheU7uRPcyBbXSCLLe" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="Q56VWYxlnHUQYqo3X7V4QR" Name="Input" Kind="InputPin" />
