@@ -1,0 +1,109 @@
+[TextureSource]
+[Summary("Generates pixel noise from a value")]
+shader SSIVB_TextureFX : TextureFX{
+
+	Texture2D screenPosition;
+	Texture2D screenNormal;
+	Texture2D screenLight;
+
+	float sampleCount;
+	float sampleRadius;
+	float sliceCount;
+	float hitThickness; 
+	float2 screenSize;
+	float4x4 projection;
+
+	static const float pi = 3.14159265359;
+	static const float twoPi = 2.0 * pi;
+	static const float halfPi = 0.5 * pi;
+
+	float randf(int x, int y) {
+    	return fmod(52.9829189 * fmod(0.06711056 * float(x) + 0.00583715 * float(y), 1.0), 1.0);
+	}
+
+	uint bitCount(uint value) {
+		value = value - ((value >> 1) & 0x55555555);
+		value = (value & 0x33333333) + ((value >> 2) & 0x33333333);
+		return ((value + (value >> 4) & 0xF0F0F0F) * 0x1010101) >> 24;
+	}
+
+	static const uint sectorCount = 32;
+
+	uint updateSectors(float minHorizon, float maxHorizon, uint outBitfield) {
+		float startBitFloat = minHorizon * (float)sectorCount;
+		uint startBit = (uint)startBitFloat;
+		uint horizonAngle = uint(ceil((maxHorizon - minHorizon) * float(sectorCount)));
+		uint shiftedBits = (uint)(0xFFFFFFFF >> int(sectorCount - horizonAngle));
+		uint angleBit = horizonAngle > 0 ? shiftedBits : 0;
+		uint currentBitfield = angleBit << startBit;
+		return outBitfield | currentBitfield;
+	}
+ 
+
+	float4 getVisibility(float2 fragUV) {
+		uint indirect = 0;
+		uint occlusion = 0;
+
+		float visibility = 0.0;
+		float3 lighting = float3(0.0, 0.0, 0.0);
+		float2 frontBackHorizon = float2(0.0, 0.0);
+		float2 aspect = screenSize.yx / screenSize.x;
+
+		float3 position = screenPosition.Sample(Sampler0, fragUV).rgb;
+		float3 camera = normalize(-position);
+		float3 normal = normalize(screenNormal.Sample(Sampler0, fragUV).rgb);
+
+		float sliceRotation = pi / (sliceCount - 1.0);
+		float sampleScale = (-sampleRadius * projection[0][0]) / position.z;
+		float sampleOffset = 0.01;
+		float jitter = randf(int(fragUV.x), int(fragUV.y)) - 0.5;
+
+		for (float slice = 0.0; slice < sliceCount + 0.5; slice += 1.0) {
+			float phi = sliceRotation * (slice + jitter) + pi;
+			float2 omega = float2(cos(phi), sin(phi));
+			float3 direction = float3(omega.x, omega.y, 0.0);
+			float3 orthoDirection = direction - dot(direction, camera) * camera;
+			float3 axis = cross(direction, camera);
+			float3 projNormal = normal - axis * dot(normal, axis);
+			float projLength = length(projNormal);
+
+			float signN = sign(dot(orthoDirection, projNormal));
+			float cosN = clamp(dot(projNormal, camera) / projLength, 0.0, 1.0);
+			float n = signN * acos(cosN);
+
+			for (float currentSample = 0.0; currentSample < sampleCount + 0.5; currentSample += 1.0) {
+				float sampleStep = (currentSample + jitter) / sampleCount + sampleOffset;
+				float2 sampleUV = fragUV - sampleStep * sampleScale * omega * aspect;
+				float3 samplePosition = screenPosition.Sample(Sampler0, sampleUV).rgb;
+				float3 sampleNormal = normalize(screenNormal.Sample(Sampler0, sampleUV).rgb);
+				float3 sampleLight = screenLight.Sample(Sampler0, sampleUV).rgb;
+				float3 sampleDistance = samplePosition - position;
+				float sampleLength = length(sampleDistance);
+				float3 sampleHorizon = sampleDistance / sampleLength;
+
+				frontBackHorizon.x = dot(sampleHorizon, camera);
+				frontBackHorizon.y = dot(normalize(sampleDistance - camera * hitThickness), camera);
+
+				frontBackHorizon = acos(frontBackHorizon);
+				frontBackHorizon = clamp((frontBackHorizon + n + halfPi) / pi, 0.0, 1.0);
+
+				indirect = updateSectors(frontBackHorizon.x, frontBackHorizon.y, 0);
+				lighting += (1.0 - float(bitCount(indirect & ~occlusion)) / float(sectorCount)) *
+							sampleLight * clamp(dot(normal, sampleHorizon), 0.0, 1.0) *
+							clamp(dot(sampleNormal, -sampleHorizon), 0.0, 1.0);
+				occlusion |= indirect;
+			}
+			visibility += 1.0 - float(bitCount(occlusion)) / float(sectorCount);
+		}
+
+		visibility /= sliceCount;
+		lighting /= sliceCount;
+
+		return float4(lighting, visibility);
+	}
+
+	stage override float4 Shading(){
+		return getVisibility(streams.TexCoord);
+	}
+
+};
