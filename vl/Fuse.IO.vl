@@ -1434,7 +1434,7 @@
               <Pad Id="NPPHFwspuqyNiSWMArttjM" SlotId="Ub7jX0Nto3vPk9DtzbutIl" Bounds="1230,1058" />
               <ControlPoint Id="MwmCpIle0knNTxYkupcMM3" Bounds="1230,1107" />
               <Overlay Id="AsHHioz6TCnMmxpVs7OZ7M" Name="GetComputeStage (IComputeStageProvider)" Bounds="1112,982,280,150" />
-              <Node Bounds="667,878,45,19" Id="SIpeOFTg0WaNdlCr87HY6r">
+              <Node Bounds="667,878,65,19" Id="SIpeOFTg0WaNdlCr87HY6r">
                 <p:NodeReference LastCategoryFullName="Fuse.Compute" LastDependency="VL.Fuse.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Group (GpuVoid)" />
@@ -1442,6 +1442,7 @@
                 <Pin Id="MuPMjmlJMIdL7KeseUjwHr" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Kt4B6YXCwRPOEzYihsdw8S" Name="Input" Kind="InputPin" />
                 <Pin Id="Akm6AC4j227LAOurMIbwMH" Name="Input 2" Kind="InputPin" />
+                <Pin Id="H1SnJT75SwYL5REyynDZN9" Name="Input 3" Kind="InputPin" />
                 <Pin Id="TExsf4lnmLoPy1CHt4kzAs" Name="Enabled" Kind="InputPin" />
                 <Pin Id="PuyPwyAVXy5OyWJMnGrb81" Name="Output" Kind="OutputPin" />
               </Node>
@@ -1577,6 +1578,27 @@
                   <Link Id="UOBE0EfvMIxPdofR5VQsdm" Ids="DLR8us8E2wsOar6HbiF5k6,LYCMDJdpHpWNmtx8a4BOPK" IsHidden="true" />
                 </Patch>
               </Node>
+              <Node Bounds="950,769,25,19" Id="CDZ61DXD2dvPtp2J6LD3q0">
+                <p:NodeReference LastCategoryFullName="Fuse.Particles.Attribute" LastDependency="VL.Fuse.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="Id (Particle)" />
+                </p:NodeReference>
+                <Pin Id="CJzbTaJou6tLh4GSap0ata" Name="graph" Kind="OutputPin" />
+                <Pin Id="OuEIouQsb94MaIxwQIkg7Y" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="DJhGn5SzebZLyXGo8leBUQ" Name="The Instance" Kind="InputPin" IsHidden="true" />
+              </Node>
+              <Node Bounds="957,840,30,19" Id="V0YK2kjEs34QSb91tNbE75">
+                <p:NodeReference LastCategoryFullName="Fuse.Value" LastDependency="VL.Fuse.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <CategoryReference Kind="Category" Name="Value" NeedsToBeDirectParent="true" />
+                  <Choice Kind="ProcessAppFlag" Name="Set" />
+                </p:NodeReference>
+                <Pin Id="JCJI16TtmgiNQY8S79BHCv" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="DIyHIgHfe5QQFQiiCWv2OG" Name="The Target" Kind="InputPin" />
+                <Pin Id="UDbmVe4X4ZRQdv6zS2XXmI" Name="The Source" Kind="InputPin" />
+                <Pin Id="AFwZIc4ll3COFRCxNb0iz4" Name="Void" Kind="OutputPin" />
+                <Pin Id="NJkCzp6taMeNN4KuguM989" Name="Value" Kind="OutputPin" IsHidden="true" />
+              </Node>
             </Canvas>
             <Slot Id="IRCEcNbCv8IODX63lVsAlc" Name="Vertices">
               <p:TypeAnnotation p:Type="TypeReference">
@@ -1703,6 +1725,9 @@
               <Fragment Id="FghpE6euArxMhKXDY6MYRf" Patch="RY2WIZS0UruLIipCjMq5O6" />
               <Fragment Id="N4PrrDP4T1RLPil79LN87x" Patch="TVgYjO8ieZRMjQ8zQMYLvm" />
             </ProcessDefinition>
+            <Link Id="OXuaEge7BVfPp24KY0uw3A" Ids="CJzbTaJou6tLh4GSap0ata,DIyHIgHfe5QQFQiiCWv2OG" />
+            <Link Id="OoK9qjQt9ElPQZnbmHEVFt" Ids="OllaHtlTLeFPlc3kQErbkT,UDbmVe4X4ZRQdv6zS2XXmI" />
+            <Link Id="KpyIrmQWba8N6qxNBxqGb0" Ids="AFwZIc4ll3COFRCxNb0iz4,H1SnJT75SwYL5REyynDZN9" />
           </Patch>
         </Node>
         <!--

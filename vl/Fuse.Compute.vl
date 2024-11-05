@@ -2104,6 +2104,100 @@
             </Patch>
           </Patch>
         </Node>
+        <!--
+
+    ************************ Probability ************************
+
+-->
+        <Node Name="Probability" Bounds="204,416" Id="FrhxkrDKb5KOmbY74b7b2j">
+          <p:NodeReference>
+            <Choice Kind="ContainerDefinition" />
+          </p:NodeReference>
+          <Patch Id="PnTt4U4l5xxLk8eerUOVaO">
+            <Canvas Id="UQnUXgmTHbZNduNOmkV4FG" CanvasType="Group">
+              <Node Bounds="203,348,25,19" Id="CtVAGtnhKcMMp5EXbhb0c3">
+                <p:NodeReference LastCategoryFullName="Fuse.Control" LastDependency="Fuse.Core.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="&lt;" />
+                </p:NodeReference>
+                <Pin Id="F9FiHHZTcpZLkPnSBFtFtD" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="SmKLkDchjUNQCeT4a5QPjr" Name="x" Kind="InputPin" />
+                <Pin Id="Npqu6E42WAjO3CxQ9tFDEQ" Name="y" Kind="InputPin" />
+                <Pin Id="SF8xcbHmku4MeDxq6XqYAH" Name="Output" Kind="OutputPin" />
+                <Pin Id="Qx8isG5p9gSMZKQuXA3dgj" Name="Not" Kind="OutputPin" />
+              </Node>
+              <Node Bounds="203,289,125,19" Id="KLr5ickkHbHMkjrilN30H0">
+                <p:NodeReference LastCategoryFullName="Fuse.Compute.Random" LastDependency="Fuse.Compute.vl">
+                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  <Choice Kind="ProcessAppFlag" Name="Random" />
+                  <CategoryReference Kind="Category" Name="Random" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="Category" Name="Compute" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
+                </p:NodeReference>
+                <Pin Id="HoTtIPv7eZPMTZm9QoK31Q" Name="Node Context" Kind="InputPin" IsHidden="true" />
+                <Pin Id="LFYNWVwZ9wZMnhSi9CH0ss" Name="PerID" Kind="InputPin" DefaultValue="True">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="TypeFlag" Name="Boolean" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="DQUIjXPHwYaNak71wSIB3H" Name="ID" Kind="InputPin" />
+                <Pin Id="UfTrkjAHJ63Owf16YaqSif" Name="seed" Kind="InputPin" DefaultValue="-1">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="TypeFlag" Name="Integer32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="N9aqY2rbBAwPG3vqG2CzmU" Name="Constant" Kind="InputPin" />
+                <Pin Id="H1OQQnDfkN0OOTGXtj4o2S" Name="Min" Kind="InputPin" />
+                <Pin Id="Tygh9wi9LAiLAHEO8U8KFB" Name="Max" Kind="InputPin" />
+                <Pin Id="O8W5VJA9Pu2OfCTDf1itKt" Name="Frame" Kind="InputPin" />
+                <Pin Id="NLBMVQO66IcL8pKj4ZC2lR" Name="Shader Graph" Kind="OutputPin" />
+                <Pin Id="Bl23NSfiDkpPdLGxBJ1ysY" Name="Zero To One" Kind="OutputPin" />
+              </Node>
+              <ControlPoint Id="E3GrNXtYuv4PYZsnxGJgPG" Bounds="225,326" />
+              <ControlPoint Id="IKiLi0aHco5L8yQJ6h4sDB" Bounds="223,219" />
+              <ControlPoint Id="IeT8DUWmNXTPSF5XxO0iRX" Bounds="244,242" />
+              <ControlPoint Id="MWKbYXOVzbbNdkN8xNrxIk" Bounds="206,393" />
+              <ControlPoint Id="L9y3U3LJ1m9NeVyGqWJ6q6" Bounds="263,261" />
+            </Canvas>
+            <Patch Id="OnE6XjRethXLOhIA4rJ7rE" Name="Create" />
+            <Patch Id="K8PZnY52yFnMZkBTXz90xv" Name="Update" ManuallySortedPins="true">
+              <Pin Id="DyAIXd1fnqKLuoi3GKsnOI" Name="Probability" Kind="InputPin" DefaultValue="0.01">
+                <p:TypeAnnotation LastCategoryFullName="Fuse" LastDependency="Fuse.Core.vl">
+                  <Choice Kind="TypeFlag" Name="ShaderNode" />
+                  <p:TypeArguments>
+                    <TypeReference>
+                      <Choice Kind="TypeFlag" Name="Float32" />
+                    </TypeReference>
+                  </p:TypeArguments>
+                </p:TypeAnnotation>
+              </Pin>
+              <Pin Id="AAC0gGTEHs2QWPYlAN2izy" Name="Constant" Kind="InputPin" />
+              <Pin Id="KCZZSxUhXgMQKDukmW1anm" Name="ID" Kind="InputPin" Bounds="540,433" Visibility="Optional" />
+              <Pin Id="S38L78x8iX6P1ldgl5B7ns" Name="Seed" Kind="InputPin" Bounds="557,452" Visibility="Optional" />
+              <Pin Id="LuXuwsEdgcrLAj3SHPqrvQ" Name="Output" Kind="OutputPin" />
+            </Patch>
+            <!--
+
+    ************************  ************************
+
+-->
+            <ProcessDefinition Id="IoqsYeQyGa1NFcT43faZp7">
+              <Fragment Id="V1c6gDVWYnzLps5XmNwYZP" Patch="OnE6XjRethXLOhIA4rJ7rE" Enabled="true" />
+              <Fragment Id="TKumKAQk3IWOACsPCrqASY" Patch="K8PZnY52yFnMZkBTXz90xv" Enabled="true" />
+            </ProcessDefinition>
+            <Link Id="BX8lPZFGvaHP54XLdaY23P" Ids="NLBMVQO66IcL8pKj4ZC2lR,SmKLkDchjUNQCeT4a5QPjr" />
+            <Link Id="JMtyaDbyOPoOtPDA6XLcce" Ids="DyAIXd1fnqKLuoi3GKsnOI,E3GrNXtYuv4PYZsnxGJgPG" IsHidden="true" />
+            <Link Id="RJ1QaB3HgEyNKh1Smd5PoO" Ids="E3GrNXtYuv4PYZsnxGJgPG,Npqu6E42WAjO3CxQ9tFDEQ" />
+            <Link Id="OhLBp48jgq0Ls5tlWH05jN" Ids="KCZZSxUhXgMQKDukmW1anm,IKiLi0aHco5L8yQJ6h4sDB" IsHidden="true" />
+            <Link Id="UR9NxAzDZpkOOsyV0PqWqS" Ids="S38L78x8iX6P1ldgl5B7ns,IeT8DUWmNXTPSF5XxO0iRX" IsHidden="true" />
+            <Link Id="AgGnvhpvLQDP5yMbfIVcbL" Ids="IKiLi0aHco5L8yQJ6h4sDB,DQUIjXPHwYaNak71wSIB3H" />
+            <Link Id="Mx8r8UW9E0nLOFeo15fZmn" Ids="IeT8DUWmNXTPSF5XxO0iRX,UfTrkjAHJ63Owf16YaqSif" />
+            <Link Id="KJLiBguMh5uN5oV3hlvAcq" Ids="SF8xcbHmku4MeDxq6XqYAH,MWKbYXOVzbbNdkN8xNrxIk" />
+            <Link Id="D5KpKyQKaWVN6xISSIvlJB" Ids="MWKbYXOVzbbNdkN8xNrxIk,LuXuwsEdgcrLAj3SHPqrvQ" IsHidden="true" />
+            <Link Id="QLio8eS0O23NsORDdDTzX6" Ids="L9y3U3LJ1m9NeVyGqWJ6q6,N9aqY2rbBAwPG3vqG2CzmU" />
+            <Link Id="Tj8Dfvg93tNNVHBHaIRmP7" Ids="AAC0gGTEHs2QWPYlAN2izy,L9y3U3LJ1m9NeVyGqWJ6q6" IsHidden="true" />
+          </Patch>
+        </Node>
       </Canvas>
       <Canvas Id="UXn3ay2f9uBOu76Tm9xDV9" Name="Operations" Position="62,384">
         <!--
