@@ -18946,21 +18946,24 @@
               <Pin Id="DwWMzb26HycPjqlynbiTuj" Name="Enabled" Kind="InputPin" />
               <Pin Id="RbyR1ZARVP4NrEI1Dn8GAn" Name="Void" Kind="OutputPin" />
             </Node>
-            <Node Bounds="422,290,75,19" Id="GrD4QLlU16bQVedG7y6Mhx">
-              <p:NodeReference LastCategoryFullName="Fuse.Particles.Integration" LastDependency="Fuse.Particles.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="ProcessAppFlag" Name="IntegrateAge" />
-              </p:NodeReference>
-              <Pin Id="B2mW1cIkhffQLL7bfQIthn" Name="Node Context" Kind="InputPin" IsHidden="true" />
-              <Pin Id="S2tP3PRKH6CL3PYfL4ZPKJ" Name="Step Size" Kind="InputPin" />
-              <Pin Id="UQ3KRfCMCRHPgIO0VvKzgc" Name="ScaleAgeDelta" Kind="InputPin" />
-              <Pin Id="NV77CTLgJHeMOGvojBDfT9" Name="Enabled" Kind="InputPin" />
-              <Pin Id="CZ5U1y44tgYLMd1hy3Znwq" Name="Void" Kind="OutputPin" />
-            </Node>
-            <ControlPoint Id="Ddcxbo4IsVBMYv7ARdmJdu" Bounds="494,272" />
+            <ControlPoint Id="Ddcxbo4IsVBMYv7ARdmJdu" Bounds="571,257" />
             <ControlPoint Id="Hkc8dY2Ds6LNUM1k0PBYXW" Bounds="110,411" />
             <ControlPoint Id="AdLeRVkSOLdPBPflTeKg42" Bounds="160,428" />
             <ControlPoint Id="ESKqQGMUtJJL56BWSKsXJS" Bounds="361,150" />
+            <Node Bounds="520,297,75,19" Id="Fo3HmyN3REyO93nd9cirFb">
+              <p:NodeReference LastCategoryFullName="Fuse.Particles.Integration" LastDependency="Fuse.Particles.vl" OverloadStrategy="AllPinsThatAreNotCommon">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="IntegrateAge" />
+                <PinReference Kind="InputPin" Name="ScaleAgeDelta" />
+                <PinReference Kind="InputPin" Name="Delta Time" />
+                <PinReference Kind="InputPin" Name="Enabled" />
+              </p:NodeReference>
+              <Pin Id="UQGlACO12lHM0Qp3EJYSAb" Name="Node Context" Kind="InputPin" IsHidden="true" />
+              <Pin Id="HhgYYSRmNvWNhXwQVt9fH5" Name="ScaleAgeDelta" Kind="InputPin" />
+              <Pin Id="N6KwoAzu3TOMcXtZNLPgB2" Name="Delta Time" Kind="InputPin" />
+              <Pin Id="HqV8DzoGm1pOumJ3Ktpzny" Name="Enabled" Kind="InputPin" />
+              <Pin Id="TTC9OA3wPImPqlDJPAPiH3" Name="Void" Kind="OutputPin" />
+            </Node>
           </Canvas>
           <ProcessDefinition Id="KtWHHS6VSQmLL6uJAva3hZ">
             <Fragment Id="CCJbKq4sME4Oj7w3yuhjcs" Patch="VCdXgXKp6ekNmfdZzpOptz" Enabled="true" />
@@ -19001,16 +19004,16 @@
           <Link Id="B8xqNuCdjpPNV3WkkJJjtc" Ids="Vi3VkYIKj55OlNzKo2b0MO,TunQq2EJ7wGNRog1dlxsP6" />
           <Link Id="VKcNmtaXpBjPLTjiUSLutH" Ids="UWUdSmaGnQaLYV3DDtxKJm,DwWMzb26HycPjqlynbiTuj" />
           <Link Id="Uen06r2S8itPjndXsQdtFG" Ids="G60JAS3Fay1LQSMaHLaT3I,M7bh933ohkCQa7vowHi6gY" />
-          <Link Id="HUA7AIvVzHHOz8p3JxJBwF" Ids="Q174JPnPvA6PzrwqZOnKUS,UQ3KRfCMCRHPgIO0VvKzgc" />
           <Link Id="KzN2pF9BrZmPez7SXUzuAX" Ids="DZnspj1jxioNUHDJOGCdyv,Ddcxbo4IsVBMYv7ARdmJdu" IsHidden="true" />
-          <Link Id="Pz8JAOu5PZeNyaCwK8iave" Ids="Ddcxbo4IsVBMYv7ARdmJdu,NV77CTLgJHeMOGvojBDfT9" />
-          <Link Id="BHR1OY5aSFLPeH9IoojBM2" Ids="CZ5U1y44tgYLMd1hy3Znwq,RlNwgMeH8dtOq76RksDPpJ" />
           <Link Id="TDpWNYOBff4PlSDp44lRFO" Ids="PneMfBEbEE6L8QWYsXUC04,Hkc8dY2Ds6LNUM1k0PBYXW" IsHidden="true" />
           <Link Id="Haqt506zTLCNlWjlT86fmT" Ids="Hkc8dY2Ds6LNUM1k0PBYXW,PNEGul1O5wCPoXebT4Geyz" />
           <Link Id="UwnVIdGU4wvPr1uCgi4k3W" Ids="RML7Iff8vgWLUjGG7tCYGR,AdLeRVkSOLdPBPflTeKg42" IsHidden="true" />
           <Link Id="Ie0wd5Ul4EwLww8iW8DjcP" Ids="AdLeRVkSOLdPBPflTeKg42,OlTGA0CqYGhLg6dDos0rLp" />
           <Link Id="GnrirGZBfukOr3dKwfPX3x" Ids="ESKqQGMUtJJL56BWSKsXJS,OJZkKMEuSNCOxMZNNTv0fM" />
           <Link Id="RTyIVqcDV7GM1m4whsZtpF" Ids="AxW7J9qbpfyLhcCTLOXZU8,ESKqQGMUtJJL56BWSKsXJS" IsHidden="true" />
+          <Link Id="HFz6LZZCoSpPX3oU5YDida" Ids="Q174JPnPvA6PzrwqZOnKUS,HhgYYSRmNvWNhXwQVt9fH5" />
+          <Link Id="M2gDxiDmTzhOhjs3QxfAGw" Ids="Ddcxbo4IsVBMYv7ARdmJdu,HqV8DzoGm1pOumJ3Ktpzny" />
+          <Link Id="C7rB2qq4qY1MCUFARhVwVJ" Ids="TTC9OA3wPImPqlDJPAPiH3,RlNwgMeH8dtOq76RksDPpJ" />
         </Patch>
       </Node>
       <!--
