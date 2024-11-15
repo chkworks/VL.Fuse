@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="UPgW3XLsuJsOj3StsM4whT" LanguageVersion="2024.6.7-0181-gdf16f593e1" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="UPgW3XLsuJsOj3StsM4whT" LanguageVersion="2024.6.7-0136-ga34ff89f71" Version="0.128">
   <Patch Id="ALpqjXEf369Pnuk64gmWrV">
     <Canvas Id="V8HBoVZNCZmPvIQ0NbkFQ5" DefaultCategory="Fuse.Particles" CanvasType="FullCategory">
       <Canvas Id="Ua19oNBz2ZKQFpVq54UmSF" Name="Attribute" Position="176,163">
@@ -9135,6 +9135,7 @@
                           <Pin Id="EgFrBIvQcPBMEo5NtBnkjG" Name="y" Kind="InputPin" />
                           <Pin Id="Ien9BgaSOJYPjy5YDfNFyZ" Name="Output" Kind="OutputPin" />
                           <Pin Id="SgcHZdudaLkPeZGuqZqyG7" Name="Not" Kind="OutputPin" />
+                          <Pin Id="J6leoU69fGeMfzPMDZDCUm" Name="All" Kind="InputPin" IsHidden="true" />
                         </Node>
                         <Node Bounds="756,717,27,19" Id="TY07WazGPyvNrbEHVI4I8A">
                           <p:NodeReference LastCategoryFullName="Fuse.Control" LastDependency="Fuse.Core.vl">
@@ -9146,6 +9147,7 @@
                           <Pin Id="TVuUH4CdWtXPhHf6Inp5QN" Name="y" Kind="InputPin" />
                           <Pin Id="Qaar1zDaTRhNSsltTqGJkd" Name="Output" Kind="OutputPin" />
                           <Pin Id="VVTpoj07amnMLLiCy8abB4" Name="Not" Kind="OutputPin" />
+                          <Pin Id="MN87W7vXCF2OFd9UpBR92K" Name="All" Kind="InputPin" IsHidden="true" />
                         </Node>
                         <Node Bounds="520,628,36,19" Id="N2Gw3ufrNe3LRzPYr3IV8E">
                           <p:NodeReference LastCategoryFullName="Fuse.Math" LastDependency="Fuse.Core.vl">
@@ -9520,6 +9522,7 @@
                       <Pin Id="D0p7jHhoZsFOModdF3dHSp" Name="y" Kind="InputPin" />
                       <Pin Id="Vr8zW95LNnNPRSxKlpH7uA" Name="Output" Kind="OutputPin" />
                       <Pin Id="R3SYCbsnEz7MVHdf30DitK" Name="Not" Kind="OutputPin" />
+                      <Pin Id="VergmRWfBzcPE00oCQs5m0" Name="All" Kind="InputPin" IsHidden="true" />
                     </Node>
                     <Node Bounds="1075,850,27,19" Id="R0yqVBCRqo8MkNgFXhdpey">
                       <p:NodeReference LastCategoryFullName="Fuse.Control" LastDependency="Fuse.Core.vl">
@@ -9531,6 +9534,7 @@
                       <Pin Id="QGEGuYzaRlsMLlcH8cembp" Name="y" Kind="InputPin" />
                       <Pin Id="BhtxWVjloFCO01JJ25jWmO" Name="Output" Kind="OutputPin" />
                       <Pin Id="QhX76gjaPn6LjSLxbmf3kI" Name="Not" Kind="OutputPin" />
+                      <Pin Id="LCpWhycdE3IO9y09lbhxh8" Name="All" Kind="InputPin" IsHidden="true" />
                     </Node>
                     <Node Bounds="1075,766,36,19" Id="VpVJyFSynsSOoN13EoOkP6">
                       <p:NodeReference LastCategoryFullName="Fuse.Math" LastDependency="Fuse.Core.vl">
@@ -9832,6 +9836,7 @@
                           <Pin Id="MgCkDFhM1XSMChxZnT8fLZ" Name="y" Kind="InputPin" />
                           <Pin Id="Rn1GB09TRANNomOsOiGOAW" Name="Output" Kind="OutputPin" />
                           <Pin Id="GpQtcJ5YhfWQaxdfMJyRho" Name="Not" Kind="OutputPin" />
+                          <Pin Id="IvlOqdRsVzMMCviY2ITaLS" Name="All" Kind="InputPin" IsHidden="true" />
                         </Node>
                         <Node Bounds="682,427,40,19" Id="ATnQozlB5vZOLdfR6ylk41">
                           <p:NodeReference LastCategoryFullName="Fuse.Math" LastDependency="Fuse.Core.vl">
@@ -9900,6 +9905,7 @@
                           <Pin Id="Q0EUb11JpnNOmIo1GhrVrR" Name="y" Kind="InputPin" />
                           <Pin Id="LoFFYEa96fiM67W886Qdyr" Name="Output" Kind="OutputPin" />
                           <Pin Id="GhPT9NDg9pXLccKOzNUAKu" Name="Not" Kind="OutputPin" />
+                          <Pin Id="UAxBw2wDQq1MkVKnpqFSBH" Name="All" Kind="InputPin" IsHidden="true" />
                         </Node>
                         <Node Bounds="536,577,102,19" Id="V17LF5HeLcyO6AXcGfpEOF">
                           <p:NodeReference LastCategoryFullName="Fuse.Compute" LastDependency="Fuse.Core.vl">
@@ -24035,8 +24041,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="LAF2upUNoJ6Oxqj1JCXWIA" Location="VL.CoreLib" Version="2024.6.7-0181-gdf16f593e1" />
-  <NugetDependency Id="EEmzqGeylVGMkeMtbikvtp" Location="VL.Stride" Version="2024.6.7-0181-gdf16f593e1" />
+  <NugetDependency Id="LAF2upUNoJ6Oxqj1JCXWIA" Location="VL.CoreLib" Version="2024.6.7-0136-ga34ff89f71" />
+  <NugetDependency Id="EEmzqGeylVGMkeMtbikvtp" Location="VL.Stride" Version="2024.6.7-0136-ga34ff89f71" />
   <PlatformDependency Id="UQQb7nxljnAMfDQh6nPuUA" Location="../../../../../../../Program Files/vvvv/vvvv_gamma_2021.4.0-0222-gc154a95170/lib/VL.Stride.Runtime.dll" />
   <DocumentDependency Id="KcOFRwKYFbNOXPj6lE8zXM" Location="./Fuse.Raymarching.vl" IsFriend="true" />
   <DocumentDependency Id="B3wdbcAk2gSNpMixq8VPny" Location="./Fuse.Core.vl" IsFriend="true" />
@@ -24050,6 +24056,6 @@
   <DocumentDependency Id="SlmJBTcxmQ8LiY1eyKmOs6" Location="./Fuse.Draw.vl" />
   <DocumentDependency Id="C9yiJUIstC1PVaGi0m87oN" Location="./Fuse.Compute.vl" />
   <NugetDependency Id="VOlQTMjgyEQLKV5DOOn4Dz" Location="VL.Fuse" Version="0.0.0.0" />
-  <NugetDependency Id="B1nAFw0bzPyMACmVAMABM9" Location="VL.Stride.Runtime" Version="2024.6.7-0181-gdf16f593e1" />
-  <NugetDependency Id="AHzvDzpxynnLzpQrzFHXnj" Location="VL.Stride.TextureFX" Version="2024.6.7-0181-gdf16f593e1" />
+  <NugetDependency Id="B1nAFw0bzPyMACmVAMABM9" Location="VL.Stride.Runtime" Version="2024.6.7-0136-ga34ff89f71" />
+  <NugetDependency Id="AHzvDzpxynnLzpQrzFHXnj" Location="VL.Stride.TextureFX" Version="2024.6.7-0136-ga34ff89f71" />
 </Document>

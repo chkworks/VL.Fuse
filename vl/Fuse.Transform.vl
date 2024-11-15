@@ -4508,6 +4508,7 @@
                   <Pin Id="Kqr0K8v8xB0PVyZE1z2a87" Name="y" Kind="InputPin" />
                   <Pin Id="GrzNoJYpPKJOhbfRNdJeuc" Name="Output" Kind="OutputPin" />
                   <Pin Id="Q6BU7saNJsIQKSN2n213tD" Name="Not" Kind="OutputPin" />
+                  <Pin Id="SioeELG2eGLNYaUycxKpzF" Name="All" Kind="InputPin" IsHidden="true" />
                 </Node>
                 <Node Bounds="301,578,40,19" Id="TFnWrsKfVUvNjQRWQN9GE6">
                   <p:NodeReference LastCategoryFullName="Fuse.Math" LastDependency="Fuse.Core.vl">
@@ -4527,6 +4528,7 @@
                   <Pin Id="US6Ob1ldK0BL2YZPhuEf1D" Name="y" Kind="InputPin" />
                   <Pin Id="JZTQsCu7NZ3OND8jUP1oUV" Name="Output" Kind="OutputPin" />
                   <Pin Id="UnsmpO65rVxMPeDy9dt8F5" Name="Not" Kind="OutputPin" />
+                  <Pin Id="TmvjiUSjmuDMndsOgfJzI5" Name="All" Kind="InputPin" IsHidden="true" />
                 </Node>
                 <Node Bounds="415,576,36,19" Id="HxbSjG11gdVMwnvPW38yf6">
                   <p:NodeReference LastCategoryFullName="Fuse.Math" LastDependency="Fuse.Core.vl">
