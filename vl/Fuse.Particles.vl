@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="UPgW3XLsuJsOj3StsM4whT" LanguageVersion="2024.6.7-0136-ga34ff89f71" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="UPgW3XLsuJsOj3StsM4whT" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
   <Patch Id="ALpqjXEf369Pnuk64gmWrV">
     <Canvas Id="V8HBoVZNCZmPvIQ0NbkFQ5" DefaultCategory="Fuse.Particles" CanvasType="FullCategory">
       <Canvas Id="Ua19oNBz2ZKQFpVq54UmSF" Name="Attribute" Position="176,163">
@@ -3209,12 +3209,16 @@
                       <Patch Id="M8v3Xm8SIOSNo9oPJRci07" Name="Dispose" />
                     </Patch>
                     <Pin Id="B0bc1eHFaQ0OxqXibi8VX8" Name="Force" Kind="InputPin" IsHidden="true" />
+                    <ControlPoint Id="GBk8kz8F6I2OGOGO1mMYOm" Bounds="480,855" Alignment="Bottom" />
+                    <ControlPoint Id="ODHnisiVvbQPawKgQNQK8U" Bounds="480,393" Alignment="Top" />
                   </Node>
                 </Patch>
+                <ControlPoint Id="RTco7YrokbFMS9UZY04rAA" Bounds="483,876" Alignment="Bottom" />
               </Node>
               <ControlPoint Id="TS89oogWQqEL65fOTBU8bM" Bounds="401,911" />
               <ControlPoint Id="TekwzKILjVFOAPkLkFkdVS" Bounds="389,316" />
               <ControlPoint Id="VBtNsr74IpnNavYLDy02VH" Bounds="577,315" />
+              <ControlPoint Id="U2GRbAQfuuiMnbMeR4HM1X" Bounds="493,921" />
             </Canvas>
             <ProcessDefinition Id="OzpZPXkhZBPMbU60YKbJb8">
               <Fragment Id="HqovTjrhgRmP6on97kEZOm" Patch="P9prjYQm2u2Om63qCddSve" Enabled="true" />
@@ -3264,7 +3268,13 @@
               <Pin Id="PcShMcqdadjNKI4s9u6tv5" Name="Enabled" Kind="InputPin" Bounds="619,286" DefaultValue="True" />
               <Pin Id="GuhGeISCEG6QdQB4PXkjxZ" Name="Mass Enabled" Kind="InputPin" Bounds="577,315" DefaultValue="True" Visibility="Optional" />
               <Pin Id="GqvtK5oIdPRNVTHQnZlW3N" Name="Output" Kind="OutputPin" />
+              <Pin Id="LE0r02NmU8PPNIgtomOSzi" Name="Force" Kind="OutputPin" />
             </Patch>
+            <Link Id="RgxlFl04JGWOxAil9fJdqX" Ids="ODHnisiVvbQPawKgQNQK8U,GBk8kz8F6I2OGOGO1mMYOm" IsFeedback="true" />
+            <Link Id="OZ0cJ15OFSdMSrGLQXQ1F2" Ids="Qaz9PVtRjPvMlO3x5vAjgZ,GBk8kz8F6I2OGOGO1mMYOm" />
+            <Link Id="ROb7148IRDFPHRlk3gC4R5" Ids="GBk8kz8F6I2OGOGO1mMYOm,RTco7YrokbFMS9UZY04rAA" />
+            <Link Id="AJXEuvaKDiWL6O87S2J5PA" Ids="RTco7YrokbFMS9UZY04rAA,U2GRbAQfuuiMnbMeR4HM1X" />
+            <Link Id="DKR34ezLghxMr2ZWyXruRX" Ids="U2GRbAQfuuiMnbMeR4HM1X,LE0r02NmU8PPNIgtomOSzi" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -13916,6 +13926,7 @@
                 <Pin Id="Su0Ottomn8xPT7lHRBt7nP" Name="File Name" Kind="InputPin" />
                 <Pin Id="EtZBx6N9vdbPCJjFvRJqaQ" Name="Arguments" Kind="InputPin" />
                 <Pin Id="UtBLOOIF4shOIr2ynWMEa4" Name="Working Directory" Kind="InputPin" />
+                <Pin Id="RJONHu61HC7LewRNubfkl3" Name="Environment Path Variable" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Ies51xyTy3LOCa9SBCdQlP" Name="Execute" Kind="InputPin" />
                 <Pin Id="R32tGAcPLgaNfAIjHwOHDh" Name="State Output" Kind="StateOutputPin" />
                 <Pin Id="OOJ3POY0KLdNNRAdJM1mKG" Name="Output" Kind="OutputPin" />
@@ -24075,8 +24086,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="LAF2upUNoJ6Oxqj1JCXWIA" Location="VL.CoreLib" Version="2024.6.7-0136-ga34ff89f71" />
-  <NugetDependency Id="EEmzqGeylVGMkeMtbikvtp" Location="VL.Stride" Version="2024.6.7-0136-ga34ff89f71" />
+  <NugetDependency Id="LAF2upUNoJ6Oxqj1JCXWIA" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="EEmzqGeylVGMkeMtbikvtp" Location="VL.Stride" Version="2024.6.7-0235-g5172ef47fd" />
   <PlatformDependency Id="UQQb7nxljnAMfDQh6nPuUA" Location="../../../../../../../Program Files/vvvv/vvvv_gamma_2021.4.0-0222-gc154a95170/lib/VL.Stride.Runtime.dll" />
   <DocumentDependency Id="KcOFRwKYFbNOXPj6lE8zXM" Location="./Fuse.Raymarching.vl" IsFriend="true" />
   <DocumentDependency Id="B3wdbcAk2gSNpMixq8VPny" Location="./Fuse.Core.vl" IsFriend="true" />
@@ -24090,6 +24101,6 @@
   <DocumentDependency Id="SlmJBTcxmQ8LiY1eyKmOs6" Location="./Fuse.Draw.vl" />
   <DocumentDependency Id="C9yiJUIstC1PVaGi0m87oN" Location="./Fuse.Compute.vl" />
   <NugetDependency Id="VOlQTMjgyEQLKV5DOOn4Dz" Location="VL.Fuse" Version="0.0.0.0" />
-  <NugetDependency Id="B1nAFw0bzPyMACmVAMABM9" Location="VL.Stride.Runtime" Version="2024.6.7-0136-ga34ff89f71" />
-  <NugetDependency Id="AHzvDzpxynnLzpQrzFHXnj" Location="VL.Stride.TextureFX" Version="2024.6.7-0136-ga34ff89f71" />
+  <NugetDependency Id="B1nAFw0bzPyMACmVAMABM9" Location="VL.Stride.Runtime" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="AHzvDzpxynnLzpQrzFHXnj" Location="VL.Stride.TextureFX" Version="2024.6.7-0235-g5172ef47fd" />
 </Document>
