@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="BunTqve7xR8NyPwM5xC5wd" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
-  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="BunTqve7xR8NyPwM5xC5wd" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
+  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
   <Patch Id="ALpqjXEf369Pnuk64gmWrV">
     <Canvas Id="V8HBoVZNCZmPvIQ0NbkFQ5" DefaultCategory="Fuse.Draw" CanvasType="FullCategory">
       <Pad Id="Dec4wn0FFUhM0UWDyljqhI" Bounds="174,438,48,19" ShowValueBox="true" isIOBox="true" Value="TODO">
@@ -20488,7 +20488,7 @@
                   <Choice Kind="TypeFlag" Name="RenderGroup" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="926,513,105,19" Id="UMSDAjiXJfSMs2RB6MbdvU">
+              <Node Bounds="926,513,125,19" Id="UMSDAjiXJfSMs2RB6MbdvU">
                 <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="Category" Name="Stride" NeedsToBeDirectParent="true" />
@@ -20546,7 +20546,7 @@
                   <Choice Kind="TypeFlag" Name="RenderGroup" />
                 </p:TypeAnnotation>
               </Pad>
-              <Node Bounds="1548,530,93,19" Id="I190fTm7IJRMfvgTWQwJPu">
+              <Node Bounds="1536,533,93,19" Id="I190fTm7IJRMfvgTWQwJPu">
                 <p:NodeReference LastCategoryFullName="Main" LastDependency="HowTo Create a Mirror Quad.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="ReflectAlongRect" />
@@ -20556,9 +20556,9 @@
                 <Pin Id="B76klcXqpLbQKE8fjQe76r" Name="Output" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="H8c3JFyt6nSLMFq9D79vjE" Bounds="768,323" />
-              <ControlPoint Id="U1JLP6i3sdsMl48P2uQJi4" Bounds="1541,493" />
+              <ControlPoint Id="U1JLP6i3sdsMl48P2uQJi4" Bounds="1533,441" />
               <ControlPoint Id="Gh9G5dXn7WoNJElmneOdxW" Bounds="968,335" />
-              <ControlPoint Id="GbbANlW7FpXOYFj8ly0qfP" Bounds="1629,496" />
+              <ControlPoint Id="GbbANlW7FpXOYFj8ly0qfP" Bounds="1623,449" />
               <ControlPoint Id="BJet9RsmQUBQLL2vDvWj59" Bounds="1547,357" />
               <ControlPoint Id="LDFAwMRRF6nNHezNFu6nMY" Bounds="962,641" />
               <!--
@@ -20766,12 +20766,12 @@
                   <Choice Kind="TypeFlag" Name="Vector3" />
                 </p:TypeAnnotation>
               </Pad>
-              <ControlPoint Id="GdoqMSPK0EeN44Di9bnvgq" Bounds="954,808" />
+              <ControlPoint Id="U7ON1UJr9svOmGaC3GJAjV" Bounds="958,757" />
             </Canvas>
             <Patch Id="BvPKPq9tv8WN3pOeLwJgXk" Name="Create" />
             <Patch Id="Louw75NwXEJP4WYTVXyu2h" Name="Update">
               <Pin Id="D6JAXVgrAOdOfAzWzkANaD" Name="Input" Kind="InputPin" />
-              <Pin Id="EJlVFMrzUXOLilNWpjU5M2" Name="Size" Kind="InputPin" />
+              <Pin Id="M9FHbn1eHaiO23U6RkQksr" Name="Size" Kind="InputPin" />
               <Pin Id="OUkBh3fZRUgOKZP8xnmB5g" Name="Quad Transform" Kind="InputPin" />
               <Pin Id="U7CCxSfEZhWMpWgLDqzY31" Name="Eye Pos" Kind="InputPin" />
               <Pin Id="LoWJa7YAvF1QXQvHD2xC65" Name="Output" Kind="OutputPin" />
@@ -20804,15 +20804,15 @@
             <Link Id="SpSv9gKgkJnN8NbZLTFomO" Ids="Gh9G5dXn7WoNJElmneOdxW,Pe0Dbj9Y1CKOA6xdNDmKlU" />
             <Link Id="I0z7h1r7Jp9PZ2vIfmg5Lh" Ids="OUkBh3fZRUgOKZP8xnmB5g,Gh9G5dXn7WoNJElmneOdxW" IsHidden="true" />
             <Link Id="Hgn6Zg1t3qeNfq1eSCeBdh" Ids="OUkBh3fZRUgOKZP8xnmB5g,GbbANlW7FpXOYFj8ly0qfP" IsHidden="true" />
-            <Link Id="HvkGTuOPCkbPgcdZ2ss0Bv" Ids="GbbANlW7FpXOYFj8ly0qfP,Iu4OumveNqmNwyWYBiPWCh" />
             <Link Id="PFyBJx4pLmJN6CIJhrEN47" Ids="OUkBh3fZRUgOKZP8xnmB5g,BJet9RsmQUBQLL2vDvWj59" IsHidden="true" />
             <Link Id="LTm20BySfWMNqaITJeWvmX" Ids="BJet9RsmQUBQLL2vDvWj59,Eeqp9hs41gTNC1H0PmcE3a" />
             <Link Id="ToedX8wIXeoPCCyUuarGuv" Ids="SHgnJs0ABkEPTbW3ozxtjS,LDFAwMRRF6nNHezNFu6nMY" />
             <Link Id="MNum7zYv79tOtSgt05jDNd" Ids="LDFAwMRRF6nNHezNFu6nMY,LoWJa7YAvF1QXQvHD2xC65" IsHidden="true" />
-            <Link Id="U4nJTPjFyVBLqEtVpA6Sb4" Ids="B76klcXqpLbQKE8fjQe76r,TZLia3OjQXKLx6tDmOFpeI" />
-            <Link Id="SioytaTHHA6LmkWZvAspXD" Ids="GdoqMSPK0EeN44Di9bnvgq,HZaZJr8B6FNLG3ZxOvl5UT" />
-            <Link Id="IJvFWrAcy4tM6k6npIPqIc" Ids="EJlVFMrzUXOLilNWpjU5M2,GdoqMSPK0EeN44Di9bnvgq" IsHidden="true" />
-            <Link Id="SvEp1HvxEMKPY5EocbZkvd" Ids="HRG38HgPXwcOSjbdfyaDPI,LdtPhaOjDYnLUCHGMgrT3w" />
+            <Link Id="FaluFSeqgNLMBF9dspL2Mb" Ids="B76klcXqpLbQKE8fjQe76r,TZLia3OjQXKLx6tDmOFpeI" />
+            <Link Id="SZjBLlEpS3ZNxSATrw2Tie" Ids="GbbANlW7FpXOYFj8ly0qfP,Iu4OumveNqmNwyWYBiPWCh" />
+            <Link Id="OA2OXHAoRJ6LOBv3C6U85j" Ids="GsBkzl30UAENSGmdz9mKEK,LdtPhaOjDYnLUCHGMgrT3w" />
+            <Link Id="ML8ADHbEALoM587SakW2uS" Ids="U7ON1UJr9svOmGaC3GJAjV,HZaZJr8B6FNLG3ZxOvl5UT" />
+            <Link Id="SrhBlzbr1j9OdZ3GSgGhQy" Ids="M9FHbn1eHaiO23U6RkQksr,U7ON1UJr9svOmGaC3GJAjV" IsHidden="true" />
           </Patch>
         </Node>
       </Canvas>
@@ -21669,13 +21669,13 @@
     </Node>
   </Patch>
   <DocumentDependency Id="IP8LS5YJ8ZuQYmCDcNjRsh" Location="./Fuse.Core.vl" IsFriend="true" />
-  <NugetDependency Id="EhjUULRVeDINHUsf8JBt65" Location="VL.Stride.Runtime" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="EhjUULRVeDINHUsf8JBt65" Location="VL.Stride.Runtime" Version="2024.6.7-0235-g5172ef47fd" />
   <PlatformDependency Id="SVeysndmoxKNSyLNn0DbBx" Location="VL.Stride.Runtime.dll" />
   <DocumentDependency Id="BgNmivOlt6vMM5JsjMj9s8" Location="./Fuse.Material.vl" />
   <DocumentDependency Id="HAiR1C64PG8NURxgCCTMfw" Location="./Fuse.Domain.vl" />
   <DocumentDependency Id="VkLnNDwkEYrLYH3ZONiDdq" Location="./Fuse.Transform.vl" />
-  <NugetDependency Id="M7gf3qwv1DzOEeFCczfkn2" Location="VL.Stride" Version="2024.6.7-0238-g79adbe39f9" />
-  <NugetDependency Id="PXE2I3xjy7gMJGbWS7BZjZ" Location="VL.Stride.TextureFX" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="M7gf3qwv1DzOEeFCczfkn2" Location="VL.Stride" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="PXE2I3xjy7gMJGbWS7BZjZ" Location="VL.Stride.TextureFX" Version="2024.6.7-0235-g5172ef47fd" />
   <NugetDependency Id="F14s7AOnxEiLkPiqFmfw1P" Location="VL.Fuse" Version="0.0.0.0" />
   <PlatformDependency Id="Fj9kzn69KW4OyNdiCfZk0j" Location="../lib/net8.0/Fuse.dll" />
 </Document>
