@@ -14,12 +14,14 @@ shader SSIVB2_TextureFX : TextureFX {
     Texture2D screenPosition;   // Stores world position of each fragment
     Texture2D screenNormal;     // Stores normal vectors for each fragment
     Texture2D screenLight;      // Stores lighting information at each fragment
+    Texture2D screenDepth;      // Stores Depth information at each fragment
 
     float3 Eye; //Eye Direction
     float3 Pos; // Eye Position
 
     float2 size;
     float CurrentFrame;
+    float fov;
  
     //Returns the simple tangent space matrix
     float3x3 TBN(float3 N) {
@@ -77,7 +79,7 @@ shader SSIVB2_TextureFX : TextureFX {
         float3 Tan; 
         float3 Bit = TBN(Eye,Tan);
 
-        float4 result = float4(0.,0.,0.,0.);
+        float4 result = float4(0.,0.,0.,1.);
 
         if(Light.x <= 1.0){
             float3 VNormal = float3(dot(Normal,Tan),dot(Normal,Bit),dot(Normal,Eye));
@@ -89,7 +91,7 @@ shader SSIVB2_TextureFX : TextureFX {
             float RandPhi = (fmod(floor(ModFC.x)+floor(ModFC.y)*4.+CurrentFrame*5.,16.)+RandPhiOffset)*2.*PI*I64;
 
 
-            for (float i=0.; i<3.5; i++) {
+            //for (float i=0.; i<3.5; i++) {
                 //4 hemi-horizons
                 RandPhi += PI*0.5;
                 float2 SSDir = float2(cos(RandPhi),sin(RandPhi));
@@ -97,16 +99,20 @@ shader SSIVB2_TextureFX : TextureFX {
                 float StepCoeff = 0.15 + 0.15 * ARand21(fragUV * (1.4+fmod(CurrentFrame*3.26346,6.2634)));
                 int BitMask = int(0);
                 
-                for (float s=1.; s<32.5; s++) {
+                //for (float s=1.; s<32.5; s++) {
                     //32 steps
-                    float SUV = fragCoord + SSDir * StepDist;
+                    float2 SUV = fragCoord + SSDir * StepDist;
                     float CurrentStep = max(1.,StepDist*StepCoeff);
                     StepDist += CurrentStep;
                     
-                    if (DFBox(SUV-1.,size-1.)>0.) break;
+                    //if (DFBox(SUV-1.,size-1.)>0.) break;
 
-                    float3 SVPPos = screenPosition.Sample(Sampler0, SUV / size).rgb;    		// World position
+                    //float3 SVPPos = screenPosition.Sample(Sampler0, SUV / size).rgb;    		// World position
                     float3 Light = screenLight.Sample(Sampler0, SUV / size).rgb;
+                    float Depth = screenDepth.Sample(Sampler0, SUV / size).r;
+                    float2 ASPECT = float2(size.x/size.y,1.0);
+                    float CFOV = tan(fov);
+                    float3 SVPPos = normalize(float3((SUV / size * 2. -1.)*(ASPECT*CFOV)*float2(1.0,1.0),1.))*Depth;
                     
                     //if (SAttr.y<-1.5) continue; this checks sky ignore for now
                     
@@ -126,11 +132,11 @@ shader SSIVB2_TextureFX : TextureFX {
                                   *sqrt(max(0.,dot(SNormal,-normalize(SVPPos-VPPos))));
                     //Update bitmask
                     BitMask = BitMask | SBitMask;
-                }
-            }
-            return result;
+                //}
+            //}
+		float bla = fmod(RandPhi,2.*PI) / 2.*PI;
+            return float4(SVPPos-VPPos, 1.0);
         }
-		
 
         return float4(Tan, 1.0); // Return final lighting and visibility as a 4D vector
     }

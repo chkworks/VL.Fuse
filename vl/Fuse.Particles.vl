@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="UPgW3XLsuJsOj3StsM4whT" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="UPgW3XLsuJsOj3StsM4whT" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
   <Patch Id="ALpqjXEf369Pnuk64gmWrV">
     <Canvas Id="V8HBoVZNCZmPvIQ0NbkFQ5" DefaultCategory="Fuse.Particles" CanvasType="FullCategory">
       <Canvas Id="Ua19oNBz2ZKQFpVq54UmSF" Name="Attribute" Position="176,163">
@@ -12420,7 +12420,6 @@
                 <Pin Id="Kb0tR9Oi3B5NEOuQPWMofu" Name="Has Changed" Kind="OutputPin" />
                 <ControlPoint Id="GU8d7YCeE02ORNlSwlRDEV" Bounds="221,582" Alignment="Bottom" />
                 <ControlPoint Id="GewKVGkVVDkLhIXi4jfWNd" Bounds="221,412" Alignment="Top" />
-                <ControlPoint Id="VjDU4kNjoaiPdJH9WV2k6e" Bounds="375,412" Alignment="Top" />
                 <ControlPoint Id="MKBABBuoVE5NffboiTpa3J" Bounds="446,412" Alignment="Top" />
                 <ControlPoint Id="BOkuJgzZVujNUVtAXszRQ9" Bounds="410,412" Alignment="Top" />
                 <ControlPoint Id="FxEl0pgxbxkPhre4AEGAjf" Bounds="250,412" Alignment="Top" />
@@ -12448,9 +12447,6 @@
                     </p:NodeReference>
                     <Pin Id="CdP7bbCcDhaMNNTaw0cAiJ" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="NSPqw8WrsZDMfvozvvVUOv" Name="Step Size" Kind="InputPin" />
-                    <Pin Id="Vfbrw3SJBLlQJ8wK4ddOFI" Name="ScaleAgeDelta" Kind="InputPin" />
-                    <Pin Id="K8gO4LGgBqRNEzcYNbGtWg" Name="Delta Time" Kind="InputPin" />
-                    <Pin Id="DoAGsbWiE23OglZMXFWoPh" Name="Enabled" Kind="InputPin" />
                     <Pin Id="KYISnefk9zuPKx3nEC2E0t" Name="Void" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="219,453,93,19" Id="Hewd6pp1uwmLqKK53OOOwR">
@@ -12473,7 +12469,6 @@
               </Node>
               <Overlay Id="VkUyQMVfLuiM9CnOeLYEPe" Name="Update (Process)" Bounds="74,74,737,584" />
               <ControlPoint Id="EjNam6JFauMPNydyzEhvmn" Bounds="221,357" />
-              <ControlPoint Id="PWfiNaq66fTNlN2JmnIjkS" Bounds="374,318" />
               <ControlPoint Id="BzBECb6mMKjME2fUkZ5oCC" Bounds="446,371" />
               <Pad Id="AyCQnWq4ZxlLTsOLgGkQr8" Comment="Force" Bounds="118,340,35,35" ShowValueBox="true" isIOBox="true" Value="False">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -12503,8 +12498,6 @@
             <Link Id="DGTRsYXExfyPyYVITKiVPD" Ids="GU8d7YCeE02ORNlSwlRDEV,I4CiUH6JiBNLVwzpuDNuOS" />
             <Link Id="LKQRduQ9dXwNyp54IY0G8t" Ids="QXNSYJaQ2vIMPgpUTWbz63,EjNam6JFauMPNydyzEhvmn" IsHidden="true" />
             <Link Id="SC4XHa92QUTL7yimKB6DvC" Ids="EjNam6JFauMPNydyzEhvmn,GewKVGkVVDkLhIXi4jfWNd" />
-            <Link Id="F7gz0bB8TjzLfSePnEJD4y" Ids="LPs1ErxFmjtLN9J9lmJyNb,PWfiNaq66fTNlN2JmnIjkS" IsHidden="true" />
-            <Link Id="Drge1oBQogaPSNGDGrkAjU" Ids="PWfiNaq66fTNlN2JmnIjkS,VjDU4kNjoaiPdJH9WV2k6e" />
             <Link Id="R5G9Gzhhbh8LLC0b3DUvek" Ids="OzvVvHpiLJTQdJZpTrHlsb,GU8d7YCeE02ORNlSwlRDEV" />
             <ProcessDefinition Id="U4QajzmpXSSLx1hDHj8eJy">
               <Fragment Id="HKOm2Oa5hp3NOKUArtvBfx" Patch="TOII7ljJNlaOkglBdb0QBv" Enabled="true" />
@@ -12513,11 +12506,8 @@
             </ProcessDefinition>
             <Link Id="HDnYjDFDvgwP6BgTqh2Sj8" Ids="FF4unIcG7dIO4XVStURtiI,BzBECb6mMKjME2fUkZ5oCC" IsHidden="true" />
             <Link Id="P8zEng9QrnSLALsYI1QChY" Ids="AyCQnWq4ZxlLTsOLgGkQr8,EbDeBytIGPEO9k5fWMUwLD" />
-            <Link Id="Bk4OIFTdmEQNxUZ6nMOBRk" Ids="MKBABBuoVE5NffboiTpa3J,DoAGsbWiE23OglZMXFWoPh" />
-            <Link Id="FRmuNNDsKHCMNpciz5BmzK" Ids="VjDU4kNjoaiPdJH9WV2k6e,Vfbrw3SJBLlQJ8wK4ddOFI" />
             <Link Id="Hmxn1lGAbR7QdApe1jVhmd" Ids="MKBABBuoVE5NffboiTpa3J,PRFAqoMc4c4P892aJtwxcw" />
             <Link Id="VVRMD1Wn4pyPQ3pvViHegt" Ids="GewKVGkVVDkLhIXi4jfWNd,OUGL79MluBWLZMn98h5x9M" />
-            <Link Id="DKkdbodO441MrYXRLa8I7k" Ids="BOkuJgzZVujNUVtAXszRQ9,K8gO4LGgBqRNEzcYNbGtWg" />
             <Link Id="VTXbbPyDoyiNjUsT8oE7H8" Ids="Oik6KOTCGV0Neua8XPOtE8,DwuY7JG3IL6Pr0cQ3nXFR5" IsHidden="true" />
             <Link Id="FRtk3iRRIZVN5I5Hldo0Uz" Ids="DwuY7JG3IL6Pr0cQ3nXFR5,BOkuJgzZVujNUVtAXszRQ9" />
             <Link Id="EmFCS4Vb2e0LuRmhZLkx2N" Ids="BOkuJgzZVujNUVtAXszRQ9,QLf9xLqIrswNJiugDzcMLz" />
@@ -12532,13 +12522,13 @@
             <Patch Id="HtusU0TshzgPxyvcWrUGQU" Name="Update">
               <Pin Id="QXNSYJaQ2vIMPgpUTWbz63" Name="ScalePositionDelta" Kind="InputPin" DefaultValue="1" Visibility="Optional" />
               <Pin Id="Ov74R2lx0NONfQwiM1xdgE" Name="Target" Kind="InputPin" Visibility="Optional" />
-              <Pin Id="LPs1ErxFmjtLN9J9lmJyNb" Name="ScaleAgeDelta" Kind="InputPin" DefaultValue="1" Visibility="Optional" />
               <Pin Id="Oik6KOTCGV0Neua8XPOtE8" Name="Delta Time" Kind="InputPin" />
               <Pin Id="FF4unIcG7dIO4XVStURtiI" Name="Enabled" Kind="InputPin" DefaultValue="True" />
               <Pin Id="TAF98wlf5rlLsAxLz7DWGx" Name="Output" Kind="OutputPin" />
             </Patch>
             <Link Id="BrCohfBhCknNObbONdJ5gv" Ids="JcRVWZ7wxB1NaFC1Zqxqgh,FxEl0pgxbxkPhre4AEGAjf" />
             <Link Id="HDFXzAxdADpLoJfNjEOrd3" Ids="FxEl0pgxbxkPhre4AEGAjf,RDklv7CeZYCQMJPKE17xRf" />
+            <Link Id="NxJPGAlZQWkPoa6LZWzpH5" Ids="BOkuJgzZVujNUVtAXszRQ9,NSPqw8WrsZDMfvozvvVUOv" />
           </Patch>
         </Node>
         <!--
@@ -24086,8 +24076,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="LAF2upUNoJ6Oxqj1JCXWIA" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
-  <NugetDependency Id="EEmzqGeylVGMkeMtbikvtp" Location="VL.Stride" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="LAF2upUNoJ6Oxqj1JCXWIA" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="EEmzqGeylVGMkeMtbikvtp" Location="VL.Stride" Version="2024.6.7-0238-g79adbe39f9" />
   <PlatformDependency Id="UQQb7nxljnAMfDQh6nPuUA" Location="../../../../../../../Program Files/vvvv/vvvv_gamma_2021.4.0-0222-gc154a95170/lib/VL.Stride.Runtime.dll" />
   <DocumentDependency Id="KcOFRwKYFbNOXPj6lE8zXM" Location="./Fuse.Raymarching.vl" IsFriend="true" />
   <DocumentDependency Id="B3wdbcAk2gSNpMixq8VPny" Location="./Fuse.Core.vl" IsFriend="true" />
@@ -24101,6 +24091,6 @@
   <DocumentDependency Id="SlmJBTcxmQ8LiY1eyKmOs6" Location="./Fuse.Draw.vl" />
   <DocumentDependency Id="C9yiJUIstC1PVaGi0m87oN" Location="./Fuse.Compute.vl" />
   <NugetDependency Id="VOlQTMjgyEQLKV5DOOn4Dz" Location="VL.Fuse" Version="0.0.0.0" />
-  <NugetDependency Id="B1nAFw0bzPyMACmVAMABM9" Location="VL.Stride.Runtime" Version="2024.6.7-0235-g5172ef47fd" />
-  <NugetDependency Id="AHzvDzpxynnLzpQrzFHXnj" Location="VL.Stride.TextureFX" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="B1nAFw0bzPyMACmVAMABM9" Location="VL.Stride.Runtime" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="AHzvDzpxynnLzpQrzFHXnj" Location="VL.Stride.TextureFX" Version="2024.6.7-0238-g79adbe39f9" />
 </Document>
