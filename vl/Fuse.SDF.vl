@@ -1067,7 +1067,10 @@
                   <Node Bounds="452,673,75,19" Id="TXiIk9btjImOnAnRp55ABB">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
                     <Pin Id="G3LuUY3okCOOnrWvxmg2sV" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="GTZfhrpT1ljNfHV27Gn6Qn" Name="Input" Kind="InputPin" />
@@ -4739,7 +4742,10 @@
                   <Node Bounds="353,509,75,19" Id="C3RQCr79QI0NmcfSuWFJLJ">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
                     <Pin Id="GyGd6OuR1gWPr5cHp9h0O3" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="LQXxDIurX2OOTOMmVtJjX8" Name="Input" Kind="InputPin" />
@@ -12609,7 +12615,10 @@
                   <Node Bounds="361,582,75,19" Id="TFCFHTlVpdWMw1kR1iA4Se">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
                     <Pin Id="UXK2KrXPcXpOYLLcBIdN0E" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="EtpVVGQBaQJNaIhMQNaSnU" Name="Input" Kind="InputPin" />
@@ -12736,7 +12745,7 @@
               <ControlPoint Id="CjZ8BrkBBNDQVbrw8KWNzK" Bounds="675,338" />
               <ControlPoint Id="SeEyE1NpOAqP3aeXASqAIy" Bounds="696,355" />
               <ControlPoint Id="JvWRCiyDDF9LJJMtwUUujT" Bounds="717,376" />
-              <Node Bounds="614,422" Id="BRkUe9XtXxpLkm15sGWI4x">
+              <Node Bounds="614,422,105,19" Id="BRkUe9XtXxpLkm15sGWI4x">
                 <p:NodeReference LastCategoryFullName="Fuse.SDF.2D" LastDependency="Fuse.SDF.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="MixinSDF (2D)" />
@@ -13468,7 +13477,10 @@
                   <Node Bounds="401,755,75,19" Id="PO5SveX9ceIOzTsYPA8hUf">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
                     <Pin Id="COlzfFaLXQfMBAMiXFi1Gi" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="VrkDZNQyjRGQREZwZAsbzZ" Name="Input" Kind="InputPin" />
@@ -13689,7 +13701,10 @@
                   <Node Bounds="353,509,75,19" Id="P17AOYxinAxMQAJYGA1TCR">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
                     <Pin Id="N0cB0QvHV86LpWEZ6DPba5" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="A7ypx9hM3KrOLnaoIpP1f1" Name="Input" Kind="InputPin" />
@@ -13831,7 +13846,10 @@
                   <Node Bounds="954,1396,75,19" Id="VjInO1QfzMsLUwA5EUfGy4">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
                     <Pin Id="Rp6CUnpl41CNSHt1t81CH2" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="RzJBm1qIotANXC1OJiZkQQ" Name="Input" Kind="InputPin" />
@@ -14534,7 +14552,10 @@
               <Node Bounds="859,793,75,19" Id="QwAElCiU5QJPMEeRRtnjxO">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                  <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
+                  <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                 </p:NodeReference>
                 <Pin Id="AHfEVz1jzFoPkVP9piS6JD" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="VlbH385b21nOTA1z0duoEP" Name="Input" Kind="InputPin" />
@@ -14790,17 +14811,20 @@
                   </Node>
                 </Patch>
               </Node>
-              <Node Bounds="739,605,138,19" Id="SMvmIKIjxq3MDYDYRw2mcT">
+              <Node Bounds="677,792,138,19" Id="SMvmIKIjxq3MDYDYRw2mcT">
                 <p:NodeReference LastCategoryFullName="Fuse.Domain.2D" LastDependency="Fuse.Domain.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="SpatialFunction2DViewerID" />
                 </p:NodeReference>
                 <Pin Id="QB1qCjxbw2YLwaAOxbBZPS" Name="Output" Kind="OutputPin" />
               </Node>
-              <Node Bounds="669,636,75,19" Id="NEyeD5sMMEZLPc3muDcWze">
+              <Node Bounds="607,823,75,19" Id="NEyeD5sMMEZLPc3muDcWze">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                  <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
+                  <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                 </p:NodeReference>
                 <Pin Id="HCIIgzA9SunL9LN6J4C7LM" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="IWht4EoUPlzOIRCNYdYISu" Name="Input" Kind="InputPin" />
@@ -14963,7 +14987,10 @@
                   <Node Bounds="468,480,75,19" Id="JmPywWLu9LpL8CSiVtQnuX">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
                     <Pin Id="KUK7jhnbap6NGMCs3d8QKj" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="JCgka7uMdA6OX6CixSTitp" Name="Input" Kind="InputPin" />
@@ -15082,7 +15109,10 @@
               <Node Bounds="122,620,75,19" Id="A2BhlJFagjxQIBMKdwD1NO">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                  <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
+                  <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                 </p:NodeReference>
                 <Pin Id="HFT3BNMvW3yLXmFZSjdLOo" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="M595JJ049VaOfG4OJNIykA" Name="Input" Kind="InputPin" />
@@ -15181,77 +15211,6 @@
           </p:NodeReference>
           <Patch Id="LAZx9UWZz4aPmLxMhb3OGz" IsGeneric="true">
             <Canvas Id="I9X5IBCgVvSLDK8OWvkXGz" CanvasType="Group">
-              <Node Bounds="522,581,223,215" Id="CFzbC3FyTdOOX4764fTHJw">
-                <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
-                  <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
-                  <Choice Kind="ProcessStatefulRegion" Name="Cache" />
-                  <CategoryReference Kind="Category" Name="Primitive" />
-                </p:NodeReference>
-                <ControlPoint Id="FJzgInx1zDyPsaxk7c5Aft" Bounds="678,587" Alignment="Top" />
-                <ControlPoint Id="RjLVrg2H4lCLYcWD21uhWZ" Bounds="535,587" Alignment="Top" />
-                <ControlPoint Id="RXkvLyaLMcGL3SoqoUfDXu" Bounds="698,587" Alignment="Top" />
-                <Pin Id="EwpROnxd3VVQF92eaQBCHv" Name="Force" Kind="InputPin" DefaultValue="False">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="TypeFlag" Name="Boolean" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="CboI1Xr4pmZMNGX6kJSCZN" Name="Dispose Cached Outputs" Kind="InputPin" />
-                <Pin Id="Knqd3s4CMUILITx9btlldk" Name="Has Changed" Kind="OutputPin" />
-                <ControlPoint Id="Ffj5wAsAsuyLPspWiqoqtN" Bounds="536,790" Alignment="Bottom" />
-                <Patch Id="GQU3YYS7ZAiPjaA9ZM821L" ManuallySortedPins="true">
-                  <Patch Id="Qmfg70RE4d0OdqymuoY6hF" Name="Create" ManuallySortedPins="true" />
-                  <Patch Id="Nwm96MbwcEpOuiieTVmnFP" Name="Then" ManuallySortedPins="true" />
-                  <Node Bounds="575,671,145,19" Id="G7q9PfuQUJRL0D6PqNfa7U">
-                    <p:NodeReference LastCategoryFullName="Fuse.Function" LastDependency="Fuse.Core.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="MixinFunction" />
-                    </p:NodeReference>
-                    <Pin Id="QFBMquhZoTNM2TmctDp8Tm" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                    <Pin Id="NHvapIGKWCrMsIasWpTbIk" Name="Function Name" Kind="InputPin" />
-                    <Pin Id="Okq6UXJljRPO7JoVXHl4n8" Name="Mixins" Kind="InputPin" />
-                    <Pin Id="J3VTwcpnG1GPz3IRriDP0D" Name="Arguments" Kind="InputPin" />
-                    <Pin Id="TiOwFcIMZ1uNCrXetPBNIK" Name="Arguments 2" Kind="InputPin" />
-                    <Pin Id="H28CpecqXQWPEq24acqwWc" Name="Is Groupable" Kind="InputPin" />
-                    <Pin Id="GH3yOiFVbxbLqPa0LrgmOH" Name="Group Options" Kind="InputPin" />
-                    <Pin Id="B4jS4vGejqAMWxWvEFbALF" Name="The Modifiers" Kind="InputPin" />
-                    <Pin Id="R4saxOjTbXtQScAMwlx0AK" Name="Default" Kind="InputPin" />
-                    <Pin Id="JY4WegrC7udPywJMT7Imea" Name="Output" Kind="OutputPin" />
-                  </Node>
-                  <Pad Id="F29owRZU2npNlEpZePiXUr" Comment="Function Name" Bounds="577,619,66,15" ShowValueBox="true" isIOBox="true" Value="fOpElongate">
-                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                      <Choice Kind="TypeFlag" Name="String" />
-                    </p:TypeAnnotation>
-                  </Pad>
-                  <Node Bounds="595,638,95,19" Id="FfNIcPTOeMKNdzvwfqPvfU">
-                    <p:NodeReference LastCategoryFullName="Fuse.SDF" LastDependency="Fuse.SDF.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="FuseCommonSDF (Mixin)" />
-                    </p:NodeReference>
-                    <Pin Id="GEMyc4XSiYNPHtctTk4uUv" Name="Result" Kind="OutputPin" />
-                  </Node>
-                  <Node Bounds="534,748,46,19" Id="MNotaR0W5H6QcwzgrmVAzL">
-                    <p:NodeReference LastCategoryFullName="Fuse.Function" LastDependency="Fuse.Core.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="Category" Name="Function" NeedsToBeDirectParent="true" />
-                      <Choice Kind="ProcessAppFlag" Name="Invoke (Fuse,1-&gt;1)" />
-                    </p:NodeReference>
-                    <Pin Id="BHaDria0goVNCadGkNg9pY" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                    <Pin Id="Fs30l9XafKaL1mjPCPL2qu" Name="Delegate" Kind="InputPin" />
-                    <Pin Id="KiBh4XqpG2dNp5O8gA8yUH" Name="Arg" Kind="InputPin" />
-                    <Pin Id="VJmjNEMb8ZiOc8uE7qTXqy" Name="Output" Kind="OutputPin" />
-                  </Node>
-                  <Node Bounds="575,708,45,19" Id="LYkZdFgYxyGN7VVEWQb8Ji">
-                    <p:NodeReference LastCategoryFullName="Fuse.Value.Split" LastDependency="Fuse.Core.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="xyz-w (split)" />
-                    </p:NodeReference>
-                    <Pin Id="QOmCY1tZR4NNRPgm8wvrLt" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                    <Pin Id="JwYaX7SX6z9PWzYpVzaZPU" Name="value" Kind="InputPin" />
-                    <Pin Id="KgjEPoK0AvqLhNQudbIuQ3" Name="xyz" Kind="OutputPin" />
-                    <Pin Id="HKAzFTvy5nqP4AiDSojPML" Name="w" Kind="OutputPin" />
-                  </Node>
-                </Patch>
-              </Node>
               <ControlPoint Id="FTkTXr0kM17LqptHCA0C8l" Bounds="210,435" />
               <Pad Id="SfBjK2G7LaDPY1p7aG1cN1" Comment="codeTemplate" Bounds="31,37,199,81" ShowValueBox="true" isIOBox="true" Value="float ${signature}(float3 p, float3 s) &#xD;&#xA;{&#xD;&#xA;&#x9;float4 w = fOpElongate(p, s);&#xD;&#xA;&#x9;return ${SDF}(w.xyz) + w.w;&#xD;&#xA;}&#xD;&#xA;">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -15259,22 +15218,6 @@
                 </p:TypeAnnotation>
               </Pad>
               <ControlPoint Id="N9bJZ60QkjFL9bSB7nkRMt" Bounds="265,461" />
-              <Node Bounds="557,844,75,19" Id="JR8xQsEVrQnLfa5FzyDavN">
-                <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
-                </p:NodeReference>
-                <Pin Id="CB6Fp8OcZv8OHiKii1wFL4" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="LzLz53rdi2GP7lL4qj7Pij" Name="Input" Kind="InputPin" />
-                <Pin Id="S6ylnbXR1HBOVToOvEU0mN" Name="Viewer ID" Kind="InputPin" />
-              </Node>
-              <Node Bounds="627,813,86,26" Id="Raq2rqzd54SOuPn7TGpaq2">
-                <p:NodeReference LastCategoryFullName="Fuse.SDF.Viewer" LastDependency="Fuse.SDF.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="SDF3DViewerID" />
-                </p:NodeReference>
-                <Pin Id="Ukx4IxUcCMaN6Ys14sBc47" Name="Output" Kind="OutputPin" />
-              </Node>
               <Node Bounds="197,483,206,216" Id="R8TjweWPd2aQZRJ3VTKjLR">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -15375,16 +15318,6 @@
             </ProcessDefinition>
             <Link Id="C9IHmZFG1KBPCHJ6Mad714" Ids="NMEK5RlnqedPqkNpSnaLap,FTkTXr0kM17LqptHCA0C8l" IsHidden="true" />
             <Link Id="IvqSB8IYL8aN6az97LWIXc" Ids="JDngZoSalyCMFNFmmX4oC6,N9bJZ60QkjFL9bSB7nkRMt" IsHidden="true" />
-            <Link Id="DwZpApMcv7JLtUdY0vWcKu" Ids="Ukx4IxUcCMaN6Ys14sBc47,S6ylnbXR1HBOVToOvEU0mN" />
-            <Link Id="Ju8JbR6N6IWNjy5Tnp1QJD" Ids="F29owRZU2npNlEpZePiXUr,NHvapIGKWCrMsIasWpTbIk" />
-            <Link Id="NZUq6096gb6MfVY3ncBvxY" Ids="RXkvLyaLMcGL3SoqoUfDXu,TiOwFcIMZ1uNCrXetPBNIK" />
-            <Link Id="RlUQxZVNWD1PaoUSi1JkbX" Ids="FJzgInx1zDyPsaxk7c5Aft,J3VTwcpnG1GPz3IRriDP0D" />
-            <Link Id="L5PtdX0fw7XLC1g0FQtaY4" Ids="GEMyc4XSiYNPHtctTk4uUv,Okq6UXJljRPO7JoVXHl4n8" />
-            <Link Id="Jsp2FVAkTaxQRbgl1Dby9G" Ids="JY4WegrC7udPywJMT7Imea,JwYaX7SX6z9PWzYpVzaZPU" />
-            <Link Id="NqQRjdaoqK6QJ0FgZtv6VL" Ids="RjLVrg2H4lCLYcWD21uhWZ,Fs30l9XafKaL1mjPCPL2qu" />
-            <Link Id="ElxkmEAi6WWOr2ar1nLA1p" Ids="VJmjNEMb8ZiOc8uE7qTXqy,Ffj5wAsAsuyLPspWiqoqtN" />
-            <Link Id="UFHDPkmhmnsMtW3c5t4A8H" Ids="Ffj5wAsAsuyLPspWiqoqtN,LzLz53rdi2GP7lL4qj7Pij" />
-            <Link Id="LjSJoeGqrwkLi8qwrUCNuN" Ids="KgjEPoK0AvqLhNQudbIuQ3,KiBh4XqpG2dNp5O8gA8yUH" />
             <Link Id="JB0l5FbrQ8EOv9bi58wu2Q" Ids="H4MPXRk5n2HORMgkutt73e,UDjGd7poDQyOBQY4dVHNPt" />
             <Link Id="P9CwmOqGgCeMzx5qwiHecB" Ids="A7rGNsBKeqoNtYDEpuPut2,JYLmCIoMRFyNybYEtpcOuI" />
             <Link Id="PF3N4nPIx2aNhnGjiCxdNu" Ids="A7rGNsBKeqoNtYDEpuPut2,FF3R6keUCGNNfjQrALnKAX" />
@@ -15556,7 +15489,10 @@
                   <Node Bounds="643,496,75,19" Id="Di5BlpdzJV1PR06efXIYon">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
                     <Pin Id="QDVN2ERBTvZQXDeXfFknGf" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="MwQthu2IVgSOl128FgBQvh" Name="Input" Kind="InputPin" />
@@ -15953,14 +15889,14 @@
           </p:NodeReference>
           <Patch Id="EGZpEB7StZDO2yIbTCdplC" IsGeneric="true">
             <Canvas Id="AiGJYIbGqjjOcezgMiNzOa" CanvasType="Group">
-              <Node Bounds="345,378,249,305" Id="TtGxeIq2zjUQBO4Fklh8YG">
+              <Node Bounds="345,378,249,339" Id="TtGxeIq2zjUQBO4Fklh8YG">
                 <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                   <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                   <CategoryReference Kind="Category" Name="Primitive" />
                 </p:NodeReference>
                 <ControlPoint Id="JmorXHrLfdIOnODwvlkeJg" Bounds="416,384" Alignment="Top" />
-                <ControlPoint Id="Qzbwc0JqrYQLiawZkO0LJF" Bounds="358,677" Alignment="Bottom" />
+                <ControlPoint Id="Qzbwc0JqrYQLiawZkO0LJF" Bounds="358,711" Alignment="Bottom" />
                 <ControlPoint Id="K5xfFNIl4xWLt6DC6KuKY4" Bounds="456,384" Alignment="Top" />
                 <ControlPoint Id="DwiTTKEULGCPpZF0IJ39CF" Bounds="359,384" Alignment="Top" />
                 <Pin Id="GRDUKPWuuc4PSYKCcU2aP7" Name="Force" Kind="InputPin" DefaultValue="False">
@@ -15995,10 +15931,13 @@
                     <Pin Id="T4MZHvlOVXkO9iCCBFfWYI" Name="Arg" Kind="InputPin" />
                     <Pin Id="OCg4kQVFcwUPB9ieWnvZOl" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="426,638,75,19" Id="RfWr4mxsWWqNSWhjvVAfCI">
+                  <Node Bounds="415,678,75,19" Id="RfWr4mxsWWqNSWhjvVAfCI">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
                     <Pin Id="TsvssjtpVLfMu0NmeUqmXE" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="HQjU74VYcfFPECWgWanaDp" Name="Input" Kind="InputPin" />
@@ -16066,7 +16005,7 @@
                 <ControlPoint Id="QZ8Cy1haYTpOmedt8JhxDi" Bounds="524,384" Alignment="Top" />
               </Node>
               <ControlPoint Id="PXOJhpaifbQO3bZL5UfTzO" Bounds="416,305" />
-              <ControlPoint Id="Sd98ZGBaCOeLUsbBtFptzN" Bounds="358,719" />
+              <ControlPoint Id="Sd98ZGBaCOeLUsbBtFptzN" Bounds="357,752" />
               <ControlPoint Id="RLj8MU6irSwL370zghhNlk" Bounds="456,346" />
               <ControlPoint Id="NjDWBEjBpPXLtyT3745Njb" Bounds="359,306" />
               <Pad Id="MpnaZxtC6rXMOmExGc3htV" Bounds="-355,513,311,165" ShowValueBox="true" isIOBox="true" Value="called as sdf(fOpRevolution(p, w))&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#x9;float2 fOpRevolution( in float3 p, float w )&#xD;&#xA;&#x9;{&#xD;&#xA;&#x9;&#x9;return float2( length(p.xz) - w, p.y );&#xD;&#xA;&#x9;}">
@@ -17279,22 +17218,6 @@
                     <Pin Id="HvWjLoYDX2xLyOuyWKJ7JE" Name="Input 2" Kind="InputPin" />
                     <Pin Id="BqXipanK2FeO0NWOrl8Fw0" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Node Bounds="266,473,64,19" Id="I7KxDVWnixbP0gj30UpN41">
-                    <p:NodeReference LastCategoryFullName="Fuse.Util" LastDependency="Fuse.Core.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="SetNodeID" />
-                    </p:NodeReference>
-                    <Pin Id="VmWjMjCiP5OMYH8671LU7V" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                    <Pin Id="TIg986pySwjPnT5C4GC1La" Name="ID" Kind="InputPin" />
-                    <Pin Id="BNNUPBUVAlePWJHVoSbHNE" Name="Input" Kind="InputPin" />
-                  </Node>
-                  <Node Bounds="266,441,108,19" Id="CIBgFJWUhL1MnoKyW8joRV">
-                    <p:NodeReference LastCategoryFullName="Fuse.SDF.Operations.DistanceEstimator" LastDependency="Fuse.SDF.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="DistanceEstimatorID" />
-                    </p:NodeReference>
-                    <Pin Id="NUIoiYJAccDMW65ogzdtdq" Name="Output" Kind="OutputPin" />
-                  </Node>
                 </Patch>
               </Node>
               <ControlPoint Id="ENrz2OoqVjPPlPec52e2P7" Bounds="269,235" />
@@ -17309,32 +17232,10 @@
                   <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
                 </p:ValueBoxSettings>
               </Pad>
-              <!--
-
-    ************************ DistanceEstimatorID ************************
-
--->
-              <Node Name="DistanceEstimatorID" Bounds="436,465,149,69" Id="UpfXAK4ZJE6MWtOTmxdoeo">
-                <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
-                  <Choice Kind="OperationDefinition" Name="Operation" />
-                </p:NodeReference>
-                <Patch Id="Rx3lrvdfUDBN7GzIlUFjk4">
-                  <Pad Id="JsQRx6mGm53OrzJrSDmqzp" Comment="" Bounds="452,493,102,15" ShowValueBox="true" isIOBox="true" Value="DistanceEstimator">
-                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                      <Choice Kind="TypeFlag" Name="String" />
-                    </p:TypeAnnotation>
-                  </Pad>
-                  <ControlPoint Id="OulwmAjl8cIPlJ702byG7G" Bounds="452,517" />
-                  <Link Id="LON1YVqnqJlQFKX7tVvJu7" Ids="JsQRx6mGm53OrzJrSDmqzp,OulwmAjl8cIPlJ702byG7G" />
-                  <Pin Id="CjZz0vDg4fSQSpUVo7IrLI" Name="Output" Kind="OutputPin" Bounds="500,342" />
-                  <Link Id="MF1zraNe0fYOzl2P9dF7Ew" Ids="OulwmAjl8cIPlJ702byG7G,CjZz0vDg4fSQSpUVo7IrLI" IsHidden="true" />
-                </Patch>
-              </Node>
             </Canvas>
             <ProcessDefinition Aspects="Experimental" Id="Skn6a9tlMndPG9yHwbEPSh">
               <Fragment Id="QDQDOtwFNopLGK0T55Jlct" Patch="FnS50GIXw5yNu94r9SZNop" Enabled="true" />
               <Fragment Id="REnnOkW8xrhLX0RPB21m8X" Patch="OgHOWwDOtmkPYrP6OatoBc" Enabled="true" />
-              <Fragment Id="RubkYYOXnOiQIHazNn44df" Patch="UpfXAK4ZJE6MWtOTmxdoeo" />
             </ProcessDefinition>
             <Link Id="OqimT6hhv97L79U9FgwjO1" Ids="RX4NG2697aeOdcTbbkiUOA,ENrz2OoqVjPPlPec52e2P7" IsHidden="true" />
             <Link Id="IyULuTkWz3AP33uaIkx6NZ" Ids="EqnE9Cz98lZLgAkirYJ9Ug,PfgN2dert0TOTXEJksjMOd" />
@@ -17351,8 +17252,6 @@
             <Link Id="GbnbCPKt8QlMMkKHmifymj" Ids="HWGhChaKWLbMenv8I8SZ6z,TVY5dam5fPSOs0jwooHczq" />
             <Link Id="QwKW44hKTh2NzW4T7ZyRDU" Ids="MmqCnQqXzgbOR9JmowNJXv,HvWjLoYDX2xLyOuyWKJ7JE" />
             <Link Id="DKLV6DZlKptMl7gyxkttzz" Ids="BqXipanK2FeO0NWOrl8Fw0,EqnE9Cz98lZLgAkirYJ9Ug" />
-            <Link Id="VRuVc3ComNQM7twaAeI5pd" Ids="NUIoiYJAccDMW65ogzdtdq,TIg986pySwjPnT5C4GC1La" />
-            <Link Id="LTPzguvzLMfPYAv4mGFcFR" Ids="BqXipanK2FeO0NWOrl8Fw0,BNNUPBUVAlePWJHVoSbHNE" />
             <Patch Id="FnS50GIXw5yNu94r9SZNop" Name="Create" />
             <Patch Id="OgHOWwDOtmkPYrP6OatoBc" Name="Update">
               <Pin Id="EdyAyNumIfRPdut6J343En" Name="~Domain" Kind="InputPin" Bounds="1102,447" />
@@ -18116,7 +18015,10 @@
                   <Node Bounds="603,636,75,19" Id="NiLc4jb3QrBLDTqesMcLoe">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
                     <Pin Id="UZkXCdhgBLrMoqQOOl9fPa" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="IG19vEt1O2ZPF12wlZ6Why" Name="Input" Kind="InputPin" />
@@ -18228,23 +18130,6 @@
                 <Patch Id="TR6kVDgTtZ9PUdPUQ60laA" ManuallySortedPins="true">
                   <Patch Id="OQPYvoSmLOAOh5uneI5ZV5" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="VD5wwjlPlNXMje1Qa1B2aA" Name="Then" ManuallySortedPins="true" />
-                  <Node Bounds="233,462,64,19" Id="RrQZurv16KJLdjy0yrt3Dx">
-                    <p:NodeReference LastCategoryFullName="Fuse.Util" LastDependency="Fuse.Core.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="SetNodeID" />
-                    </p:NodeReference>
-                    <Pin Id="BFpMkix0umvPPoHBiHvrqz" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                    <Pin Id="Syv3aPGFtqKPjlfsw11OGB" Name="ID" Kind="InputPin" />
-                    <Pin Id="T1ObmMu2ZJDN9ShofKVaqa" Name="Input" Kind="InputPin" />
-                  </Node>
-                  <Node Bounds="233,423,86,19" Id="AL35NMYR2yhQCjHqte55Jd">
-                    <p:NodeReference LastCategoryFullName="Fuse.SDF.Operations.BoundingSDF" LastDependency="Fuse.SDF.vl">
-                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="Category" Name="BoundingSDF" />
-                      <Choice Kind="OperationCallFlag" Name="BoundingSDFID" />
-                    </p:NodeReference>
-                    <Pin Id="K3NRaThP5VVMdAI1B5yxSA" Name="Output" Kind="OutputPin" />
-                  </Node>
                   <Node Bounds="270,270,25,19" Id="G4cDEkvgQdPMVyjVMNH7d9">
                     <p:NodeReference LastCategoryFullName="Fuse.Math" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -18307,40 +18192,17 @@
               </Node>
               <ControlPoint Id="NGQADnipU65LyQmHrB3LTB" Bounds="218,148" />
               <ControlPoint Id="Ny0cutv5AVkQKA5tm00ukF" Bounds="202,572" />
-              <!--
-
-    ************************ BoundingSDFID (Internal) ************************
-
--->
-              <Node Name="BoundingSDFID (Internal)" Bounds="394,360,145,69" Id="F3v1SgJMZ0aPkdw3dqz3xj">
-                <p:NodeReference LastCategoryFullName="Primitive" LastDependency="builtin">
-                  <Choice Kind="OperationDefinition" Name="Operation" />
-                </p:NodeReference>
-                <Patch Id="IXIU92TKCosM567pC0tSnZ">
-                  <Pad Id="MPpqWolgMJUNYwlDndGhIL" Comment="" Bounds="410,388,58,15" ShowValueBox="true" isIOBox="true" Value="BoundingSDF">
-                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                      <Choice Kind="TypeFlag" Name="String" />
-                    </p:TypeAnnotation>
-                  </Pad>
-                  <ControlPoint Id="OcgWXhjKEXlOpO4QDvnOPU" Bounds="410,412" />
-                  <Link Id="DsP5pfH3cZ4MQUsSrC2pGS" Ids="MPpqWolgMJUNYwlDndGhIL,OcgWXhjKEXlOpO4QDvnOPU" />
-                  <Pin Id="OADZTAbrdZyM6B6ps7eCAh" Name="Output" Kind="OutputPin" Bounds="500,342" />
-                  <Link Id="CUkJvDJYocuMfv43gh2QQC" Ids="OcgWXhjKEXlOpO4QDvnOPU,OADZTAbrdZyM6B6ps7eCAh" IsHidden="true" />
-                </Patch>
-              </Node>
               <ControlPoint Id="L2cF1oEfKIhNe8EWhdPSvx" Bounds="240,170" />
             </Canvas>
             <ProcessDefinition Id="Enaepsdq0dtOAiUzUSz3Zb">
               <Fragment Id="P8CcCNDSM0HPAfLfGNRa0V" Patch="N2HsFaxZnF0Ms1oh2naMo2" Enabled="true" />
               <Fragment Id="Df97C855qiUQAlDw14woAG" Patch="VUyaah8Fb1GLqa6J8BTwkp" Enabled="true" />
-              <Fragment Id="FeVYD9OBlHROy36HgLt2B7" Patch="F3v1SgJMZ0aPkdw3dqz3xj" />
             </ProcessDefinition>
             <Link Id="SvD5a23twd6QSe4pJYUS9L" Ids="D37ALUUR4F5QZJ3tcIPIBC,TeJkmLRNUdpOJfPsMYANiZ" IsHidden="true" />
             <Link Id="NTn6QV32SxAN63NE3rHMAG" Ids="TeJkmLRNUdpOJfPsMYANiZ,T7FSiSXQSYHPtFRV6GVft1" />
             <Link Id="QdgU8jzLE4zNWpw1hfgv4I" Ids="HDQAHR4QwktLN3o6piaPT1,Ny0cutv5AVkQKA5tm00ukF" />
             <Link Id="TY6VqeulRUyNGmNO2hxafm" Ids="Ny0cutv5AVkQKA5tm00ukF,MFQo6aPcdfIPPua5VDP0T1" IsHidden="true" />
             <Link Id="UW4o8SsaycHNkoQk7EKGBK" Ids="NGQADnipU65LyQmHrB3LTB,MhEMifVOBf8PsajH2XwziY" />
-            <Link Id="Qt2oRcslg3fPBJoFMLhbBN" Ids="K3NRaThP5VVMdAI1B5yxSA,Syv3aPGFtqKPjlfsw11OGB" />
             <Link Id="PX0GyhkSvatOLGbc5oDDoa" Ids="Aup9cDV4MacNepxYLFmsOX,NGQADnipU65LyQmHrB3LTB" IsHidden="true" />
             <Link Id="MadDLrTPNSmPpcoyvWFeQp" Ids="KowMeq9pk1aMGwIp6PCKQu,L2cF1oEfKIhNe8EWhdPSvx" IsHidden="true" />
             <Link Id="SmqSM35j01LPReQ8F6Qh1i" Ids="L2cF1oEfKIhNe8EWhdPSvx,SvUFWfYSxiyNC9TwsHP0m1" />
@@ -18351,7 +18213,6 @@
             <Link Id="BkWkMg94tW1QPCB6DI8qYC" Ids="MhEMifVOBf8PsajH2XwziY,P5JLJUttu9hOTlZASff52y" />
             <Link Id="HdhNSpCdzq0LxxD1MI4ScJ" Ids="SvUFWfYSxiyNC9TwsHP0m1,Ec4Oi5ur7agLEBxOJWBFBb" />
             <Link Id="PajVOZIIGtnNHUECgcJjmx" Ids="AWMNsA4Z1RbPKyGgKybVyS,HDQAHR4QwktLN3o6piaPT1" />
-            <Link Id="Rlewc0ll0YHMZu20ntAh88" Ids="AWMNsA4Z1RbPKyGgKybVyS,T1ObmMu2ZJDN9ShofKVaqa" />
             <Link Id="AXmgIT10dGILtx3tD8JQle" Ids="P57c7uKt2uUODMlRGw7Xjc,QbN9xVVF4M4Mhs7xjsGlCZ" />
             <Link Id="FyfwrgkED7ROAOjonA6BZH" Ids="JYbMCp8PjEYNLtvUlsfny0,VDhwybrsrRMLcPol5NAPEB" />
             <Link Id="OAAIHhwGLXhNP7zGSBCFjU" Ids="DDGfodvhQqXOsOlNwzmwd8,Vbrr4rveibOMvr8rRuxP0Q" />
@@ -18658,7 +18519,10 @@
                   <Node Bounds="481,630,75,19" Id="Rzkir0LJeI5PfAooR7GBNb">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
                     <Pin Id="Pzlvjz9BQFnQWpl2NbqnS6" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="SJQpKTuQYH7Mlp5WQlFfpN" Name="Input" Kind="InputPin" />
@@ -18760,7 +18624,10 @@
               <Node Bounds="493,449,75,19" Id="JtDxTYBzDa9OSZBkNYgGHv">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                  <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                    <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                  </CategoryReference>
+                  <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                 </p:NodeReference>
                 <Pin Id="MF6sKsQLHjNOxhnbmGKrLg" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="NaxJIiql48nNBAgA3QQ93s" Name="Input" Kind="InputPin" />
@@ -23643,7 +23510,10 @@
                 <Node Bounds="240,841,75,19" Id="O1H4WqU7TidPnO6sx7GI8V">
                   <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                    <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                      <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                    </CategoryReference>
+                    <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                   </p:NodeReference>
                   <Pin Id="BPBMgjYth1uPDMLDp7rlMf" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="V4GUxXX2FlYQT9xVQ1jIih" Name="Input" Kind="InputPin" />
@@ -23905,7 +23775,10 @@
                 <Node Bounds="477,812,75,19" Id="Ec6JdYlIESQL0SwfSUlwdH">
                   <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                    <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                      <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                    </CategoryReference>
+                    <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                   </p:NodeReference>
                   <Pin Id="A4Nft6ZitO1QBBSHqNUkZu" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="CE8NhM7ybfAL79YairSmCA" Name="Input" Kind="InputPin" />
@@ -24074,7 +23947,10 @@
                   <Node Bounds="721,779,75,19" Id="Pv6wP5qbqdrMAvvlEEB5ZI">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
                     <Pin Id="IhDyvSyQe8gLt8acCGLTrX" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="TQY8zEfUlEkPaOBtw4byNt" Name="Input" Kind="InputPin" />
@@ -24245,23 +24121,12 @@
             <Pin Id="SvQPZKKOzodL1Wm0hGz9nL" Name="Output" Kind="OutputPin" />
             <ControlPoint Id="DaAgvDhtaw3N4FQR8tVHwl" Bounds="461,242" />
             <Link Id="QH3UY24vP85Li7C7HC3Blh" Ids="DaAgvDhtaw3N4FQR8tVHwl,SvQPZKKOzodL1Wm0hGz9nL" IsHidden="true" />
-            <Node Bounds="459,189,48,26" Id="LTzBlwdhF8jL0ZGhCPU574">
-              <p:NodeReference LastCategoryFullName="Fuse.Viewer.ViewerID" LastDependency="Fuse.Core.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <CategoryReference Kind="ClassType" Name="ViewerID" />
-                <Choice Kind="OperationCallFlag" Name="Create" />
-              </p:NodeReference>
-              <Pin Id="T3FrRrxl6dRMB8fYg1ZlUK" Name="Node Context" Kind="InputPin" IsHidden="true" />
-              <Pin Id="B3zI8g186o4LvtGeD0ZG8x" Name="ID" Kind="InputPin" />
-              <Pin Id="EtCjgkw4pBePQuEDs7c95S" Name="Output" Kind="StateOutputPin" />
-            </Node>
             <Pad Id="GSOs3US4C4WLhz33aCNKfa" Comment="ID" Bounds="461,171,78,15" ShowValueBox="true" isIOBox="true" Value="SDF2DViewerID">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <Link Id="Eo7VA3rvt4qOqLft8G7rrW" Ids="GSOs3US4C4WLhz33aCNKfa,B3zI8g186o4LvtGeD0ZG8x" />
-            <Link Id="G3rmC09HX7HOqThvt5YlRh" Ids="EtCjgkw4pBePQuEDs7c95S,DaAgvDhtaw3N4FQR8tVHwl" />
+            <Link Id="DAcWTeLQDQsLRBbeuVNqSq" Ids="GSOs3US4C4WLhz33aCNKfa,DaAgvDhtaw3N4FQR8tVHwl" />
           </Patch>
         </Node>
         <!--
@@ -24279,23 +24144,12 @@
             <Pin Id="UqM0sSSFgZENfXaZrjPFuS" Name="Output" Kind="OutputPin" />
             <ControlPoint Id="MjzST793rhqNQQlndu8oNb" Bounds="812,223" />
             <Link Id="EFdgAV231isPOpc5GBE2Nr" Ids="MjzST793rhqNQQlndu8oNb,UqM0sSSFgZENfXaZrjPFuS" IsHidden="true" />
-            <Node Bounds="810,175,48,26" Id="PObJWLx4mgDOzPeGJilc2h">
-              <p:NodeReference LastCategoryFullName="Fuse.Viewer.ViewerID" LastDependency="Fuse.Core.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <CategoryReference Kind="ClassType" Name="ViewerID" />
-                <Choice Kind="OperationCallFlag" Name="Create" />
-              </p:NodeReference>
-              <Pin Id="Hgcfr3APxXIM6kJ7cDjJUJ" Name="Node Context" Kind="InputPin" IsHidden="true" />
-              <Pin Id="EDc5EcPaYgPL0u0oYbmZNa" Name="ID" Kind="InputPin" />
-              <Pin Id="GQcZvnHlXBNOx1aKbwD7Mw" Name="Output" Kind="StateOutputPin" />
-            </Node>
             <Pad Id="Pp43cZrae8EMp0GngYxbAp" Comment="ID" Bounds="812,157,78,15" ShowValueBox="true" isIOBox="true" Value="SDF3DViewerID">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
             </Pad>
-            <Link Id="HbDQNFydAGAMUvaZxcFs82" Ids="Pp43cZrae8EMp0GngYxbAp,EDc5EcPaYgPL0u0oYbmZNa" />
-            <Link Id="VsTKgGPTWqlPUhZ6Ar7EVc" Ids="GQcZvnHlXBNOx1aKbwD7Mw,MjzST793rhqNQQlndu8oNb" />
+            <Link Id="LksreyxgysALeDs6vYMNdS" Ids="Pp43cZrae8EMp0GngYxbAp,MjzST793rhqNQQlndu8oNb" />
           </Patch>
         </Node>
         <!--

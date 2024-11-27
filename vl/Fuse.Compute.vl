@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="MmjJmOJpSi5MQ4PE76v2SF" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
-  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="MmjJmOJpSi5MQ4PE76v2SF" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
+  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
   <Patch Id="ALpqjXEf369Pnuk64gmWrV">
     <Canvas Id="V8HBoVZNCZmPvIQ0NbkFQ5" DefaultCategory="Fuse.Compute" CanvasType="FullCategory">
       <Canvas Id="ELWzy71RwdSLg6EYVb85ia" Name="Internal" Position="61,134">
@@ -30839,7 +30839,10 @@
                 <Node Bounds="642,603,75,19" Id="FCYgc67A590Lry6G4mGLkv">
                   <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="AddViewerID" />
+                    <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                      <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                    </CategoryReference>
+                    <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                   </p:NodeReference>
                   <Pin Id="Njh4QmzijigLhyHkn4kL6Q" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="TPZ9VACSCo7MwGvftupNRH" Name="Input" Kind="InputPin" />
@@ -49392,24 +49395,13 @@
         <Patch Id="BBTNLb0mmb8Pbs6aZpZ4FW">
           <ControlPoint Id="RPUIilx3DxhLoBIIpiKSFY" Bounds="1422,220" />
           <Link Id="HGEcgx0aaGcMjHQZ1UwoCp" Ids="RPUIilx3DxhLoBIIpiKSFY,RaHtiRRbI10Oqv2pa0U9HO" IsHidden="true" />
-          <Node Bounds="1420,172,48,26" Id="HsG9Pep6vJZLBvu8Zp10Iw">
-            <p:NodeReference LastCategoryFullName="Fuse.Viewer.ViewerID" LastDependency="Fuse.Core.vl">
-              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-              <CategoryReference Kind="ClassType" Name="ViewerID" />
-              <Choice Kind="OperationCallFlag" Name="Create" />
-            </p:NodeReference>
-            <Pin Id="VPIP1OciE76MvfinVDgEB4" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="JYdCd2CPp3sMBVpxRZwZCX" Name="ID" Kind="InputPin" />
-            <Pin Id="IImyfWZKw66LHqIel1TefM" Name="Output" Kind="StateOutputPin" />
-          </Node>
           <Pad Id="LYkfyVIuTStQIs0E4FSyej" Comment="ID" Bounds="1422,154,137,15" ShowValueBox="true" isIOBox="true" Value="TextureAttribute2DViewerID">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
           </Pad>
-          <Link Id="RFqzmAvjuLPMw3q87r2PQM" Ids="LYkfyVIuTStQIs0E4FSyej,JYdCd2CPp3sMBVpxRZwZCX" />
           <Pin Id="RaHtiRRbI10Oqv2pa0U9HO" Name="Output" Kind="OutputPin" />
-          <Link Id="FWlJLpRsQmCMVD2AeN5FIM" Ids="IImyfWZKw66LHqIel1TefM,RPUIilx3DxhLoBIIpiKSFY" />
+          <Link Id="DirsilhgxjeMpeMmbhUpw3" Ids="LYkfyVIuTStQIs0E4FSyej,RPUIilx3DxhLoBIIpiKSFY" />
         </Patch>
       </Node>
       <!--
@@ -50208,8 +50200,8 @@
   <DocumentDependency Id="D8q0vwsiUKdOoERnDUoBef" Location="./Fuse.Domain.vl" />
   <DocumentDependency Id="EWTqfY5EJYjMbUeIjqGgY2" Location="./Fuse.Draw.vl" />
   <NugetDependency Id="HdDLzLKkmiQNzN13tordiy" Location="VL.Fuse" Version="0.0.0.0" />
-  <NugetDependency Id="K1ivwIDhGncNI3oByJQZLt" Location="VL.Stride" Version="2024.6.7-0238-g79adbe39f9" />
-  <NugetDependency Id="FeMTrTYBJofOV4p6owmY6u" Location="VL.Stride.Runtime" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="K1ivwIDhGncNI3oByJQZLt" Location="VL.Stride" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="FeMTrTYBJofOV4p6owmY6u" Location="VL.Stride.Runtime" Version="2024.6.7-0235-g5172ef47fd" />
   <NugetDependency Id="QbMI0nsWNDtOu0R168jMwc" Location="VL.IO.PLY" Version="0.0.8-alpha" />
   <PlatformDependency Id="G7UGklUGdzROuhePKKYRia" Location="../lib/net8.0/Fuse.dll" />
 </Document>
