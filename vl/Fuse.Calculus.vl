@@ -964,8 +964,12 @@
                       <Node Bounds="565,753,75,19" Id="EiG7Qj7xXr2PyrFJRgo8NR">
                         <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                          <Choice Kind="OperationCallFlag" Name="AddViewerID" />
+                          <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                            <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                          </CategoryReference>
+                          <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                         </p:NodeReference>
+                        <Pin Id="PRoRjxE8oRIOctsCivrnwo" Name="Node Context" Kind="InputPin" IsHidden="true" />
                         <Pin Id="MpTwtx0Cx2gOuUHwX0WKIg" Name="Input" Kind="InputPin" />
                         <Pin Id="IwpfuHdaGZENN9E2ae6wTa" Name="Viewer ID" Kind="InputPin" />
                       </Node>
@@ -2730,8 +2734,12 @@
                   <Node Bounds="548,526,75,19" Id="SJyQD5hymSvM44wgqPPXNw">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
+                    <Pin Id="MXxq8k6Fu4KLTWqWz1mwnK" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="OfNqIEvwI2iOGqxPxhcMGv" Name="Input" Kind="InputPin" />
                     <Pin Id="SQW2y0aJaSyNUCiqFJR4wW" Name="Viewer ID" Kind="InputPin" />
                   </Node>
@@ -5430,23 +5438,12 @@
               <Pin Id="NRwPWAuMC4pNPspOvXLWab" Name="Output" Kind="OutputPin" />
               <ControlPoint Id="NF2VW6uy3BjLS1DEiTxtFt" Bounds="370,420" />
               <Link Id="UYiZvIEqcwJQQj2fzWdHXs" Ids="NF2VW6uy3BjLS1DEiTxtFt,NRwPWAuMC4pNPspOvXLWab" IsHidden="true" />
-              <Node Bounds="368,367,48,26" Id="HbBp8Lp6nsoLwfvO92zE9b">
-                <p:NodeReference LastCategoryFullName="Fuse.Viewer.ViewerID" LastDependency="Fuse.Core.vl">
-                  <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <CategoryReference Kind="ClassType" Name="ViewerID" />
-                  <Choice Kind="OperationCallFlag" Name="Create" />
-                </p:NodeReference>
-                <Pin Id="UozJHrbeguEOsiLMgbwzj0" Name="Node Context" Kind="InputPin" IsHidden="true" />
-                <Pin Id="UcP0GmpeKHHQK36PXamskJ" Name="ID" Kind="InputPin" />
-                <Pin Id="NI0posdjZ6nMq4UPECm5bI" Name="Output" Kind="StateOutputPin" />
-              </Node>
               <Pad Id="QWMgbQYCmWsOPPAOMHtLV3" Comment="ID" Bounds="370,349,78,15" ShowValueBox="true" isIOBox="true" Value="VF2DViewerID">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
               </Pad>
-              <Link Id="Gx0sRhk5CblPPZX6rTJuG0" Ids="QWMgbQYCmWsOPPAOMHtLV3,UcP0GmpeKHHQK36PXamskJ" />
-              <Link Id="ENU6NyexFgfMpnZdLOLiGx" Ids="NI0posdjZ6nMq4UPECm5bI,NF2VW6uy3BjLS1DEiTxtFt" />
+              <Link Id="H1i28mIN9ACOT2q9x4pzpK" Ids="QWMgbQYCmWsOPPAOMHtLV3,NF2VW6uy3BjLS1DEiTxtFt" />
             </Patch>
           </Node>
         </Canvas>
@@ -5844,8 +5841,9 @@
                     <Node Bounds="634,1055,75,19" Id="Rr5eaIGAvG0M11vpIEglqS">
                       <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <Choice Kind="OperationCallFlag" Name="AddViewerID" />
+                        <Choice Kind="ProcessAppFlag" Name="SetViewerId" />
                       </p:NodeReference>
+                      <Pin Id="J7RN2oZRwSjPbE3UsPM4c8" Name="Node Context" Kind="InputPin" IsHidden="true" />
                       <Pin Id="C369Y84bxYOMKvYlvhBG11" Name="Input" Kind="InputPin" />
                       <Pin Id="FK2CpyzIWhIPYa78iPLzfk" Name="Viewer ID" Kind="InputPin" />
                     </Node>

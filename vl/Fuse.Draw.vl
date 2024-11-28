@@ -17145,8 +17145,12 @@
                   <Node Bounds="576,1017,75,19" Id="FT9IFT5BVz5MD5Ca1C6S3H">
                     <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <Choice Kind="OperationCallFlag" Name="AddViewerID" />
+                      <CategoryReference Kind="Category" Name="Viewer" NeedsToBeDirectParent="true">
+                        <p:OuterCategoryReference Kind="Category" Name="Fuse" NeedsToBeDirectParent="true" />
+                      </CategoryReference>
+                      <Choice Kind="ProcessAppFlag" Name="SetViewerID" />
                     </p:NodeReference>
+                    <Pin Id="SvRfXpjGoCRN3bgHRmSQHK" Name="Node Context" Kind="InputPin" IsHidden="true" />
                     <Pin Id="CDaJ3LoPMp8Ovjj4dbcSEi" Name="Input" Kind="InputPin" />
                     <Pin Id="GgjhgMpwWgmO79t6fkrEYD" Name="Viewer ID" Kind="InputPin" />
                   </Node>
@@ -20018,7 +20022,7 @@
           <Choice Kind="TypeFlag" Name="WithRenderTargetsAndViewPort" />
         </p:TypeAnnotation>
         <Patch Id="QSeMJplXqQDP4bk7POdV4X">
-          <Canvas Id="IeNqjRf4clKNiOCBH5Ncym" BordersChecked="false" CanvasType="Group" />
+          <Canvas Id="IeNqjRf4clKNiOCBH5Ncym" CanvasType="Group" />
           <ProcessDefinition Id="Ep6xhHBX3dvPatR5uM823n" IsHidden="true" />
         </Patch>
       </Node>
