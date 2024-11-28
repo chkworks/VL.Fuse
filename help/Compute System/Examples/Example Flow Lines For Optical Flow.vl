@@ -111,7 +111,7 @@
               <Choice Kind="ProcessAppFlag" Name="HelpWindow (3D View)" />
             </p:NodeReference>
             <Pin Id="PkKOGnSQaGlQQwFBuW2sFl" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="VjIFcTiKyrmNgNUSreatpp" Name="Bounds" Kind="InputPin" DefaultValue="4186, 391, 1114, 988" />
+            <Pin Id="VjIFcTiKyrmNgNUSreatpp" Name="Bounds" Kind="InputPin" DefaultValue="1319, 589, 1114, 988" />
             <Pin Id="GujPwfwTeTmOnG8EW2J0w8" Name="Scene" Kind="InputPin" />
             <Pin Id="SfvZlkp5zevM95HdeypLmh" Name="Camera" Kind="InputPin" />
             <Pin Id="RJMRouhwUTHMrlyMNxvsSb" Name="PostFX Enabled" Kind="InputPin" DefaultValue="True" />
