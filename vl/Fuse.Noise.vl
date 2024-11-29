@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="BD5SkdCtTw9Of2E3NBk27x" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
-  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="BD5SkdCtTw9Of2E3NBk27x" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
+  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
   <Patch Id="ALpqjXEf369Pnuk64gmWrV">
     <Canvas Id="V8HBoVZNCZmPvIQ0NbkFQ5" DefaultCategory="Fuse.Noise" CanvasType="FullCategory">
       <!--
@@ -237,6 +237,7 @@
               <Pin Id="S36my6Z4ERLONXb2pq8O3B" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="EVQjI1LLcTDM4C8DUpUOzY" Name="Input" Kind="InputPin" />
               <Pin Id="JoepOLRgMrENp0ik4JaKYA" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="JuHvjzgm5sKMeeqEthqEGK" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="415,383,138,19" Id="RfgaWYY6HtYM6OrMFRBFlY">
               <p:NodeReference LastCategoryFullName="Fuse.Domain.2D" LastDependency="Fuse.Domain.vl">
@@ -415,6 +416,7 @@
               <Pin Id="BfRdNX7ftYpNQhrGZYAG6a" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="FGkS5vkpu2nP3tgycjEHlT" Name="Input" Kind="InputPin" />
               <Pin Id="NiHhvLOyZfvNPf0YuWtr8i" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="LJ3lq2Y7sLFNUqoHXwd3Pv" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="436,400,138,19" Id="QbvkS1mM2CMMNSua3tX9sk">
               <p:NodeReference LastCategoryFullName="Fuse.Domain.2D" LastDependency="Fuse.Domain.vl">
@@ -564,6 +566,7 @@
               <Pin Id="O5YptFpVk4eOPtXEiXY58k" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="QozDnyuaIIsLmtt5YXTBz1" Name="Input" Kind="InputPin" />
               <Pin Id="NuBIWaJMnmMOAnpIlk5Sp9" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="DrSsdlDEDzvPcrn8w9CpGn" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="319,352,138,19" Id="CXXPpaTTF2DOtrzOzJepbx">
               <p:NodeReference LastCategoryFullName="Fuse.Domain.3D" LastDependency="Fuse.Domain.vl">
@@ -721,6 +724,7 @@
               <Pin Id="PSeuh7xmfIeQPl4Bgg5LOv" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="Olio1x2uxe0LIvAi5qvRMh" Name="Input" Kind="InputPin" />
               <Pin Id="Jbh4ZxrGAGvMB87GSc8Sks" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="C6k5rgv0jp2LdfG7Svwyf5" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="215,396,138,19" Id="BmIphOWWzobLWxqHJEAj6h">
               <p:NodeReference LastCategoryFullName="Fuse.Domain.3D" LastDependency="Fuse.Domain.vl">
@@ -1042,6 +1046,7 @@
                   <Pin Id="LeyEF7KSZlFQDOsQP5uAGW" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="Om3CXfg6DE3QMz1PbXejsZ" Name="Input" Kind="InputPin" />
                   <Pin Id="D2RjKQbiAwPM2bHYgeuVzi" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="JUWZRrt9bKrPXmNZ6D8WjK" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="438,1217,75,19" Id="OZHTqyRzg4CMfSNXmWG3Fz">
                   <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -1054,6 +1059,7 @@
                   <Pin Id="EpRBZXr6bhcOc3fjhnVjSm" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="TMK4mBzTmPSN3cuCPQ2Av0" Name="Input" Kind="InputPin" />
                   <Pin Id="EpOeX4VhJIwMEy8nejFUBh" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="IYXYrqncvjBPdIyF4FUfw3" Name="Output" Kind="OutputPin" />
                 </Node>
                 <ControlPoint Id="GBMfk01awU1LJlRickpO4l" Bounds="573,1127" />
                 <ControlPoint Id="LWsGW8kkEQ4MTcDz0FH2gq" Bounds="439,1129" />
@@ -1298,6 +1304,7 @@
                   <Pin Id="B2hczyMLpToPTWSFk1gCUy" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="NcqG2XAX1roQNOn41grUWM" Name="Input" Kind="InputPin" />
                   <Pin Id="G9evRT0NbfiMvjZLF5yLPz" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="O87reVGCalyPTTXAMZAtKo" Name="Output" Kind="OutputPin" />
                 </Node>
                 <ControlPoint Id="CkaL0bUtTAGNZlHGHvaCkb" Bounds="380,637" />
               </Patch>
@@ -1566,6 +1573,7 @@
               <Pin Id="MRNBGDBhKGJP4Wa6B3RMUi" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="EvsIp8c4GvOMj5CVhfG93Q" Name="Input" Kind="InputPin" />
               <Pin Id="R8VcW2wibZXOggGunLdNwi" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="FHhhB7TX7fDMebrKKEaLuh" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="455,503,138,19" Id="A0ijthKMxXZNoQOV8nBanT">
               <p:NodeReference LastCategoryFullName="Fuse.Domain" LastDependency="Fuse.Domain.vl">
@@ -1727,6 +1735,7 @@
               <Pin Id="SADbgdyrAClQINcIrfj1Vz" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="EeAi54Pxm5yMWYLr2w7iBV" Name="Input" Kind="InputPin" />
               <Pin Id="R3v9NU02S2gOovegRza265" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="EHhhpZvFbWiQC7V6pUUSHH" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="306,435,138,19" Id="Kl1V5xKkIIRLTQOytu56KM">
               <p:NodeReference LastCategoryFullName="Fuse.Domain" LastDependency="Fuse.Domain.vl">
@@ -1746,6 +1755,7 @@
               <Pin Id="RJn2mQ8lWLzPX9a3CIMJt4" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="AbRhxeNaDBENdC1GSjM2Vy" Name="Input" Kind="InputPin" />
               <Pin Id="MXwvlOSRrIaNeXdUX3uVl4" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="MovWmc59klSPLlpIj8kXdZ" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="122,587,75,19" Id="QyJrYgDQMcYQaP3BbGD7jQ">
               <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -1758,6 +1768,7 @@
               <Pin Id="NFZP0RSwpK1Pgy5L5RVOyU" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="HUsjzvKKkQpPFA5c570HNq" Name="Input" Kind="InputPin" />
               <Pin Id="P3Y1z3w4dI9QbxAr91sbSW" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="OuQJk9sno64QHzgGem7cg3" Name="Output" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="KDih7VJ0UaWLazO6mOHWIM" Bounds="163,125" />
             <ControlPoint Id="DQuyaYMyGvaNHL4POlE1rC" Bounds="183,141" />
@@ -1782,6 +1793,7 @@
               <Pin Id="Pq5NAooZUPgOVO3aHyV504" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="E9m8paEM3nYMauXx32Z1ue" Name="Input" Kind="InputPin" />
               <Pin Id="KP9pqNGSXsML6M3IA1chyY" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="O7am7RACslZLCc9fqwrm01" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="122,699,75,19" Id="RvtxpTz2WdLMnMEdElmzsB">
               <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -1794,6 +1806,7 @@
               <Pin Id="HVtgSH4qfEEN9j666uow54" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="TZ8N0qvylx1QUhuZhFVJvD" Name="Input" Kind="InputPin" />
               <Pin Id="GLlnqviPnxMPa5C2NiEHeu" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="S3U37nsAeG9NzhdVMFKYag" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="122,755,75,19" Id="Mnnr1m9aynRMZhjGsoaGwy">
               <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -1806,6 +1819,7 @@
               <Pin Id="KHddJGEbsh4Msos8S2asGv" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="TyjTvt5AoexLsM2apFs2kc" Name="Input" Kind="InputPin" />
               <Pin Id="QPXXjA5xoefNGfSJZWwpIq" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="E9l7kLpyE6TMZHdmNPnxAj" Name="Output" Kind="OutputPin" />
             </Node>
           </Canvas>
           <ProcessDefinition Id="E8SnIt0VcedLMkbhknjxzr">
@@ -1976,6 +1990,7 @@
               <Pin Id="P181QGfpcBtN1PvCW3Z51R" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="K5WKXzJMcRxMLR4Yx3MKTR" Name="Input" Kind="InputPin" />
               <Pin Id="J4Gl3fN1VmxPy3B5JmXGFN" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="I7u5zHXHRrJMh6w7KPKY91" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="203,586,75,19" Id="H4FSmQgvnnzMd2cywhMtP8">
               <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -1988,6 +2003,7 @@
               <Pin Id="VTinz4zVitXMUieL7MyUEk" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="MFMZTwVmRbUNjXVRWn6rEX" Name="Input" Kind="InputPin" />
               <Pin Id="EkOhZTB1ayBOYTWZVmT4el" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="Iw7TspkJc3tQcLJBAU5441" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="203,642,75,19" Id="JEzoCLLl24yLlyG60VQffs">
               <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -2000,6 +2016,7 @@
               <Pin Id="BFTO51TE7fiNxHm0nDQRfy" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="LuGGYZcBVmoPx6xt8WdU8n" Name="Input" Kind="InputPin" />
               <Pin Id="H1vhOsD3ARtOvnBUIxyfJm" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="PW8KAY6yGEqNHaI7xsFzh2" Name="Output" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="VfDUhmto7mYPOUe60eAMnH" Bounds="244,180" />
             <ControlPoint Id="ELEt6TY1SjGNYptJYrfpjg" Bounds="264,196" />
@@ -2024,6 +2041,7 @@
               <Pin Id="CPxFRJjgKeLP24qjGtpGRa" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="VCBIEXstfV4O0TIBx0ZGjb" Name="Input" Kind="InputPin" />
               <Pin Id="KlGttqdOdIIPOauPnFFhWz" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="Q5EPGNN5k3APICGiyBP7oC" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="203,754,75,19" Id="Cs1RLxZHOOzPRHowMdVUa0">
               <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -2036,6 +2054,7 @@
               <Pin Id="Az8Y0K145laLYz3uId1EvJ" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="N1q0YOc8Et3PMeNfgz8YDw" Name="Input" Kind="InputPin" />
               <Pin Id="F8bBfDLFBQAQRYRITBN7CO" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="TVKYpj1JoHJOYRmXYEKEJF" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="203,810,75,19" Id="VK4lJtkhmFcL1c4qBVO6xm">
               <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -2048,6 +2067,7 @@
               <Pin Id="MZz86gSKsFPLvrWzQtqzZT" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="Q38IezEm0qWNDMsDi2vMw3" Name="Input" Kind="InputPin" />
               <Pin Id="FQBJ6QZq3RROGhwulbFMh3" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="E4Xku1yJNvBPFyRz8cj2jF" Name="Output" Kind="OutputPin" />
             </Node>
           </Canvas>
           <ProcessDefinition Id="Lrr9x8TLAAqOUgEMjX2XkP">
@@ -2218,6 +2238,7 @@
               <Pin Id="OWdEXoDF0PRNV0koEhvqOW" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="JItwAsDDJrpM7U19Izujcq" Name="Input" Kind="InputPin" />
               <Pin Id="D9As83LbMM7Ly1PBQuNTwQ" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="LF7tGfmAuleN4BcY1ru0fU" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="159,593,75,19" Id="O4s0UqKo2qeMtAZPURik7m">
               <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -2230,6 +2251,7 @@
               <Pin Id="ITc9rE3A9IuO5UNEElbfoq" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="CC4OQ7HXGYCPsKhNwIEeGK" Name="Input" Kind="InputPin" />
               <Pin Id="EZZmGhjxtWxLdsnNj95aHF" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="HprftSkRjrYN4LvxPTWWBc" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="159,649,75,19" Id="BDmAmoLXD84N5C8UOSRiQS">
               <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -2242,6 +2264,7 @@
               <Pin Id="RU63iu977ZaOkhh0qQMSfh" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="LVIjXe2JV7KOOzeXCv8YQz" Name="Input" Kind="InputPin" />
               <Pin Id="AvDHfoGZqTyO34JTDulb9e" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="RzMWsOAjHY5PpocGArYjce" Name="Output" Kind="OutputPin" />
             </Node>
             <ControlPoint Id="D8l6Ni7ryE3NmuCkoNBAzZ" Bounds="200,187" />
             <ControlPoint Id="Lz5mKPV4yBLQTjBWjeLoIO" Bounds="220,203" />
@@ -2266,6 +2289,7 @@
               <Pin Id="TfOvWyQ76e0P8h0QkSqaJV" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="HRtraD6mxSdMPhCJmxqOcU" Name="Input" Kind="InputPin" />
               <Pin Id="Jt9kZaqkiBINtMbSayhmdn" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="CP0aWGZBoSIPKq3wFeF39G" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="159,761,75,19" Id="L2UNRDs0tAXQZYFU5e1XwZ">
               <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -2278,6 +2302,7 @@
               <Pin Id="ElipD3fW0okLhinJFQ7tdY" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="Ss9L20REPr2QNJdfOWQDfD" Name="Input" Kind="InputPin" />
               <Pin Id="QxrQZ3ktOw6M1oIp7hb8Li" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="QxITBznPKPqPwl5rmpv2av" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="159,817,75,19" Id="JTLgS9wYuB2Pt0oCZ2rpgm">
               <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -2290,6 +2315,7 @@
               <Pin Id="KkjQ2ScqykXOgXPLyIilaP" Name="Node Context" Kind="InputPin" IsHidden="true" />
               <Pin Id="HlwFzuOZOe1QdqziPbct8E" Name="Input" Kind="InputPin" />
               <Pin Id="JvH0DCtHjr8PkwQgkNAkyR" Name="Viewer ID" Kind="InputPin" />
+              <Pin Id="B4OWoZXDDUuPhIQlDWRF2S" Name="Output" Kind="OutputPin" />
             </Node>
           </Canvas>
           <ProcessDefinition Id="DFLQdomlBskMoX9VD3jv41">
@@ -3949,6 +3975,7 @@
                   <Pin Id="Aa1LBkjVWRRLeexv4XZATS" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="ImuyRr5pCprNZ6YFcUuPVM" Name="Input" Kind="InputPin" />
                   <Pin Id="H1TibMS3S7TOH09GlJ8PD4" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="FddUL8HUioFLBYC8qRsdoj" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="739,418,126,19" Id="HdD9yklt9kyOS57m8HdUfS">
                   <p:NodeReference LastCategoryFullName="Fuse.Domain.Viewer" LastDependency="Fuse.Domain.vl">
@@ -3970,6 +3997,7 @@
                   <Pin Id="HiYKHdTnNEALUBTJ2pYAOv" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="DjdSnCAJB1zPgcqKXxrZuz" Name="Input" Kind="InputPin" />
                   <Pin Id="BnZQO3cnnztOSw9yUKHtAS" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="JvoU4w0VAfyMtOQzXyK3uY" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="505,637,130,19" Id="UagDY5wEw69QIvvT2clX4Y">
                   <p:NodeReference LastCategoryFullName="Fuse.Math" LastDependency="Fuse.Core.vl">
@@ -5546,6 +5574,7 @@
                 <Pin Id="R0lckMfeIPKMaDC7EAbuue" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="FpypB8IAWybNUl2QPSSe8X" Name="Input" Kind="InputPin" />
                 <Pin Id="L1D3LZmpv29LZIdTSKDC4Y" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="SYLwBqCQ7LRQIY5K9dnY84" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="639,490,138,19" Id="Mtptx9tqY2tMmRzWRncAWR">
                 <p:NodeReference LastCategoryFullName="Fuse.Domain" LastDependency="Fuse.Domain.vl">
@@ -5565,6 +5594,7 @@
                 <Pin Id="Jcg8V6LTYsmN1TeWXC0SER" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="NMTvdPWAnKGNPWmQ5NfFyC" Name="Input" Kind="InputPin" />
                 <Pin Id="Nr2biVwED9zPYNCiPH6pCj" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="K6LMkE1W76rPKqDlSgc4vG" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="638,570,138,19" Id="Qtr1eJdLsycMuMz3uRrjVu">
                 <p:NodeReference LastCategoryFullName="Fuse.Domain" LastDependency="Fuse.Domain.vl">
@@ -5584,6 +5614,7 @@
                 <Pin Id="LPMPauoQQwmNJ3xuuE6alL" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="EhQUo9QatQpO3RUwQzeJmz" Name="Input" Kind="InputPin" />
                 <Pin Id="Ae5DcFb758mOLeIATQ2mwN" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="FXY62jVxeL3Myhc55mH5ve" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="638,651,138,19" Id="LId6b04HvQfOaPRMkTd92x">
                 <p:NodeReference LastCategoryFullName="Fuse.Domain" LastDependency="Fuse.Domain.vl">
@@ -5749,6 +5780,7 @@
                 <Pin Id="PdWAbFCAsBTLFwCsG1PADj" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="MgW9XTWA4EtPWNXIYnMkHc" Name="Input" Kind="InputPin" />
                 <Pin Id="SMhl5iLbvE4NWI5fSPqTbq" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="Mkdaipajqj3MQiCZdAHHtn" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="593,484,138,19" Id="DuhRNhl0uFFNRLt87lyTpu">
                 <p:NodeReference LastCategoryFullName="Fuse.Domain.2D" LastDependency="Fuse.Domain.vl">
@@ -5768,6 +5800,7 @@
                 <Pin Id="PSVrfLBu2gwQNigaoMEvD3" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="NSTPu61y59ZMsjM4PwFHZj" Name="Input" Kind="InputPin" />
                 <Pin Id="A4u7H0qs1OQLDGjBXvUvjK" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="UYQoHKd5fJVM4x8k4GnyX3" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="596,569,138,19" Id="Jb7kRLDGSEgOtEpBWCkH5V">
                 <p:NodeReference LastCategoryFullName="Fuse.Domain.2D" LastDependency="Fuse.Domain.vl">
@@ -5787,6 +5820,7 @@
                 <Pin Id="EAT4GxLJk1SMMh5xZeOzO4" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="T0UUompabw6Oo8RM2mPX5Y" Name="Input" Kind="InputPin" />
                 <Pin Id="MM9SnrL2kNxN19rxXsV5m3" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="P1sP2DTZkfzM2Pe6EmTqKs" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="592,660,138,19" Id="KU9RIMzjbHQNvLFQ8pjkqB">
                 <p:NodeReference LastCategoryFullName="Fuse.Domain.2D" LastDependency="Fuse.Domain.vl">
@@ -5932,6 +5966,7 @@
                 <Pin Id="Q3HNYI6fR08LBclykEDWhh" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="NCbjjdtNP5yOtgI3pCY1j9" Name="Input" Kind="InputPin" />
                 <Pin Id="TeEFiQ9ZPhKQWWDbZfJzIg" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="PfKBqqk5CxwQLSM5dHLHkd" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="648,549,138,19" Id="KSsCkqTZX4tLuQmvrno9AX">
                 <p:NodeReference LastCategoryFullName="Fuse.Domain.3D" LastDependency="Fuse.Domain.vl">
@@ -5951,6 +5986,7 @@
                 <Pin Id="HN62tcheZAHL77KYYAPsu9" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Kn1ICITOxyqM9M1uuGQMDt" Name="Input" Kind="InputPin" />
                 <Pin Id="QgZl13EfmnUPE9TNXpoCxd" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="DCnWp9a4oluNi5pZ4pXfcy" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="649,624,138,19" Id="Oo0uNd5AlW1OK8Mv86GcEA">
                 <p:NodeReference LastCategoryFullName="Fuse.Domain.3D" LastDependency="Fuse.Domain.vl">
@@ -5970,6 +6006,7 @@
                 <Pin Id="KB4hP3nqWajN6LqXltsjby" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="RIcIw63M7z5O6m4IquZohY" Name="Input" Kind="InputPin" />
                 <Pin Id="SG61M2dQxatOZ6tVtIoVba" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="UphpcNXMqn5MHEmb6yp9mw" Name="Output" Kind="OutputPin" />
               </Node>
             </Canvas>
             <ProcessDefinition Id="SOsrxTOgFk5N0fzVaWLy1x">
@@ -6622,6 +6659,7 @@
                 <Pin Id="Q26sX7501dWOCoCoCEkrVc" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="HD4OVEocLDEQOsZj5cYfk0" Name="Input" Kind="InputPin" />
                 <Pin Id="GO4xMFWDxJwP3KqBHun2Oz" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="AXcojIaDoSFOr60qR9GjGv" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="399,270,138,19" Id="UoohOk8v7KuPfXBt2kFeyv">
                 <p:NodeReference LastCategoryFullName="Fuse.Domain" LastDependency="Fuse.Domain.vl">
@@ -6641,6 +6679,7 @@
                 <Pin Id="MpJRMFmERYZPbGSokZy7ef" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="BbrvxihgDPGLbKymYGEtCi" Name="Input" Kind="InputPin" />
                 <Pin Id="IUpaV5l01jrQccwBY0k9eU" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="FzeRik684ddN0jkFS97liV" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="329,389,75,19" Id="A3nXQsZUPVENTV6kMTyLaV">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -6653,6 +6692,7 @@
                 <Pin Id="NIcTSlvxhUjNEvyC9BqDPm" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Q14D0D5xpvgMgb6C0S8QvE" Name="Input" Kind="InputPin" />
                 <Pin Id="EWB5PHoB5CONjIXBSY5TR1" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="VdSD5KEmrlYMx1hq1hfHpe" Name="Output" Kind="OutputPin" />
               </Node>
               <Pad Id="LnX3mHWMwaWQPHKodoWJna" Comment="" Bounds="401,310" isIOBox="true" />
               <Node Bounds="330,412,75,19" Id="CCMCH1n7bt9PMn8H4jwDh5">
@@ -6666,6 +6706,7 @@
                 <Pin Id="TGY0mut9qlEPoxvIdOrFbt" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="J1CM9vteRXwOaNqtV8NAvT" Name="Input" Kind="InputPin" />
                 <Pin Id="TijrOnKiHGBMecw8hL8b55" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="U7ITOpPCihELtMcUh3LoEO" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="330,438,75,19" Id="Thu3Hh3EPbYO0jAMiAaZwy">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -6678,6 +6719,7 @@
                 <Pin Id="Q0eQVKwh9R4P9YmmjnU4X7" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="AiGmsfVit6nPWO7I9OfbND" Name="Input" Kind="InputPin" />
                 <Pin Id="V3YakryHcaAPaDXM2wrGbm" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="Hg4BUNojFMFO8ka6LmAEOm" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="330,464,75,19" Id="UYTpTSn5ZVnLly3y8F15bt">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -6690,6 +6732,7 @@
                 <Pin Id="GHcITpdziQONoptKPF6sGJ" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Njkf72ycgpWPjcAyT7Wvxf" Name="Input" Kind="InputPin" />
                 <Pin Id="VJ4Rsijb94yM7iqJ8x12cO" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="K3FbdvP9aIBNngpzU1hYk9" Name="Output" Kind="OutputPin" />
               </Node>
             </Canvas>
             <ProcessDefinition Id="SgkK8HdFmkwOzblcYakWTH">
@@ -6858,6 +6901,7 @@
                 <Pin Id="Ohdnu8cNbtZLwWVDmsInqw" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="O4HRMIEVZHgL1htrFE7VYE" Name="Input" Kind="InputPin" />
                 <Pin Id="BnFvzV9aQejMDhSaPUsP7r" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="A9BAPkF0xW4OLTsndIr4uE" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="304,285,138,19" Id="GbXOAjCxlSmPT1jjtoF6F1">
                 <p:NodeReference LastCategoryFullName="Fuse.Domain.2D" LastDependency="Fuse.Domain.vl">
@@ -6877,6 +6921,7 @@
                 <Pin Id="LKVMeAcLx4FLvS4nIasd9C" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Ci8UJp4HyQ2LwHZbRTIhmc" Name="Input" Kind="InputPin" />
                 <Pin Id="PNuosp5wCJeLDkQcTaNnCf" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="TxjlnsndpJwLB6euAAwU7o" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="234,404,75,19" Id="GfiMEY79xb5O8RIPYaoTWo">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -6889,6 +6934,7 @@
                 <Pin Id="LWB2f2gnPFSOnsC6saWrIz" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="MtPXlRyVpfGMXChhdgqCPC" Name="Input" Kind="InputPin" />
                 <Pin Id="HqIuzhBIdejOd7chcTNVVp" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="Igp9a2L06EROYbwYlyQtpg" Name="Output" Kind="OutputPin" />
               </Node>
               <Pad Id="MeZ8MtzmxIvORA1mLS4jYY" Comment="" Bounds="306,325" isIOBox="true" />
               <Node Bounds="235,427,75,19" Id="Buq0XLzDTnNO5fyW75AYGY">
@@ -6902,6 +6948,7 @@
                 <Pin Id="H8ZPdNRCCt3LQ3XgtIJOV9" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TAkQsxerTjeLXRazsjesMR" Name="Input" Kind="InputPin" />
                 <Pin Id="S9R18fpR4sRMBmoTDgxXez" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="EPlBeguP6lEQarZpPhgkwJ" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="235,453,75,19" Id="K9ee4T1U2VCPTCKzyOG6gY">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -6914,6 +6961,7 @@
                 <Pin Id="SevgBVypZrGO0x4yzlIq0C" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="KGgNzKZuEljNLLjytoJpDR" Name="Input" Kind="InputPin" />
                 <Pin Id="G0GPuY88N2bNF9xSJdFoYC" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="Gzp7g90MrYOQKGTWyjK534" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="235,479,75,19" Id="IimqzMGwj4ENS0NHUuVjsg">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -6926,6 +6974,7 @@
                 <Pin Id="Elq0MYtLVe6QdO5PtgscB3" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Px2GgBO7y0CLtblcnoUL6E" Name="Input" Kind="InputPin" />
                 <Pin Id="Dwo3f5Ad8VINHyLjFJJ5Ft" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="F53UC5nD8GnO1NeBKKsrzR" Name="Output" Kind="OutputPin" />
               </Node>
             </Canvas>
             <ProcessDefinition Id="KQzjVMBty8NPfC1YpErxIn">
@@ -7114,6 +7163,7 @@
                 <Pin Id="Ld0TfWki40cNvs7P0YdJmx" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Mevtb8wFrEEQGpuawenEID" Name="Input" Kind="InputPin" />
                 <Pin Id="E6jOj5Wg7BWNrVP9YusAd5" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="HC5jDfBAlZxQaeqClJp7Mf" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="352,439,138,19" Id="RvyQaIiB4kTPb5REQC8yQa">
                 <p:NodeReference LastCategoryFullName="Fuse.Domain.3D" LastDependency="Fuse.Domain.vl">
@@ -7133,6 +7183,7 @@
                 <Pin Id="DtuYFaUvfUnNhH4KCLxaMp" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="GQjgeOW0OOqM4qy0ZwGl9k" Name="Input" Kind="InputPin" />
                 <Pin Id="A6dK10bs2WTOB4NVjO3M5r" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="Cjz2HG51lHZLkzYxx5s835" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="282,558,75,19" Id="PUIRcOme8NBPKnkfbsHhQZ">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -7145,6 +7196,7 @@
                 <Pin Id="SICCLZWHBe9McDy8lweBv3" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TeZAbvhp9fxP7KD8gxg8IV" Name="Input" Kind="InputPin" />
                 <Pin Id="KJ37jUDSypxQAY57ZqJnQL" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="FT8Tvl6TB0KLeK8u25cLpk" Name="Output" Kind="OutputPin" />
               </Node>
               <Pad Id="HaFZWr22vmHOQtlqnljGMg" Comment="" Bounds="354,479" isIOBox="true" />
               <Node Bounds="283,581,75,19" Id="UyoOSKUxe9SLyAulBRGxQ4">
@@ -7158,6 +7210,7 @@
                 <Pin Id="EdNmw0ZOpINMspnUKxDhfF" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="N1kuv5ubKB4PmuyyfVYO3i" Name="Input" Kind="InputPin" />
                 <Pin Id="U4x8DUK5IZGLkuj6FDB2Fm" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="U4zdSZLYPFEOt4AIliiAna" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="283,607,75,19" Id="S4fH34v2VesMRuHJjnkLGr">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -7170,6 +7223,7 @@
                 <Pin Id="KtGCrTlVGyELpTZZuocWZ0" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="S2v56EYL6C0Mbga6i85NFO" Name="Input" Kind="InputPin" />
                 <Pin Id="G8kXuuSoWT7LmFcQl6edFq" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="I7eYa0RUOfjNtT0spzMcep" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="283,633,75,19" Id="JGwJs7IqCtDOrcueggw6Cw">
                 <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -7182,6 +7236,7 @@
                 <Pin Id="ASSwlyCI2rqOvtnDnOTyN2" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="QeQdtNUJewWOGcvUqaYdLE" Name="Input" Kind="InputPin" />
                 <Pin Id="KeGdgG3LrwfOcKox2BpI6e" Name="Viewer ID" Kind="InputPin" />
+                <Pin Id="So6Hy5nQcYxMqUrKzpcU8P" Name="Output" Kind="OutputPin" />
               </Node>
             </Canvas>
             <ProcessDefinition Id="MZKMu27NgXmQQF7HLSEfi2">
@@ -12269,6 +12324,7 @@
                   <Pin Id="HlGcKbDUghSNDcoOuauSsZ" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="H14w7GKzMlWPFpmu8bUkZB" Name="Input" Kind="InputPin" />
                   <Pin Id="DBBwLgwe3O7N3osk255qZq" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="TXYpZgcBnVdN2jFsoMbqYT" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1227,1828,75,19" Id="PtfQC8Wf55xQQ19iJmEwdR">
                   <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -12281,6 +12337,7 @@
                   <Pin Id="HlUKga7oPotPiSSoe8I9pP" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="Or4OR00oFrLLmy9KlB92ux" Name="Input" Kind="InputPin" />
                   <Pin Id="MerDUw8nor6LTEGaHSGmxR" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="NrXSD7ruPF0NJ8GXn8G4IW" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1297,1720,126,19" Id="EZYOmIdBGUQPlWyA0oh4fV">
                   <p:NodeReference LastCategoryFullName="Fuse.Domain.Viewer" LastDependency="Fuse.Domain.vl">
@@ -12948,6 +13005,7 @@
                   <Pin Id="UiXTxdeZiOgMbEthnClvoM" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="Jj7AuOA3NEbPF7omKs1hF3" Name="Input" Kind="InputPin" />
                   <Pin Id="HiUXdWrFuIaQcbLLG4sPcT" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="FP8CTQzv6ciPlKWk9ba7jz" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="1230,1647,126,19" Id="SzdC307al8KLWF7QbC3RKC">
                   <p:NodeReference LastCategoryFullName="Fuse.Domain.Viewer" LastDependency="Fuse.Domain.vl">
@@ -12969,6 +13027,7 @@
                   <Pin Id="PrerI9F5BkiNZzImKzkLSN" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="Lp8aixMWB5MO9R29fk8Ixo" Name="Input" Kind="InputPin" />
                   <Pin Id="NabZkfBLneRLYXqQiMDoYc" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="HNnCJ2XaUP4OLnlKUGgMev" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="970,1674,100,19" Id="USgNs8o2lDpPwNPA7xNR14">
                   <p:NodeReference LastCategoryFullName="Fuse.Calculus.Differentiation" LastDependency="VL.Fuse.vl">
@@ -13534,6 +13593,7 @@
                   <Pin Id="IgzhWQr8KJlMCGO49l8tix" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="QURV2df1idWP7ZgvqYLWF9" Name="Input" Kind="InputPin" />
                   <Pin Id="JvsHwlD7DAJLm0P2Cltf2H" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="MuBUAQ6HWOcMTppHJ9rWKA" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="668,1221,75,19" Id="NlMWNBtt7UAOIgTo88Nw64">
                   <p:NodeReference LastCategoryFullName="Fuse.Viewer" LastDependency="Fuse.Core.vl">
@@ -13546,6 +13606,7 @@
                   <Pin Id="BofZtdjrEVqLJgT7mVqiyX" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="H2SwpOUExL0QYowagQo1Rm" Name="Input" Kind="InputPin" />
                   <Pin Id="PeatHBN6bbuQLRYZCgUcpp" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="NQUAAXXskvgQLzzCA3ocjg" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="737,1110,126,19" Id="EzAAnHrytrqNfU8pFgMdUq">
                   <p:NodeReference LastCategoryFullName="Fuse.Domain.Viewer" LastDependency="Fuse.Domain.vl">
@@ -19993,5 +20054,5 @@
   <DocumentDependency Id="FgjH2SK4iM2QOW2BDLx6Ew" Location="./Fuse.Domain.vl" />
   <PlatformDependency Id="Rfm0InDjgrqMTrvFf2peLA" Location="../lib/net6.0/Fuse.dll" />
   <NugetDependency Id="IPcqxbeJpE4LGQ692ZFPLx" Location="VL.Fuse" Version="0.0.0" />
-  <NugetDependency Id="E2Wng0qoGcDLp80VPlgEbt" Location="VL.Stride" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="E2Wng0qoGcDLp80VPlgEbt" Location="VL.Stride" Version="2024.6.7-0238-g79adbe39f9" />
 </Document>

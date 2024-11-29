@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="MmjJmOJpSi5MQ4PE76v2SF" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
-  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="MmjJmOJpSi5MQ4PE76v2SF" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
+  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
   <Patch Id="ALpqjXEf369Pnuk64gmWrV">
     <Canvas Id="V8HBoVZNCZmPvIQ0NbkFQ5" DefaultCategory="Fuse.Compute" CanvasType="FullCategory">
       <Canvas Id="ELWzy71RwdSLg6EYVb85ia" Name="Internal" Position="61,134">
@@ -30847,6 +30847,7 @@
                   <Pin Id="Njh4QmzijigLhyHkn4kL6Q" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="TPZ9VACSCo7MwGvftupNRH" Name="Input" Kind="InputPin" />
                   <Pin Id="PDhiOcU4Gn8NzMHt7lOX0E" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="QnpK7KAiJXgPKEjZ7kmd1W" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="712,569,145,19" Id="Gh5sPxqND3PPvQOmv2vi7P">
                   <p:NodeReference LastCategoryFullName="Fuse.Compute" LastDependency="Fuse.Compute.vl">
@@ -50200,8 +50201,8 @@
   <DocumentDependency Id="D8q0vwsiUKdOoERnDUoBef" Location="./Fuse.Domain.vl" />
   <DocumentDependency Id="EWTqfY5EJYjMbUeIjqGgY2" Location="./Fuse.Draw.vl" />
   <NugetDependency Id="HdDLzLKkmiQNzN13tordiy" Location="VL.Fuse" Version="0.0.0.0" />
-  <NugetDependency Id="K1ivwIDhGncNI3oByJQZLt" Location="VL.Stride" Version="2024.6.7-0235-g5172ef47fd" />
-  <NugetDependency Id="FeMTrTYBJofOV4p6owmY6u" Location="VL.Stride.Runtime" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="K1ivwIDhGncNI3oByJQZLt" Location="VL.Stride" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="FeMTrTYBJofOV4p6owmY6u" Location="VL.Stride.Runtime" Version="2024.6.7-0238-g79adbe39f9" />
   <NugetDependency Id="QbMI0nsWNDtOu0R168jMwc" Location="VL.IO.PLY" Version="0.0.8-alpha" />
   <PlatformDependency Id="G7UGklUGdzROuhePKKYRia" Location="../lib/net8.0/Fuse.dll" />
 </Document>
