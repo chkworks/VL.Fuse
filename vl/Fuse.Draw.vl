@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="BunTqve7xR8NyPwM5xC5wd" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
-  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="BunTqve7xR8NyPwM5xC5wd" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
+  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
   <Patch Id="ALpqjXEf369Pnuk64gmWrV">
     <Canvas Id="V8HBoVZNCZmPvIQ0NbkFQ5" DefaultCategory="Fuse.Draw" CanvasType="FullCategory">
       <Pad Id="Dec4wn0FFUhM0UWDyljqhI" Bounds="174,438,48,19" ShowValueBox="true" isIOBox="true" Value="TODO">
@@ -14153,14 +14153,10 @@
                 <Pin Id="GlOasBoqMMkQG9jqlxyJ8i" Name="Input" Kind="InputPin" />
                 <Pin Id="L9M5wsfHvLqP0AkyisWlo0" Name="Output" Kind="OutputPin" />
               </Node>
-              <Pad Id="RTi5I1c6sPrPTG45FpIv24" Comment="Index" Bounds="377,575,35,15" ShowValueBox="true" isIOBox="true" Value="2">
-                <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                  <Choice Kind="TypeFlag" Name="Integer32" />
-                </p:TypeAnnotation>
-              </Pad>
+              <ControlPoint Id="Lgp1GxpF8AVQRZA1si61UW" Bounds="380,508" />
             </Canvas>
             <Patch Id="TJl50dmVjNBLTGkiVI2J3u" Name="Create" />
-            <Patch Id="JmBoDrQowaZMP3WUWAK0bj" Name="Update" ParticipatingElements="EOnUvHb4k5UQS6OZcjvNYU,QvKscXXPhftPRxZawBzapx,Cor7eAcfHzMPk2b9X09NxA,Cy22ltfAvtPLGJbTu2Vfpm,SlBdKaS9sTGLXfZKKLYQ3i,BC8voJ3YzODN9xXYz996rZ,VXdEgiRbcxBLxj6JMcg45Z,P0hwqcHOlTUOlDpHoxuHUy,RAd3FXBAHNZQDXHcUEok8d,Qe6CRlrjhOpMSNxdxQE4tQ">
+            <Patch Id="JmBoDrQowaZMP3WUWAK0bj" Name="Update" ParticipatingElements="EOnUvHb4k5UQS6OZcjvNYU,QvKscXXPhftPRxZawBzapx,Cor7eAcfHzMPk2b9X09NxA,Cy22ltfAvtPLGJbTu2Vfpm,SlBdKaS9sTGLXfZKKLYQ3i,BC8voJ3YzODN9xXYz996rZ,VXdEgiRbcxBLxj6JMcg45Z,P0hwqcHOlTUOlDpHoxuHUy,RAd3FXBAHNZQDXHcUEok8d,Qe6CRlrjhOpMSNxdxQE4tQ" ManuallySortedPins="true">
               <Pin Id="EELKxByt2vwPF2RcNoxZy8" Name="Distance" Kind="InputPin">
                 <p:TypeAnnotation LastCategoryFullName="Fuse" LastDependency="VL.Fuse.vl">
                   <Choice Kind="TypeFlag" Name="ShaderNode" />
@@ -14173,6 +14169,11 @@
               </Pin>
               <Pin Id="B6g2eJOQmcuPYwbMYbqolK" Name="Output" Kind="OutputPin" />
               <Pin Id="CHTSkjlXcryQWvcydlGwyd" Name="Cutoff" Kind="InputPin" />
+              <Pin Id="OAUWuFPNQO9MNv2kyojVXd" Name="Mode" Kind="InputPin" DefaultValue="Disney">
+                <p:TypeAnnotation LastCategoryFullName="Fuse.Draw.Lighting" LastDependency="Fuse.Draw.vl">
+                  <Choice Kind="TypeFlag" Name="CuttoffAttenuationMode" />
+                </p:TypeAnnotation>
+              </Pin>
             </Patch>
             <ProcessDefinition Id="FpuSimlHGNrOUnMHeEu7EL">
               <Fragment Id="Tek7msd0OeYM2L9DZyLcMF" Patch="TJl50dmVjNBLTGkiVI2J3u" Enabled="true" />
@@ -14215,10 +14216,11 @@
             <Link Id="UjEnXenXhfCN66hzgCZQGy" Ids="L9M5wsfHvLqP0AkyisWlo0,CduhbBdkJmaNl7ydxoAEZG" />
             <Link Id="ICvkPnU1ZKFLhSP6o2V7BP" Ids="G6ofrQ4ghlHNdAhhHq24dL,OiTv71M7pM0OXbz3CkMKuX" />
             <Link Id="Vs4NrHyqoKQNkq3OqwzPwF" Ids="QnaHIpS3u46OyG6uZNlS00,LZoyQ7GvFLANrzk7Hhh6d2" />
-            <Link Id="HBEPBhNC8IHP5nUn7FWu6y" Ids="RTi5I1c6sPrPTG45FpIv24,Nce3mNwFOgXNdZeaAxzveX" />
             <Link Id="PUsIw9MKXU8LXc7FiuZDyc" Ids="EMDMSbMy9c5MmfHVKH9J9f,MBJGgnHXi9fLMk9RER2FkO" />
             <Link Id="E8YCOAQDfSCP2Lx25IsAJR" Ids="QilXnk1sn97OEBVfRbwziO,RcK16mrObaPNmORWaFkiTl" />
             <Link Id="STNUrO5JefELdPBoPNSLL3" Ids="VqwwH4RNJToPJePLPiv2CE,HXQRIY1MOjnNasb30mGKac" />
+            <Link Id="D03SLtvAuOiN8YcUgkq4tE" Ids="Lgp1GxpF8AVQRZA1si61UW,Nce3mNwFOgXNdZeaAxzveX" />
+            <Link Id="OOZtnDB5kvuP8ZZs8pCrqS" Ids="OAUWuFPNQO9MNv2kyojVXd,Lgp1GxpF8AVQRZA1si61UW" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -14369,6 +14371,24 @@
             <Link Id="Gx459XuMqmPQSW0ZhrMBza" Ids="CZdt5VTmM5pMrglsnlQ2Ud,OTJcFfk7NNkPOgUgQeUxg0" />
             <Link Id="FKfuWmHpIujL3S9wkSXxiH" Ids="OSNhCnHhVKDODaT32hkGVJ,A6YTE0GeHbqQZeIpciSNHW" />
             <Link Id="RPHnJt6NzVROXAZE8scADH" Ids="KYykCKDng8LM83OdWISiVn,VcEq78J3lntLQU4KRhDCVK" />
+          </Patch>
+        </Node>
+        <!--
+
+    ************************ CuttoffAttenuationMode ************************
+
+-->
+        <Node Name="CuttoffAttenuationMode" Bounds="550,561" Id="PPFyqKoZP15MsZjyPhLHuq">
+          <p:NodeReference>
+            <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+            <CategoryReference Kind="Category" Name="Primitive" />
+          </p:NodeReference>
+          <p:TypeAnnotation LastCategoryFullName="Fuse.Color" LastDependency="Fuse.Core.vl">
+            <Choice Kind="TypeFlag" Name="CuttoffAttenuationMode" />
+          </p:TypeAnnotation>
+          <Patch Id="Smr8rpGR7oyNEP9iBLtZhG">
+            <Canvas Id="G4bw2ovI1NZMg70HE8l9VE" BordersChecked="false" CanvasType="Group" />
+            <ProcessDefinition Id="NwbSmAz4a9wM0xkgjaxNZK" IsHidden="true" />
           </Patch>
         </Node>
       </Canvas>
@@ -21674,13 +21694,13 @@
     </Node>
   </Patch>
   <DocumentDependency Id="IP8LS5YJ8ZuQYmCDcNjRsh" Location="./Fuse.Core.vl" IsFriend="true" />
-  <NugetDependency Id="EhjUULRVeDINHUsf8JBt65" Location="VL.Stride.Runtime" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="EhjUULRVeDINHUsf8JBt65" Location="VL.Stride.Runtime" Version="2024.6.7-0235-g5172ef47fd" />
   <PlatformDependency Id="SVeysndmoxKNSyLNn0DbBx" Location="VL.Stride.Runtime.dll" />
   <DocumentDependency Id="BgNmivOlt6vMM5JsjMj9s8" Location="./Fuse.Material.vl" />
   <DocumentDependency Id="HAiR1C64PG8NURxgCCTMfw" Location="./Fuse.Domain.vl" />
   <DocumentDependency Id="VkLnNDwkEYrLYH3ZONiDdq" Location="./Fuse.Transform.vl" />
-  <NugetDependency Id="M7gf3qwv1DzOEeFCczfkn2" Location="VL.Stride" Version="2024.6.7-0238-g79adbe39f9" />
-  <NugetDependency Id="PXE2I3xjy7gMJGbWS7BZjZ" Location="VL.Stride.TextureFX" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="M7gf3qwv1DzOEeFCczfkn2" Location="VL.Stride" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="PXE2I3xjy7gMJGbWS7BZjZ" Location="VL.Stride.TextureFX" Version="2024.6.7-0235-g5172ef47fd" />
   <NugetDependency Id="F14s7AOnxEiLkPiqFmfw1P" Location="VL.Fuse" Version="0.0.0.0" />
   <PlatformDependency Id="Fj9kzn69KW4OyNdiCfZk0j" Location="../lib/net8.0/Fuse.dll" />
 </Document>
