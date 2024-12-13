@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="MmjJmOJpSi5MQ4PE76v2SF" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
-  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="MmjJmOJpSi5MQ4PE76v2SF" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
+  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
   <Patch Id="ALpqjXEf369Pnuk64gmWrV">
     <Canvas Id="V8HBoVZNCZmPvIQ0NbkFQ5" DefaultCategory="Fuse.Compute" CanvasType="FullCategory">
       <Canvas Id="ELWzy71RwdSLg6EYVb85ia" Name="Internal" Position="61,134">
@@ -7927,13 +7927,8 @@
             <Patch Id="Hna1fYfILJDMklNRYq9eXv" Name="Create" />
             <Patch Id="TLjp04gbilkLXZ92tJV2NL" Name="Update">
               <Pin Id="U2JalMYL4jBLmcgbrMdLdd" Name="Input" Kind="InputPin">
-                <p:TypeAnnotation LastCategoryFullName="Fuse.Compute.Texture" LastDependency="Fuse.Compute.vl">
-                  <Choice Kind="TypeFlag" Name="ITextureAttributeNode" />
-                  <p:TypeArguments>
-                    <TypeReference>
-                      <Choice Kind="TypeFlag" Name="T" />
-                    </TypeReference>
-                  </p:TypeArguments>
+                <p:TypeAnnotation LastCategoryFullName="Fuse.Texture" LastDependency="Fuse.Core.vl">
+                  <Choice Kind="TypeFlag" Name="ITextureInputProvider" />
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="LypGwH3UUpVQEws6JnbrLH" Name="Neighbors" Kind="OutputPin">
@@ -50201,8 +50196,8 @@
   <DocumentDependency Id="D8q0vwsiUKdOoERnDUoBef" Location="./Fuse.Domain.vl" />
   <DocumentDependency Id="EWTqfY5EJYjMbUeIjqGgY2" Location="./Fuse.Draw.vl" />
   <NugetDependency Id="HdDLzLKkmiQNzN13tordiy" Location="VL.Fuse" Version="0.0.0.0" />
-  <NugetDependency Id="K1ivwIDhGncNI3oByJQZLt" Location="VL.Stride" Version="2024.6.7-0238-g79adbe39f9" />
-  <NugetDependency Id="FeMTrTYBJofOV4p6owmY6u" Location="VL.Stride.Runtime" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="K1ivwIDhGncNI3oByJQZLt" Location="VL.Stride" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="FeMTrTYBJofOV4p6owmY6u" Location="VL.Stride.Runtime" Version="2024.6.7-0235-g5172ef47fd" />
   <NugetDependency Id="QbMI0nsWNDtOu0R168jMwc" Location="VL.IO.PLY" Version="0.0.8-alpha" />
   <PlatformDependency Id="G7UGklUGdzROuhePKKYRia" Location="../lib/net8.0/Fuse.dll" />
 </Document>
