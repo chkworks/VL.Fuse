@@ -7,6 +7,10 @@ shader Bilateral_TextureFX : TextureFX
     float BilateralSigmaColor;
 	[Summary("typically 4")]
     float Radius;
+	[Summary("typically 1")]
+    float Amp;
+
+	bool applyThreshold;
 
 	float BilateralWeight(float2 pixelDist, float intensityDist){
 		float spaceFactor = exp(-dot(pixelDist, pixelDist) / (2.0 * BilateralSigmaSpace * BilateralSigmaSpace));
@@ -35,7 +39,11 @@ shader Bilateral_TextureFX : TextureFX
 			}
 		}
 		
-		return result / weightSum;
+		result = saturate(result / weightSum * Amp);
+		if(applyThreshold){
+			result = step(0.1,result);
+		}
+		return result;
 	}
 
 };
