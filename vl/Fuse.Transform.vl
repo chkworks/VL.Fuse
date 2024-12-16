@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="OdaYWx1Hnl7PyvKc2vSizW" LanguageVersion="2024.6.7-0136-ga34ff89f71" Version="0.128">
-  <NugetDependency Id="VTpPZDrHwPJO2NXtzX0tCX" Location="VL.CoreLib" Version="2024.6.7-0136-ga34ff89f71" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="OdaYWx1Hnl7PyvKc2vSizW" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
+  <NugetDependency Id="VTpPZDrHwPJO2NXtzX0tCX" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
   <Patch Id="I6aeNNPmlJqQWh0bctZCNS">
     <Canvas Id="Nmcbwq3unODNFYt6rbKEtu" DefaultCategory="Fuse.Math.Transform" CanvasType="FullCategory">
       <!--
@@ -4508,6 +4508,7 @@
                   <Pin Id="Kqr0K8v8xB0PVyZE1z2a87" Name="y" Kind="InputPin" />
                   <Pin Id="GrzNoJYpPKJOhbfRNdJeuc" Name="Output" Kind="OutputPin" />
                   <Pin Id="Q6BU7saNJsIQKSN2n213tD" Name="Not" Kind="OutputPin" />
+                  <Pin Id="SioeELG2eGLNYaUycxKpzF" Name="All" Kind="InputPin" IsHidden="true" />
                 </Node>
                 <Node Bounds="301,578,40,19" Id="TFnWrsKfVUvNjQRWQN9GE6">
                   <p:NodeReference LastCategoryFullName="Fuse.Math" LastDependency="Fuse.Core.vl">
@@ -4527,6 +4528,7 @@
                   <Pin Id="US6Ob1ldK0BL2YZPhuEf1D" Name="y" Kind="InputPin" />
                   <Pin Id="JZTQsCu7NZ3OND8jUP1oUV" Name="Output" Kind="OutputPin" />
                   <Pin Id="UnsmpO65rVxMPeDy9dt8F5" Name="Not" Kind="OutputPin" />
+                  <Pin Id="TmvjiUSjmuDMndsOgfJzI5" Name="All" Kind="InputPin" IsHidden="true" />
                 </Node>
                 <Node Bounds="415,576,36,19" Id="HxbSjG11gdVMwnvPW38yf6">
                   <p:NodeReference LastCategoryFullName="Fuse.Math" LastDependency="Fuse.Core.vl">
@@ -6869,7 +6871,7 @@
     </Node>
   </Patch>
   <DocumentDependency Id="DIqpg9i8gfqQKEYVdH0s8T" Location="./Fuse.Core.vl" />
-  <NugetDependency Id="TwEmQ4LVaHlNHdsxsJGLCD" Location="VL.Stride" Version="2024.6.7-0136-ga34ff89f71" />
+  <NugetDependency Id="TwEmQ4LVaHlNHdsxsJGLCD" Location="VL.Stride" Version="2024.6.7-0235-g5172ef47fd" />
   <NugetDependency Id="P5EFyn4wJxfO66lnrwPr4J" Location="VL.Fuse" Version="0.1.9" />
-  <NugetDependency Id="DRnfzwGMoWbPr9HQKeiK6p" Location="VL.Stride.TextureFX" Version="2024.6.7-0136-ga34ff89f71" />
+  <NugetDependency Id="DRnfzwGMoWbPr9HQKeiK6p" Location="VL.Stride.TextureFX" Version="2024.6.7-0235-g5172ef47fd" />
 </Document>
