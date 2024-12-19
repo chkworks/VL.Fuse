@@ -1,4 +1,9 @@
-﻿using System.Text.Json;
+﻿using System.Collections.Generic;
+using Stride.Core.Mathematics;
+// ReSharper disable InconsistentNaming
+
+namespace Fuse.Rendering;
+using System.Text.Json;
 
 public class MSDFFontAtlas
 {
@@ -66,7 +71,7 @@ public class MSDFFontAtlas
     }
 
     private Dictionary<char, GlyphInfo> glyphMap;
-    private MSDFFont fontData;
+    private readonly MSDFFont fontData;
 
     public MSDFFontAtlas(string jsonData)
     {
@@ -105,12 +110,12 @@ public class MSDFFontAtlas
         // Calculate UV coordinates
         var uvMin = new Vector2(
             glyph.atlasBounds.left / atlasWidth,
-            1.0f - glyph.atlasBounds.bottom / atlasHeight
+            1 - glyph.atlasBounds.bottom / atlasHeight
         );
         
         var uvMax = new Vector2(
             glyph.atlasBounds.right / atlasWidth,
-            1.0f - glyph.atlasBounds.top / atlasHeight
+            1 - glyph.atlasBounds.top / atlasHeight
         );
 
         // Calculate quad position
@@ -134,3 +139,4 @@ public class MSDFFontAtlas
         return fontData.metrics.lineHeight * scale;
     }
 }
+
