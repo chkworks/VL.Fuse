@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="GTcCvmbdzHAL9vdXaT4a62" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
-  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="GTcCvmbdzHAL9vdXaT4a62" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
+  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
   <Patch Id="ALpqjXEf369Pnuk64gmWrV">
     <Canvas Id="V8HBoVZNCZmPvIQ0NbkFQ5" DefaultCategory="Fuse.Domain" CanvasType="FullCategory">
       <Canvas Id="Udb3qCaYNKOLxdFLWbOXs8" Name="2D" Position="155,276">
@@ -15611,7 +15611,7 @@
                 </p:NodeReference>
                 <Pin Id="AMQhG9DGNwRLFsv7tlQGZN" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Ays9n0SGP3ENoKsltyVcVK" Name="Input" Kind="InputPin" />
-                <Pin Id="Lwz63wTwpE2MHBcjk7MsZK" Name="Enable" Kind="InputPin" />
+                <Pin Id="Lwz63wTwpE2MHBcjk7MsZK" Name="Enable" Kind="InputPin" DefaultValue="True" />
                 <Pin Id="JorklUApx10OCDPlyt1mKg" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="1014,1461,39,19" Id="AmZvLuGFDnNLkBTy6nR1zb">
@@ -15621,7 +15621,7 @@
                 </p:NodeReference>
                 <Pin Id="FcqbK3T7bzKP7kNjsHoZ5X" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="PMpgROk6Px4PvASR92Kadt" Name="Input" Kind="InputPin" />
-                <Pin Id="KyI4QEj6mT5LgoJgkoBeDl" Name="Enable" Kind="InputPin" />
+                <Pin Id="KyI4QEj6mT5LgoJgkoBeDl" Name="Enable" Kind="InputPin" DefaultValue="True" />
                 <Pin Id="ARzQxoedH5gNCjQrdlve7W" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="1032,1496,45,19" Id="VDpU9pqQIgpNSH0X2VrZiO">
@@ -17021,10 +17021,10 @@
     </Node>
   </Patch>
   <DocumentDependency Id="PoZbbUWJncTNqqRz4Is5lp" Location="./Fuse.Core.vl" IsFriend="true" />
-  <NugetDependency Id="KL8BQzsm7TLOuM4fgPMCd6" Location="VL.Stride" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="KL8BQzsm7TLOuM4fgPMCd6" Location="VL.Stride" Version="2024.6.7-0235-g5172ef47fd" />
   <DocumentDependency Id="HjaomyyINguOGxjxo6egji" Location="./Fuse.Calculus.vl" />
   <DocumentDependency Id="FJS7zeIvDj1Mfcyrm2ew9n" Location="./Fuse.Transform.vl" />
   <NugetDependency Id="Ex1p5p5KWtrOok1yLEUhZt" Location="VL.Fuse" Version="0.0.0" />
-  <NugetDependency Id="DB8HcQqNMaOLSoAtD5d4Nn" Location="VL.Stride.TextureFX" Version="2024.6.7-0238-g79adbe39f9" />
-  <NugetDependency Id="ElEOGmBgL2zNuS2qGm7ZgM" Location="VL.Stride.Runtime" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="DB8HcQqNMaOLSoAtD5d4Nn" Location="VL.Stride.TextureFX" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="ElEOGmBgL2zNuS2qGm7ZgM" Location="VL.Stride.Runtime" Version="2024.6.7-0235-g5172ef47fd" />
 </Document>
