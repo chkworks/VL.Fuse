@@ -7927,13 +7927,8 @@
             <Patch Id="Hna1fYfILJDMklNRYq9eXv" Name="Create" />
             <Patch Id="TLjp04gbilkLXZ92tJV2NL" Name="Update">
               <Pin Id="U2JalMYL4jBLmcgbrMdLdd" Name="Input" Kind="InputPin">
-                <p:TypeAnnotation LastCategoryFullName="Fuse.Compute.Texture" LastDependency="Fuse.Compute.vl">
-                  <Choice Kind="TypeFlag" Name="ITextureAttributeNode" />
-                  <p:TypeArguments>
-                    <TypeReference>
-                      <Choice Kind="TypeFlag" Name="T" />
-                    </TypeReference>
-                  </p:TypeArguments>
+                <p:TypeAnnotation LastCategoryFullName="Fuse.Texture" LastDependency="Fuse.Core.vl">
+                  <Choice Kind="TypeFlag" Name="ITextureInputProvider" />
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="LypGwH3UUpVQEws6JnbrLH" Name="Neighbors" Kind="OutputPin">
@@ -30847,6 +30842,7 @@
                   <Pin Id="Njh4QmzijigLhyHkn4kL6Q" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="TPZ9VACSCo7MwGvftupNRH" Name="Input" Kind="InputPin" />
                   <Pin Id="PDhiOcU4Gn8NzMHt7lOX0E" Name="Viewer ID" Kind="InputPin" />
+                  <Pin Id="QnpK7KAiJXgPKEjZ7kmd1W" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="712,569,145,19" Id="Gh5sPxqND3PPvQOmv2vi7P">
                   <p:NodeReference LastCategoryFullName="Fuse.Compute" LastDependency="Fuse.Compute.vl">
