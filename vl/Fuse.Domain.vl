@@ -15619,7 +15619,7 @@
                 </p:NodeReference>
                 <Pin Id="AMQhG9DGNwRLFsv7tlQGZN" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Ays9n0SGP3ENoKsltyVcVK" Name="Input" Kind="InputPin" />
-                <Pin Id="Lwz63wTwpE2MHBcjk7MsZK" Name="Enable" Kind="InputPin" />
+                <Pin Id="Lwz63wTwpE2MHBcjk7MsZK" Name="Enable" Kind="InputPin" DefaultValue="True" />
                 <Pin Id="JorklUApx10OCDPlyt1mKg" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="1014,1461,39,19" Id="AmZvLuGFDnNLkBTy6nR1zb">
@@ -15629,7 +15629,7 @@
                 </p:NodeReference>
                 <Pin Id="FcqbK3T7bzKP7kNjsHoZ5X" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="PMpgROk6Px4PvASR92Kadt" Name="Input" Kind="InputPin" />
-                <Pin Id="KyI4QEj6mT5LgoJgkoBeDl" Name="Enable" Kind="InputPin" />
+                <Pin Id="KyI4QEj6mT5LgoJgkoBeDl" Name="Enable" Kind="InputPin" DefaultValue="True" />
                 <Pin Id="ARzQxoedH5gNCjQrdlve7W" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="1032,1496,45,19" Id="VDpU9pqQIgpNSH0X2VrZiO">
