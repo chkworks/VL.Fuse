@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="OdaYWx1Hnl7PyvKc2vSizW" LanguageVersion="2024.6.7-0310-g6266ca42c1" Version="0.128">
-  <NugetDependency Id="VTpPZDrHwPJO2NXtzX0tCX" Location="VL.CoreLib" Version="2024.6.7-0310-g6266ca42c1" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="OdaYWx1Hnl7PyvKc2vSizW" LanguageVersion="2024.6.7" Version="0.128">
+  <NugetDependency Id="VTpPZDrHwPJO2NXtzX0tCX" Location="VL.CoreLib" Version="2024.6.7" />
   <Patch Id="I6aeNNPmlJqQWh0bctZCNS">
     <Canvas Id="Nmcbwq3unODNFYt6rbKEtu" DefaultCategory="Fuse.Math.Transform" CanvasType="FullCategory">
       <!--
@@ -6988,11 +6988,6 @@
             <Pin Id="D9rSnuiNrDtOUn54B396Na" Name="Transform" Kind="InputPin" />
             <Pin Id="SJXMt1AIfrFPKYISYQ2EkW" Name="Output" Kind="OutputPin" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="BTXX7DNUlTFNvD4JCw78Y5">
             <Fragment Id="HtQHaccyInDNiZYkJAQRGF" Patch="UOYq6UiznZUPHW9jwCy0ng" Enabled="true" />
             <Fragment Id="QlSlgTyp6aWL3I22XdWAmI" Patch="I9lheA730WkOCZO2oysUbS" Enabled="true" />
@@ -7028,6 +7023,24 @@
           <Link Id="Gz3zPZDrYclLhFZrtocxol" Ids="E8otLPVgGOhLkRujwB3XhO,SJXMt1AIfrFPKYISYQ2EkW" IsHidden="true" />
         </Patch>
       </Node>
+      <!--
+
+    ************************ Space ************************
+
+-->
+      <Node Name="Space" Bounds="1627,500" Id="GSoZ9emWb2aMd0P7k8TJHS">
+        <p:NodeReference>
+          <Choice Kind="ForwardRecordDefinition" Name="Immutable Forward" />
+          <CategoryReference Kind="Category" Name="Primitive" />
+        </p:NodeReference>
+        <p:TypeAnnotation LastCategoryFullName="Fuse.Math" LastDependency="Fuse.dll">
+          <Choice Kind="TypeFlag" Name="Space" />
+        </p:TypeAnnotation>
+        <Patch Id="EwuT7R2y33kOEK7jkysSaI">
+          <Canvas Id="BmZikAHT8SqMSP5OKUmzZc" BordersChecked="false" CanvasType="Group" />
+          <ProcessDefinition Id="KmKCsl6VV0CNNOeV1weia7" IsHidden="true" />
+        </Patch>
+      </Node>
     </Canvas>
     <!--
 
@@ -7051,7 +7064,7 @@
     </Node>
   </Patch>
   <DocumentDependency Id="DIqpg9i8gfqQKEYVdH0s8T" Location="./Fuse.Core.vl" />
-  <NugetDependency Id="TwEmQ4LVaHlNHdsxsJGLCD" Location="VL.Stride" Version="2024.6.7-0310-g6266ca42c1" />
+  <NugetDependency Id="TwEmQ4LVaHlNHdsxsJGLCD" Location="VL.Stride" Version="2024.6.7" />
   <NugetDependency Id="P5EFyn4wJxfO66lnrwPr4J" Location="VL.Fuse" Version="0.1.9" />
-  <NugetDependency Id="DRnfzwGMoWbPr9HQKeiK6p" Location="VL.Stride.TextureFX" Version="2024.6.7-0310-g6266ca42c1" />
+  <NugetDependency Id="DRnfzwGMoWbPr9HQKeiK6p" Location="VL.Stride.TextureFX" Version="2024.6.7" />
 </Document>
