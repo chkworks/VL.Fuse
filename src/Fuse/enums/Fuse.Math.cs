@@ -99,4 +99,14 @@
         YNegative,
         ZNegative
     }
+
+    public enum Space
+    {
+        World,
+        Object,
+        Tangent,
+        View,
+        AbsoluteWorld,
+        Screen
+    }
 }
