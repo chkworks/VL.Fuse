@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="EAT0nHdbzXNM7AficDp0d5" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
-  <NugetDependency Id="JLOyBYh44YKOsfK8AmAdEQ" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="EAT0nHdbzXNM7AficDp0d5" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
+  <NugetDependency Id="JLOyBYh44YKOsfK8AmAdEQ" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
   <Patch Id="NhhCgmOLI3QLORwISTueJT">
     <Canvas Id="CeU0tJxL87yM6ZXDFwQXh1" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -1052,7 +1052,7 @@
     </Node>
   </Patch>
   <NugetDependency Id="C7hVqvpWUYvM1Hkfl4C6XK" Location="VL.Fuse" Version="0.0.0" />
-  <NugetDependency Id="NAw2MHRNI7WNhoL7cqKCgC" Location="VL.Stride" Version="2024.6.7-0235-g5172ef47fd" />
-  <NugetDependency Id="T2z4HVx8bS3OeNVCmaPycc" Location="VL.Stride.Runtime" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="NAw2MHRNI7WNhoL7cqKCgC" Location="VL.Stride" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="T2z4HVx8bS3OeNVCmaPycc" Location="VL.Stride.Runtime" Version="2024.6.7-0238-g79adbe39f9" />
   <NugetDependency Id="NYD2dr3BdbAOlIHX0mFV09" Location="VL.Addons" Version="0.2.1" />
 </Document>
