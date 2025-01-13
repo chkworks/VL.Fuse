@@ -957,10 +957,10 @@
           <Patch Id="GbYjFAP67a0LucOx0udxOj" Name="Update" ManuallySortedPins="true">
             <Pin Id="ByrkCrYNIH6PsK4TS6GAcB" Name="~SDF" Kind="InputPin" />
             <Pin Id="BRZAuIfA3tVLCeW45ei8qU" Name="~Bump" Kind="InputPin" Bounds="1109,719" Visibility="Optional" />
+            <Pin Id="E3WIucleJwcNb4vNvpuWiD" Name="Bump Strength" Kind="InputPin" Bounds="1188,722" Visibility="Optional" />
             <Pin Id="Or1xFr99IxCNVhVOBmZa1o" Name="Material" Kind="InputPin" Bounds="806,639" />
             <Pin Id="N1ZKvpeKl78NvAPr5C1QjB" Name="Maximum Iterations" Kind="InputPin" />
             <Pin Id="DUeOaBt4keIOlPYlQZPWpu" Name="Is Shadow Caster" Kind="InputPin" Bounds="956,1205" />
-            <Pin Id="E3WIucleJwcNb4vNvpuWiD" Name="Bump Strength" Kind="InputPin" Bounds="1188,722" Visibility="Optional" />
             <Pin Id="LjgNoqt9l4APNdmSSXotGw" Name="BoundingBox" Kind="InputPin" />
             <Pin Id="NdWvKaa7YikLmQJq3fVE8U" Name="Camera" Kind="InputPin" Visibility="Optional">
               <p:TypeAnnotation LastCategoryFullName="Stride.API.Engine" LastDependency="VL.Stride.vl">
@@ -5896,7 +5896,7 @@
               <Pin Id="MtgvCtd6HLjQFim9w7U2fd" Name="Void" Kind="OutputPin" />
               <Pin Id="NJDtoWDqK72Ptj9DzS3cRv" Name="Value" Kind="OutputPin" />
             </Node>
-            <Node Bounds="753,374,277,19" Id="O3s0rO4jieSO3yS0Pu6pBF">
+            <Node Bounds="753,374,376,19" Id="O3s0rO4jieSO3yS0Pu6pBF">
               <p:NodeReference LastCategoryFullName="Fuse.Compute" LastDependency="Fuse.Core.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Group (GpuVoid)" />
@@ -5905,6 +5905,7 @@
               <Pin Id="Ov5DfVfeFnhNL0JHgf7m1h" Name="Input" Kind="InputPin" />
               <Pin Id="MUC1o1hEyC6M5bhikGZYt5" Name="Input 2" Kind="InputPin" />
               <Pin Id="DR3vBJqEBI4NkTQMie8dyG" Name="Input 3" Kind="InputPin" />
+              <Pin Id="QtUvM3k7VcpPLkgygabFFf" Name="Input 4" Kind="InputPin" />
               <Pin Id="Uys3KgLdPd9Nr7vaVQbdhe" Name="Enabled" Kind="InputPin" />
               <Pin Id="EMVKn8d2O8sQOaTuqhqOVG" Name="Output" Kind="OutputPin" />
             </Node>
