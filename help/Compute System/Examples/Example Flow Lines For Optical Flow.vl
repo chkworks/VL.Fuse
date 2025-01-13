@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Sh8Q2UsiURkL7MdZSkuBqc" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
-  <NugetDependency Id="QxARAfh4EVtP72Yoxb1iAT" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Sh8Q2UsiURkL7MdZSkuBqc" LanguageVersion="2024.6.7" Version="0.128">
+  <NugetDependency Id="QxARAfh4EVtP72Yoxb1iAT" Location="VL.CoreLib" Version="2024.6.7" />
   <Patch Id="IgP2Eikl673PMkXNiYAdgx">
     <Canvas Id="RCj5qYAJp1XQS54okDP33I" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -111,7 +111,7 @@
               <Choice Kind="ProcessAppFlag" Name="HelpWindow (3D View)" />
             </p:NodeReference>
             <Pin Id="PkKOGnSQaGlQQwFBuW2sFl" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="VjIFcTiKyrmNgNUSreatpp" Name="Bounds" Kind="InputPin" DefaultValue="1319, 589, 1114, 988" />
+            <Pin Id="VjIFcTiKyrmNgNUSreatpp" Name="Bounds" Kind="InputPin" DefaultValue="2572, 1031, 1114, 988" />
             <Pin Id="GujPwfwTeTmOnG8EW2J0w8" Name="Scene" Kind="InputPin" />
             <Pin Id="SfvZlkp5zevM95HdeypLmh" Name="Camera" Kind="InputPin" />
             <Pin Id="RJMRouhwUTHMrlyMNxvsSb" Name="PostFX Enabled" Kind="InputPin" DefaultValue="True" />
@@ -850,8 +850,8 @@
     </Node>
   </Patch>
   <NugetDependency Id="Oj5beWOpjDiPOIVwEIhrl9" Location="VL.Fuse" Version="0.0.0" />
-  <NugetDependency Id="Nc8y998DviEPltUu5S9z7O" Location="VL.Stride" Version="2024.6.7-0238-g79adbe39f9" />
-  <NugetDependency Id="DV6ndcOd8IzN2kWgFUujZr" Location="VL.Video" Version="2024.6.7-0238-g79adbe39f9" />
-  <NugetDependency Id="M3wwGRS3OJdOyMHXK0Uxpb" Location="VL.Addons" Version="0.2.1" />
-  <NugetDependency Id="OLhd2bpUUSTPYxd2EiUqUA" Location="VL.Stride.TextureFX" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="Nc8y998DviEPltUu5S9z7O" Location="VL.Stride" Version="2024.6.7" />
+  <NugetDependency Id="DV6ndcOd8IzN2kWgFUujZr" Location="VL.Video" Version="2024.6.7" />
+  <NugetDependency Id="HOY3gzsjzsEMwQS74YEOQ4" Location="VL.Addons" Version="0.4.0" />
+  <NugetDependency Id="RD89xIXuehZPEdwQROa0Pr" Location="VL.3D.Curve" Version="0.1.1" />
 </Document>

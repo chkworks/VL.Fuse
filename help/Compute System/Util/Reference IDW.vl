@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="DjWugyQBGSdN97pTROjwRu" LanguageVersion="2024.6.7-0220-ge2c006c41f" Version="0.128">
-  <NugetDependency Id="H7SETA3wkEXPkxdwWRZbzs" Location="VL.CoreLib" Version="2024.6.7-0220-ge2c006c41f" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="DjWugyQBGSdN97pTROjwRu" LanguageVersion="2024.6.7" Version="0.128">
+  <NugetDependency Id="H7SETA3wkEXPkxdwWRZbzs" Location="VL.CoreLib" Version="2024.6.7" />
   <Patch Id="QezibZnOnphNitC8lLYckP">
     <Canvas Id="BJwcYdob4ioNVG6xpxEWju" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -221,7 +221,7 @@
               <Choice Kind="ProcessAppFlag" Name="SceneWindow" />
             </p:NodeReference>
             <Pin Id="Qt8BpAOzePmMvlyMNgmERd" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="JNGBfHfWJGKLrf8kk2l6XC" Name="Bounds" Kind="InputPin" DefaultValue="1607, 226, 841, 1005" IsHidden="true" />
+            <Pin Id="JNGBfHfWJGKLrf8kk2l6XC" Name="Bounds" Kind="InputPin" DefaultValue="2260, 372, 841, 1005" IsHidden="true" />
             <Pin Id="AHF18ekMMi1NLZOH8H68Dj" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="PkQCqwsFIQsNRhV0zZRyBp" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
             <Pin Id="CMFEHDJNuMaOW1Z0n9DxAF" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
@@ -1080,8 +1080,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="S4uplVLjsP9QIjot6JYzlS" Location="VL.Skia" Version="2024.6.7-0220-ge2c006c41f" />
+  <NugetDependency Id="S4uplVLjsP9QIjot6JYzlS" Location="VL.Skia" Version="2024.6.7" />
   <NugetDependency Id="KXRei06tdGsLHG2j0gvMoB" Location="VL.Fuse" Version="0.0.0" />
-  <NugetDependency Id="BlavnBpUKQ0LC8dw1Zq6A8" Location="VL.Stride" Version="2024.6.7-0220-ge2c006c41f" />
-  <NugetDependency Id="Ub3XjX7cpzSOjeMaEHX6gt" Location="VL.Stride.Runtime" Version="2024.6.7-0220-ge2c006c41f" />
+  <NugetDependency Id="BlavnBpUKQ0LC8dw1Zq6A8" Location="VL.Stride" Version="2024.6.7" />
+  <NugetDependency Id="Ub3XjX7cpzSOjeMaEHX6gt" Location="VL.Stride.Runtime" Version="2024.6.7" />
 </Document>

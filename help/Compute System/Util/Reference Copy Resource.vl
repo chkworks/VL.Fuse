@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="LRGF940gMpmQA70Gr0Dm0A" LanguageVersion="2024.6.7-0136-ga34ff89f71" Version="0.128">
-  <NugetDependency Id="Qg9XmWBMiocNWySSrzNFd2" Location="VL.CoreLib" Version="2024.6.7-0136-ga34ff89f71" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="LRGF940gMpmQA70Gr0Dm0A" LanguageVersion="2024.6.7" Version="0.128">
+  <NugetDependency Id="Qg9XmWBMiocNWySSrzNFd2" Location="VL.CoreLib" Version="2024.6.7" />
   <Patch Id="M3ivezWZOwzQNKDPNu6C2x">
     <Canvas Id="IJS0I5ttC9yP9wVsd85H3y" DefaultCategory="FuseParticles" CanvasType="FullCategory" />
     <!--
@@ -218,7 +218,7 @@
             <Pin Id="Sq4Kyjt7NlFP1oAVwDTIeD" Name="buffer" Kind="OutputPin" IsHidden="true" />
             <Pin Id="H2G1vRiCF53NbZKEsJp0nu" Name="Stride" Kind="OutputPin" IsHidden="true" />
           </Node>
-          <Node Bounds="66,1069,105,19" Id="BR8sIgN9SZGQY9txgEOvmj">
+          <Node Bounds="606,1055,105,19" Id="BR8sIgN9SZGQY9txgEOvmj">
             <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Runtime.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Group" />
@@ -237,13 +237,13 @@
             </Pin>
             <Pin Id="HEC47JMOkHTLKrrZCAZh10" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="46,1114,225,19" Id="BFZhJILYYZpMxB01z7tbpM">
+          <Node Bounds="586,1100,225,19" Id="BFZhJILYYZpMxB01z7tbpM">
             <p:NodeReference LastCategoryFullName="Fuse.Common.Draw" LastDependency="VL.Fuse.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="HelpWindow (3D View)" />
             </p:NodeReference>
             <Pin Id="AxFQIy36BklMjV6pSkEFOU" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="B5Zheu2HMn6PysfC0KlWRG" Name="Bounds" Kind="InputPin" DefaultValue="4263, 766, 1114, 988" />
+            <Pin Id="B5Zheu2HMn6PysfC0KlWRG" Name="Bounds" Kind="InputPin" DefaultValue="2133, 623, 1114, 988" />
             <Pin Id="CCNj2wesDTcLcYzItD4aIQ" Name="Scene" Kind="InputPin" />
             <Pin Id="FpHHk8THBukQX6jCUjdCPJ" Name="Camera" Kind="InputPin" />
             <Pin Id="LWV0dnLE7ehQFnzp8hDVNz" Name="PostFX Enabled" Kind="InputPin" DefaultValue="False" />
@@ -258,8 +258,9 @@
             <Pin Id="UOfIaprizKPLTzLseAJzLB" Name="Enabled" Kind="InputPin" />
             <Pin Id="MnGhC7goFcNPNUpOC4OCSz" Name="Output" Kind="OutputPin" />
             <Pin Id="CYPfb4LATQkQHeDLspIPhn" Name="Game Window" Kind="OutputPin" />
+            <Pin Id="JrHbXhEKPlNNKQGsQkgYry" Name="VR Settings" Kind="InputPin" IsHidden="true" />
           </Node>
-          <Node Bounds="127,965,185,19" Id="NpnbIs3TkkpOMzetT2WFmx">
+          <Node Bounds="667,951,185,19" Id="NpnbIs3TkkpOMzetT2WFmx">
             <p:NodeReference LastCategoryFullName="Fuse.Common.Draw" LastDependency="VL.Fuse.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Sprite (Effect)" />
@@ -282,12 +283,12 @@
             <Pin Id="Q6BuqK7dRQVO3NWJHXhWBQ" Name="AlphaCutOff" Kind="InputPin" />
             <Pin Id="CKSDv3ZTDHtOlZs0QksR1b" Name="Enable" Kind="InputPin" />
           </Node>
-          <Pad Id="TgfU8MYRDkQQS8ZlC2xQfg" Comment="Size" Bounds="208,938,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
+          <Pad Id="TgfU8MYRDkQQS8ZlC2xQfg" Comment="Size" Bounds="748,924,35,15" ShowValueBox="true" isIOBox="true" Value="0.02">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Node Bounds="86,1025,225,19" Id="F2eZAVi5MxAM3npQvZIRZS">
+          <Node Bounds="626,1011,225,19" Id="F2eZAVi5MxAM3npQvZIRZS">
             <p:NodeReference LastCategoryFullName="Fuse.Compute.Draw" LastDependency="VL.Fuse.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="BufferToRenderEntity" />
@@ -308,7 +309,7 @@
             <Pin Id="LphICbqN06TNkKKd6FOnbE" Name="Entity" Kind="OutputPin" />
             <Pin Id="CpPHORMa7GYMCu8m0AwOtF" Name="Renderer" Kind="OutputPin" />
           </Node>
-          <Pad Id="Uil8JJhgle8NmOBVFRbzNY" Comment="Enabled" Bounds="308,995,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="Uil8JJhgle8NmOBVFRbzNY" Comment="Enabled" Bounds="848,981,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -316,7 +317,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="166,898,53,19" Id="VDk4BpvgIRAOn9FlQdpLay">
+          <Node Bounds="706,884,53,19" Id="VDk4BpvgIRAOn9FlQdpLay">
             <p:NodeReference LastCategoryFullName="Fuse.Particles.Attribute" LastDependency="VL.Fuse.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Position (Particle)" />
@@ -327,7 +328,7 @@
             <Pin Id="VfoIONkEuGhLAOtdQtgMeQ" Name="graph" Kind="OutputPin" />
             <Pin Id="V1KxzoYgadcM9ba3PDbJGe" Name="Name" Kind="OutputPin" IsHidden="true" />
           </Node>
-          <Node Bounds="147,864,41,19" Id="GVO4AnbNV3yOaTl6hk7heC">
+          <Node Bounds="687,850,41,19" Id="GVO4AnbNV3yOaTl6hk7heC">
             <p:NodeReference LastCategoryFullName="Fuse.Particles.Attribute" LastDependency="VL.Fuse.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Color (Particle)" />
@@ -336,7 +337,7 @@
             <Pin Id="SRj3mMbxBXOQYGtO2L4nLQ" Name="The Instance" Kind="InputPin" IsHidden="true" />
             <Pin Id="N6ovro0rnayMwVpUTocv60" Name="graph" Kind="OutputPin" />
           </Node>
-          <Pad Id="EASNFeW780xNDi42LnQ4Tj" Comment="Apply World" Bounds="206,837,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+          <Pad Id="EASNFeW780xNDi42LnQ4Tj" Comment="Apply World" Bounds="746,823,35,35" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -395,7 +396,7 @@
                 <Pin Id="Q5lTqnTwLNjNmYf6rMb99J" Name="Index" Kind="InputPin" />
               </Patch>
               <Patch Id="FQC8k89sMIwM7ULcxV7DIh" Name="Dispose" ManuallySortedPins="true" />
-              <Node Bounds="753,581,81,19" Id="LmDa1689A3WOintKEdu00o">
+              <Node Bounds="753,581,85,19" Id="LmDa1689A3WOintKEdu00o">
                 <p:NodeReference LastCategoryFullName="Fuse.Compute.Buffer" LastDependency="VL.Fuse.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="CopyResource (Buffer)" />
@@ -406,9 +407,10 @@
                 <Pin Id="PI35lATurdVO0uvAVmj7KZ" Name="Output" Kind="OutputPin" />
                 <Pin Id="QtsJvwMckXKQcTWbML93Cu" Name="Offset" Kind="InputPin" />
                 <Pin Id="FDd5i5uN9g4Oom1bFJm3sz" Name="Transform" Kind="InputPin" />
+                <Pin Id="UQpmVrmqRdIOe0e0yj51ux" Name="Enabled" Kind="InputPin" />
               </Node>
-              <ControlPoint Id="AbSI8e2e7TRLnvfTEkAHO7" Bounds="804,530" />
-              <Node Bounds="803,550,25,19" Id="NHdyCLkW0X5PUU8BH3RQAJ">
+              <ControlPoint Id="AbSI8e2e7TRLnvfTEkAHO7" Bounds="795,530" />
+              <Node Bounds="792,550,25,19" Id="NHdyCLkW0X5PUU8BH3RQAJ">
                 <p:NodeReference LastCategoryFullName="Math" LastDependency="VL.CoreLib.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="*" />
@@ -520,9 +522,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="PqYonFcf6zgMtemJwPDJTs" Location="VL.Stride" Version="2024.6.7-0136-ga34ff89f71" />
+  <NugetDependency Id="PqYonFcf6zgMtemJwPDJTs" Location="VL.Stride" Version="2024.6.7" />
   <NugetDependency Id="ERe8HcPz5gPP5XtWGnFX2d" Location="VL.Fuse" Version="0.0.0.0" />
-  <NugetDependency Id="EottoN6NWkiNqDrQCVCoKZ" Location="VL.Stride.Runtime" Version="2024.6.7-0136-ga34ff89f71" />
+  <NugetDependency Id="EottoN6NWkiNqDrQCVCoKZ" Location="VL.Stride.Runtime" Version="2024.6.7" />
   <PlatformDependency Id="SKfRqP83K95NoI8W7Stc1I" Location="C:/Program Files/vvvv/vvvv_gamma_2021.4.0-0208-g006008faa3/lib/VL.Stride.Runtime.dll" />
-  <NugetDependency Id="PBjBAnEbCBBPG1WGA8aFnP" Location="VL.Stride.TextureFX" Version="2024.6.7-0136-ga34ff89f71" />
+  <NugetDependency Id="PBjBAnEbCBBPG1WGA8aFnP" Location="VL.Stride.TextureFX" Version="2024.6.7" />
 </Document>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="ChXibsAS34oLwA2HYcEpyG" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
-  <NugetDependency Id="BsiKy001xgqLCcScfUapXG" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="ChXibsAS34oLwA2HYcEpyG" LanguageVersion="2024.6.7" Version="0.128">
+  <NugetDependency Id="BsiKy001xgqLCcScfUapXG" Location="VL.CoreLib" Version="2024.6.7" />
   <Patch Id="NwnzYt0UlVfQK36Ic13CuN">
     <Canvas Id="LNrtkD9JyLrOe7qyHIHaaB" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
     <!--
@@ -304,7 +304,7 @@
             </p:ValueBoxSettings>
           </Pad>
           <Pad Id="P7PJcXrgVK5Ly17uJMNj40" Comment="" Bounds="682,867,187,185" ShowValueBox="true" isIOBox="true" />
-          <Node Bounds="283,656,125,19" Id="RZGCria4zU8M7qeHaLnAXc">
+          <Node Bounds="283,656,145,19" Id="RZGCria4zU8M7qeHaLnAXc">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="callmenames-2024-11-22.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="QuadTree" />
@@ -313,6 +313,7 @@
             <Pin Id="OdYdfOVGqc9MagcFwJXpsx" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="G9FT2B71Ml0O7n5SgDMeCy" Name="Split" Kind="InputPin" />
             <Pin Id="Fg4xhYfvIMOPLOKb3oKQdr" Name="Domain" Kind="InputPin" />
+            <Pin Id="KSclMmyb4zCPcnGClC0f45" Name="Output" Kind="OutputPin" />
             <Pin Id="NwJti8n4bLCN7NYPRAY5QY" Name="Cell Position" Kind="OutputPin" />
             <Pin Id="Ph1SOSdaP40NbHl51luMJx" Name="Local Position" Kind="OutputPin" />
             <Pin Id="ATuvbau3ZwbO0rP1qfU1RC" Name="UV" Kind="OutputPin" />
@@ -321,6 +322,7 @@
             <Pin Id="QdThnFnBqv3MOjpST2FTdO" Name="Steps" Kind="OutputPin" />
             <Pin Id="LXph2F1EsEJPpAqnS73P8T" Name="Scale" Kind="OutputPin" />
             <Pin Id="HeXXpZXMpk0O1kTytjuvph" Name="Iterations" Kind="InputPin" />
+            <Pin Id="Dh2EyjBIsflME6nPWW8w9n" Name="Aspect" Kind="InputPin" />
           </Node>
           <Pad Id="UlZ4GqK39AuNTil8acvVfF" Comment="" Bounds="885,1125,185,177" ShowValueBox="true" isIOBox="true" />
           <Pad Id="M1gMq4nMC4ZPpqv8aDgpwx" Comment="" Bounds="888,865,187,185" ShowValueBox="true" isIOBox="true" />
@@ -412,7 +414,7 @@
               <Choice Kind="ProcessAppFlag" Name="HelpWindow (3D View)" />
             </p:NodeReference>
             <Pin Id="H4VKVX77oJ9POy1PIALTqZ" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="KhsqvsXfugcOKd2NDcPP93" Name="Bounds" Kind="InputPin" />
+            <Pin Id="KhsqvsXfugcOKd2NDcPP93" Name="Bounds" Kind="InputPin" DefaultValue="2604, 812, 1115, 988" />
             <Pin Id="VIgzmCAGkNIMO3HXSAud0X" Name="Scene" Kind="InputPin" />
             <Pin Id="ULGJS29q14gPkd3QUTHYyE" Name="Camera" Kind="InputPin" />
             <Pin Id="RKJoVRfcLQKNlkZpEUEssM" Name="PostFX Enabled" Kind="InputPin" DefaultValue="False" />
@@ -476,7 +478,7 @@
               <ControlPoint Id="BPTYSNw4aoPQZTTZsAgFmA" Bounds="1839,420" />
               <ControlPoint Id="KL1RKMhub0pPiVOxiH4xqA" Bounds="1891,427" />
               <ControlPoint Id="OnfTUSVNHdCMgpfY8YeI3m" Bounds="1849,694" />
-              <Node Bounds="1782,496,125,19" Id="GS33tdbH644OxBzUy99PKX">
+              <Node Bounds="1782,496,145,19" Id="GS33tdbH644OxBzUy99PKX">
                 <p:NodeReference LastCategoryFullName="Main" LastDependency="callmenames-2024-11-22.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="QuadTree" />
@@ -484,6 +486,7 @@
                 <Pin Id="A716n39yBZdLHFgtYPN052" Name="Node Context" Kind="InputPin" IsHidden="true" />
                 <Pin Id="U3ZvrJXAptvNuwh4XJlF3J" Name="Split" Kind="InputPin" />
                 <Pin Id="PnWP033gvOeMwLJ4B31bPi" Name="Domain" Kind="InputPin" />
+                <Pin Id="RTXmapAjpWBNYFzlHj1IDC" Name="Output" Kind="OutputPin" />
                 <Pin Id="MsiGXQHT1DfM1JT5d1azfA" Name="Cell Position" Kind="OutputPin" />
                 <Pin Id="AeY239DTiQgMYFLhYe94bj" Name="Local Position" Kind="OutputPin" />
                 <Pin Id="OqSLjuQwPAKPUTnfsiXtKv" Name="UV" Kind="OutputPin" />
@@ -492,6 +495,7 @@
                 <Pin Id="RRQw3EjlergOuXkLTC3pBG" Name="Steps" Kind="OutputPin" />
                 <Pin Id="DiM0eIDI7H0Pew1ZgHnIGD" Name="Scale" Kind="OutputPin" />
                 <Pin Id="AXTqnauncn7LjggMjsfWIH" Name="Iterations" Kind="InputPin" />
+                <Pin Id="AyPXqbVT7pOPrFnvCYP5cd" Name="Aspect" Kind="InputPin" />
               </Node>
               <Node Bounds="1841,451,69,19" Id="I7MrG08VgE5OlNydtIUVUM">
                 <p:NodeReference LastCategoryFullName="Fuse.Raymarching" LastDependency="VL.Fuse.vl">
@@ -626,5 +630,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="MhI4CjYqcfHQHr1W30NxB6" Location="VL.Fuse" Version="0.0.0" />
-  <NugetDependency Id="SVfP2HJiWNtMBWfaoXr5qP" Location="VL.Stride" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="SVfP2HJiWNtMBWfaoXr5qP" Location="VL.Stride" Version="2024.6.7" />
 </Document>

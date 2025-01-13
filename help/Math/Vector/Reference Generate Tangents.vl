@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="GUtqINAZBC3NKgAbjYDy4f" LanguageVersion="2024.6.7-0136-ga34ff89f71" Version="0.128">
-  <NugetDependency Id="Q17KbXI0mcuMV42CAG18Pr" Location="VL.CoreLib" Version="2024.6.7-0136-ga34ff89f71" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="PsDV3Bz4R7kOvpiYfotT0h" LanguageVersion="2024.6.7" Version="0.128">
+  <NugetDependency Id="Q17KbXI0mcuMV42CAG18Pr" Location="VL.CoreLib" Version="2024.6.7" />
   <Patch Id="S25Gr1WMWcMQSRiHRWO4uq">
     <Canvas Id="GH8DZEWEW7hN2B8H0Xzxf8" DefaultCategory="main" CanvasType="FullCategory" />
     <!--
@@ -230,6 +230,7 @@
             <Pin Id="MzpkOQRKDIQNClJ3Jl5CaC" Name="Enabled" Kind="InputPin" />
             <Pin Id="GLHvktbfgZfPMKq7Lk2XSc" Name="Output" Kind="OutputPin" />
             <Pin Id="GkkEhEwzPYSPTBlMZWKZuH" Name="Game Window" Kind="OutputPin" />
+            <Pin Id="KjtFC32rU04LC8IKX5A3Vs" Name="VR Settings" Kind="InputPin" IsHidden="true" />
           </Node>
           <Pad Id="IQwjlxRoGb9QPWVyEz7rER" Comment="w" Bounds="644,305,35,15" ShowValueBox="true" isIOBox="true" Value="1">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
@@ -357,7 +358,7 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="JGeaopK3ASqLipgvfkzoPS" Location="VL.Stride" Version="2024.6.7-0136-ga34ff89f71" />
+  <NugetDependency Id="JGeaopK3ASqLipgvfkzoPS" Location="VL.Stride" Version="2024.6.7" />
   <NugetDependency Id="UnPr1bRMlCkOzfPxVzge3J" Location="VL.Fuse" Version="0.1.5" />
-  <NugetDependency Id="BRxZfSdIWJ0PVZ93wBSKdS" Location="VL.Stride.TextureFX" Version="2024.6.7-0136-ga34ff89f71" />
+  <NugetDependency Id="BRxZfSdIWJ0PVZ93wBSKdS" Location="VL.Stride.TextureFX" Version="2024.6.7" />
 </Document>

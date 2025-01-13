@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Dv0HpFWaN3WNNTMdNNh8wl" LanguageVersion="2024.6.7-0238-g79adbe39f9" Version="0.128">
-  <NugetDependency Id="Qg9XmWBMiocNWySSrzNFd2" Location="VL.CoreLib" Version="2024.6.7-0238-g79adbe39f9" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Dv0HpFWaN3WNNTMdNNh8wl" LanguageVersion="2024.6.7" Version="0.128">
+  <NugetDependency Id="Qg9XmWBMiocNWySSrzNFd2" Location="VL.CoreLib" Version="2024.6.7" />
   <Patch Id="M3ivezWZOwzQNKDPNu6C2x">
     <Canvas Id="IJS0I5ttC9yP9wVsd85H3y" DefaultCategory="FuseParticles" CanvasType="FullCategory" />
     <!--
@@ -378,16 +378,16 @@
         <Link Id="UZId7L3CD1rN6HciGmwPQ4" Ids="PJuBJtFHzNhPKXo8J9i1K0,VO065qpVAqxM81UVRBX7cf" />
         <Link Id="BotlplP0DspNyigEqD1U93" Ids="EuH42Jwn46uP1pCvwTWytV,QM8xgIHOaigMQC2r4gV3Oy" />
         <Link Id="Sq2EgnvCxCGM4kErFegIg4" Ids="EPIv0D72nOgP0Ag9cWt9Qg,Rvmz4WhpWSTP9XorK7LlZE" />
-        <Link Id="SmytpyWRwZjMNqKkMDM08e" Ids="Bc6CQlmBB8BOgzOHBVZC9t,AkKtTtfaURVPGBMZbK0Wkb" />
         <Link Id="GD9eWGblIQDLbRlz6IyIBB" Ids="Otgh2H1lga7OQMBFc9liRv,C7p2x8NE1pOLwO0AfRnm6k" />
         <Link Id="UU73U7R5wt6NN0dVi0J9Mx" Ids="M4W24L4aji3Ofc1RPsvQYz,VoxAPSVBEF9QHxyichCv06" />
         <Link Id="MyFMqNuohd8PsPUScqf3VF" Ids="M4W24L4aji3Ofc1RPsvQYz,LlcDdXWpUQcQFotKJKGyUs" />
+        <Link Id="Ji9MywTLYKhOCMt61bvlbW" Ids="Bc6CQlmBB8BOgzOHBVZC9t,AkKtTtfaURVPGBMZbK0Wkb" />
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="PqYonFcf6zgMtemJwPDJTs" Location="VL.Stride" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="PqYonFcf6zgMtemJwPDJTs" Location="VL.Stride" Version="2024.6.7" />
   <NugetDependency Id="ERe8HcPz5gPP5XtWGnFX2d" Location="VL.Fuse" Version="0.0.0.0" />
-  <NugetDependency Id="EottoN6NWkiNqDrQCVCoKZ" Location="VL.Stride.Runtime" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="EottoN6NWkiNqDrQCVCoKZ" Location="VL.Stride.Runtime" Version="2024.6.7" />
   <PlatformDependency Id="SKfRqP83K95NoI8W7Stc1I" Location="C:/Program Files/vvvv/vvvv_gamma_2021.4.0-0208-g006008faa3/lib/VL.Stride.Runtime.dll" />
-  <NugetDependency Id="PBjBAnEbCBBPG1WGA8aFnP" Location="VL.Stride.TextureFX" Version="2024.6.7-0238-g79adbe39f9" />
+  <NugetDependency Id="PBjBAnEbCBBPG1WGA8aFnP" Location="VL.Stride.TextureFX" Version="2024.6.7" />
 </Document>

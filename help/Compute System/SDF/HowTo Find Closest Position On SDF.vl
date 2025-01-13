@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="JB8840MYbJ0M6um6NGh3Ld" LanguageVersion="2024.6.7-0220-ge2c006c41f" Version="0.128">
-  <NugetDependency Id="Qg9XmWBMiocNWySSrzNFd2" Location="VL.CoreLib" Version="2024.6.7-0220-ge2c006c41f" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="JB8840MYbJ0M6um6NGh3Ld" LanguageVersion="2024.6.7" Version="0.128">
+  <NugetDependency Id="Qg9XmWBMiocNWySSrzNFd2" Location="VL.CoreLib" Version="2024.6.7" />
   <Patch Id="M3ivezWZOwzQNKDPNu6C2x">
     <Canvas Id="IJS0I5ttC9yP9wVsd85H3y" DefaultCategory="FuseParticles" CanvasType="FullCategory" />
     <!--
@@ -95,7 +95,7 @@
           <Overlay Id="KqXiWw6QlMnP39F1zeXChQ" Name="Signed Distance Field" Bounds="400,103,1713,639">
             <p:ColorIndex p:Type="Int32">11</p:ColorIndex>
           </Overlay>
-          <Pad Id="MUS2nYdJCQXMAOzKUU2O3x" Comment="" Bounds="435,615,56,41" ShowValueBox="true" isIOBox="true" Value="1">
+          <Pad Id="MUS2nYdJCQXMAOzKUU2O3x" Comment="" Bounds="435,615,56,41" ShowValueBox="true" isIOBox="true" Value="0">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
@@ -140,6 +140,7 @@
             <Pin Id="FbWPu7UklQPPGSZzNtGy0S" Name="Enabled" Kind="InputPin" />
             <Pin Id="N3gT2gdIgRZMqVg8iUzXDz" Name="Output" Kind="OutputPin" />
             <Pin Id="Bfi6KqZYCqLNyEpg0kjP0n" Name="Game Window" Kind="OutputPin" />
+            <Pin Id="CTtBO6iaU5WLt3i3ki2lmD" Name="VR Settings" Kind="InputPin" IsHidden="true" />
           </Node>
           <Node Bounds="285,1367,90,19" Id="LQniZRf8VLUPMxIZflwhVF">
             <p:NodeReference LastCategoryFullName="Fuse.Common.Compute" LastDependency="VL.Fuse.vl">
@@ -961,9 +962,9 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="PqYonFcf6zgMtemJwPDJTs" Location="VL.Stride" Version="2024.6.7-0220-ge2c006c41f" />
+  <NugetDependency Id="PqYonFcf6zgMtemJwPDJTs" Location="VL.Stride" Version="2024.6.7" />
   <NugetDependency Id="ERe8HcPz5gPP5XtWGnFX2d" Location="VL.Fuse" Version="0.0.0.0" />
-  <NugetDependency Id="EottoN6NWkiNqDrQCVCoKZ" Location="VL.Stride.Runtime" Version="2024.6.7-0220-ge2c006c41f" />
+  <NugetDependency Id="EottoN6NWkiNqDrQCVCoKZ" Location="VL.Stride.Runtime" Version="2024.6.7" />
   <PlatformDependency Id="SKfRqP83K95NoI8W7Stc1I" Location="C:/Program Files/vvvv/vvvv_gamma_2021.4.0-0208-g006008faa3/lib/VL.Stride.Runtime.dll" />
-  <NugetDependency Id="SPtKstZdA2sMaR2NaVplSh" Location="VL.Stride.TextureFX" Version="2024.6.7-0220-ge2c006c41f" />
+  <NugetDependency Id="SPtKstZdA2sMaR2NaVplSh" Location="VL.Stride.TextureFX" Version="2024.6.7" />
 </Document>
