@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="BunTqve7xR8NyPwM5xC5wd" LanguageVersion="2024.6.7-0235-g5172ef47fd" Version="0.128">
-  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7-0235-g5172ef47fd" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="BunTqve7xR8NyPwM5xC5wd" LanguageVersion="2024.6.7" Version="0.128">
+  <NugetDependency Id="BguWkaXEMADMOCpL1jti9a" Location="VL.CoreLib" Version="2024.6.7" />
   <Patch Id="ALpqjXEf369Pnuk64gmWrV">
     <Canvas Id="V8HBoVZNCZmPvIQ0NbkFQ5" DefaultCategory="Fuse.Draw" CanvasType="FullCategory">
       <Pad Id="Dec4wn0FFUhM0UWDyljqhI" Bounds="174,438,48,19" ShowValueBox="true" isIOBox="true" Value="TODO">
@@ -898,8 +898,8 @@
                   </p:NodeReference>
                   <Pin Id="Bx9S5iTiEVHPwAu8nSo2AF" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="Gv11UskfSoCPKvIeYN4vxI" Name="Output" Kind="OutputPin" />
-                  <Pin Id="Llgea1VeIcbLltsgglQy2z" Name="X" Kind="OutputPin" />
                   <Pin Id="QUtRShjTzhCQDdswfvdpBm" Name="xy" Kind="OutputPin" />
+                  <Pin Id="Llgea1VeIcbLltsgglQy2z" Name="X" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="303,516,60,19" Id="Ianf4w5qBjHPPlt0X7kMrq">
                   <p:NodeReference LastCategoryFullName="Fuse.Texture" LastDependency="Fuse.Core.vl">
@@ -1726,8 +1726,8 @@
                   </p:NodeReference>
                   <Pin Id="AY3NlaUEnMfN5yBySp0OSA" Name="Node Context" Kind="InputPin" IsHidden="true" />
                   <Pin Id="R2G3xb4E8fPLzv11tVJSKl" Name="Output" Kind="OutputPin" />
-                  <Pin Id="J1EXHsztqM3PQRjHqabq0h" Name="X" Kind="OutputPin" />
                   <Pin Id="TtMRxjU0LdZMpRouZHftMi" Name="xy" Kind="OutputPin" />
+                  <Pin Id="J1EXHsztqM3PQRjHqabq0h" Name="X" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="312,514,49,19" Id="P9jAwtAxEu4LQRelVJAs0Q">
                   <p:NodeReference LastCategoryFullName="Fuse.Texture" LastDependency="Fuse.Core.vl">
@@ -7161,6 +7161,7 @@
               <Pin Id="Q5GrcnrGCQ8MD2Dices1mT" Name="Format" Kind="InputPin" />
               <Pin Id="JIVJlLyXLJgOGmu4YbdPsI" Name="Depth Format" Kind="InputPin" DefaultValue="D24_UNorm_S8_UInt" />
               <Pin Id="NCTQNa7i0gdMlzMVJ1hQFt" Name="Render Group Mask" Kind="InputPin" IsHidden="true" />
+              <Pin Id="DrCg1swm2QBM3yPd5qbgNK" Name="Edit Mode" Kind="InputPin" IsHidden="true" />
               <Pin Id="BAgpu1Lt5bqMkUmnYRL7ns" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
               <Pin Id="FevBhaV4GEoMtmiwDXVyhR" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
               <Pin Id="Qmm4GLTxBOcQRDYo0K20zD" Name="Enabled" Kind="InputPin" />
@@ -11751,6 +11752,7 @@
               <Pin Id="VU0LHqc4mHBQEPAvWpw7ul" Name="Format" Kind="InputPin" />
               <Pin Id="Hvdtckw02poOuqNNFu7DcY" Name="Depth Format" Kind="InputPin" />
               <Pin Id="EQMcRmx5cQvOk5rECdi6mU" Name="Render Group Mask" Kind="InputPin" />
+              <Pin Id="PKDEe8Fzv9HOIDWbcU0dxx" Name="Edit Mode" Kind="InputPin" IsHidden="true" />
               <Pin Id="SRB683lvMQ4LJkZh1c6R8S" Name="Model Effect Name" Kind="InputPin" />
               <Pin Id="BZIVmDtZBv2MyDEaOFEzZW" Name="Additional Scene Renderers" Kind="InputPin" />
               <Pin Id="Mq4fzJRyS3UMY8j8ZurcDK" Name="Enabled" Kind="InputPin" />
@@ -15691,7 +15693,6 @@
                 <Pin Id="NVi1Ia2pKX9P3KRj5cvanr" Name="Name" Kind="InputPin" />
                 <Pin Id="BhdqiNI5xxIMcwqXinJItP" Name="Enabled" Kind="InputPin" />
                 <Pin Id="J6z6cVgPrwSOsUMjYHgEl2" Name="Output" Kind="OutputPin" />
-                <Pin Id="QjtdLimcpErLYzPbICW6L7" Name="Patched Entity" Kind="InputPin" />
               </Node>
               <Node Bounds="349,700,105,19" Id="Bu3ogsh1OVTP3K47pa7IWe">
                 <p:NodeReference LastCategoryFullName="Stride" LastDependency="VL.Stride.Runtime.vl">
@@ -16583,7 +16584,6 @@
                 <Pin Id="UeMURA4P02ePdD8GrCaGmP" Name="Name" Kind="InputPin" />
                 <Pin Id="RMHrjHsXtdjNHMeYCvp4e9" Name="Enabled" Kind="InputPin" />
                 <Pin Id="LkuTv2bX4MOOtlJXd26AbY" Name="Output" Kind="OutputPin" />
-                <Pin Id="Hay2hnZSxt5Osd4LFeRljk" Name="Patched Entity" Kind="InputPin" />
               </Node>
               <Node Bounds="439,636,102,19" Id="GCs1eanG6J3LqaYiDUFT5d">
                 <p:NodeReference LastCategoryFullName="Stride.Models.Meshes" LastDependency="VL.Stride.Runtime.vl">
@@ -20438,6 +20438,7 @@
                 <Pin Id="ALv2gCdF8MJM4XxMMYO4FI" Name="Format" Kind="InputPin" />
                 <Pin Id="K2i6UL7CgzqQcZSlGIICuY" Name="Depth Format" Kind="InputPin" />
                 <Pin Id="D9oRA00AGcqLAmCCxyzl5l" Name="Render Group Mask" Kind="InputPin" />
+                <Pin Id="HQg0CSbnq1WNCpYutQq9SO" Name="Edit Mode" Kind="InputPin" IsHidden="true" />
                 <Pin Id="Mc9PcVaq0BLPsR7IwfA2CL" Name="Model Effect Name" Kind="InputPin" IsHidden="true" />
                 <Pin Id="TY45OzTGxcfQB6oklO2tza" Name="Additional Scene Renderers" Kind="InputPin" IsHidden="true" />
                 <Pin Id="DECDJNlQe9SP6AhzxUoyrL" Name="Enabled" Kind="InputPin" />
@@ -21694,13 +21695,13 @@
     </Node>
   </Patch>
   <DocumentDependency Id="IP8LS5YJ8ZuQYmCDcNjRsh" Location="./Fuse.Core.vl" IsFriend="true" />
-  <NugetDependency Id="EhjUULRVeDINHUsf8JBt65" Location="VL.Stride.Runtime" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="EhjUULRVeDINHUsf8JBt65" Location="VL.Stride.Runtime" Version="2024.6.7" />
   <PlatformDependency Id="SVeysndmoxKNSyLNn0DbBx" Location="VL.Stride.Runtime.dll" />
   <DocumentDependency Id="BgNmivOlt6vMM5JsjMj9s8" Location="./Fuse.Material.vl" />
   <DocumentDependency Id="HAiR1C64PG8NURxgCCTMfw" Location="./Fuse.Domain.vl" />
   <DocumentDependency Id="VkLnNDwkEYrLYH3ZONiDdq" Location="./Fuse.Transform.vl" />
-  <NugetDependency Id="M7gf3qwv1DzOEeFCczfkn2" Location="VL.Stride" Version="2024.6.7-0235-g5172ef47fd" />
-  <NugetDependency Id="PXE2I3xjy7gMJGbWS7BZjZ" Location="VL.Stride.TextureFX" Version="2024.6.7-0235-g5172ef47fd" />
+  <NugetDependency Id="M7gf3qwv1DzOEeFCczfkn2" Location="VL.Stride" Version="2024.6.7" />
+  <NugetDependency Id="PXE2I3xjy7gMJGbWS7BZjZ" Location="VL.Stride.TextureFX" Version="2024.6.7" />
   <NugetDependency Id="F14s7AOnxEiLkPiqFmfw1P" Location="VL.Fuse" Version="0.0.0.0" />
   <PlatformDependency Id="Fj9kzn69KW4OyNdiCfZk0j" Location="../lib/net8.0/Fuse.dll" />
 </Document>
